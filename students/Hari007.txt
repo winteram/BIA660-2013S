@@ -1,1 +1,5 @@
 git fetch upstream (gets latest & keeps ur stuff)
+
+git add
+git commit
+git push
