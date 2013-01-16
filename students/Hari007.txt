@@ -1,5 +1,6 @@
 git fetch upstream (gets latest & keeps ur stuff)
 
-git add
-git commit
-git push
+git add <file>
+git commit  <file>
+git push           <NO FILE NAME HERE>                        
+         
