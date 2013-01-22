@@ -5,7 +5,10 @@ def myfactorial(n):
     myfact = 1
     for i in range(n):
         myfact = myfact * (n - i)
+    if myfact == 120:
+        print "the original number was 5"
     return myfact
+    # this is a one-line comment
 
 def mychoose(n,k):
     """Returns the number of permutations for k draws from n items"""
