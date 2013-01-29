@@ -1,0 +1,55 @@
+"""
+The algorithm of my assignment: First of all, calculate the average ASCII value of the password
+Then move backward every character in text the value calculated before
+"""
+
+def encode(text, password):
+    sum = 0
+    result = []
+    ltext = list(text)
+    lpassword = list(password)
+    length = len(list(password))
+
+    for i in range(0, length):
+        lpassword[i] = ord(lpassword[i])
+        sum += lpassword[i]
+    value = sum/length
+    
+    for i in range(0, len(ltext)):
+        if (i + value) > len(ltext):
+            result.append(ltext[(i + value) % len(ltext)])
+        else:
+            result.append(ltext[i + value])
+    return result
+    
+def decode(code, password):
+    
+    sum = 0
+    result = []
+    lcode = list(code)
+    lpassword = list(password)
+    length = len(lpassword)
+    for i in range(0, length):
+        lpassword[i] = ord(lpassword[i])
+        sum += lpassword[i]
+    value = sum/length
+ 
+    for i in range(0, len(lcode)):
+        if(i - value) < 0:
+            result.append(code[i -  (value % len(lcode))])
+        else:
+            result.append(code[i - value])
+    return ''.join(result)
+    
+    
+if __name__ == '__main__':
+    
+   teststring = "This is some text to be encoded"
+   testpwd = "Password"
+   encoded = encode(teststring,testpwd)
+   assert(teststring != encode(teststring,testpwd))
+   assert(testpwd != encode(teststring,testpwd))
+   assert(encode(teststring,"wrongpwd") != encode(teststring,testpwd))
+   assert(teststring == decode(encoded,testpwd))
+   print "Success!"
+
