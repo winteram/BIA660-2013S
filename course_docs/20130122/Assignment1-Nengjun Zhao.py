@@ -41,3 +41,12 @@ try:
    return b.decode("gbk")
 except:
 return "lfkjdsf"
+
+key = 15
+s = "holle word"
+s1 = jiami( s, key )
+s2 = jiemi( s1,key )
+print( "input=", s)
+print( "password=", s1)
+print( "encode:")
+print( s2 )
