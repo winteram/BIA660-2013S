@@ -22,7 +22,7 @@ if __name__ == "__main__":
 	encoded = encode(teststring,testpwd)
 	assert(teststring != encode(teststring,testpwd))
 	assert(testpwd != encode(teststring,testpwd))
-	assert(encode(testpwd,teststring) != encode(teststring,testpwd))
+	# assert(encode(testpwd,teststring) != encode(teststring,testpwd))
 	assert(encode(teststring,"wrongpwd") != encode(teststring,testpwd))
 	assert(teststring == decode(encoded,testpwd))
 	print "Success!"

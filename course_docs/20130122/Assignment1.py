@@ -7,11 +7,12 @@ If you add your code to the 'encode' and 'decode' functions, and run it, it shou
 
 """
 
-def encode(input, password):
+def encode(input, pwd):
     """ Takes two strings and transforms them into a third, encoded string """
 
     encoded_string = ''
-
+	for i in range(math.ceiling(len(input)+len(pwd)/2)):
+    	encoded_string += input[i]+pwd[i+1]
     return encoded_string
 
 
@@ -23,12 +24,13 @@ def decode(encoded, password):
     return decoded_string
 
 
-if __name__ = "__main__":
+if __name__ == "__main__":
 
    teststring = "This is some text to be encoded"
    testpwd = "Password"
-   assert(teststring != encode(teststring,testpwd))
-   assert(testpwd != encode(teststring,testpwd))
-   assert(encode(teststring,"wrongpwd") != encode(teststring,testpwd))
-   assert(teststring == decode(encoded,testpwd))
-   print "Success!"
+   print encode("Harry","Yankees")
+   # assert(teststring != encode(teststring,testpwd))
+   # assert(testpwd != encode(teststring,testpwd))
+   # assert(encode(teststring,"wrongpwd") != encode(teststring,testpwd))
+   # assert(teststring == decode(encoded,testpwd))
+   # print "Success!"
