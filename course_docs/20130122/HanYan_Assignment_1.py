@@ -64,7 +64,6 @@ def encode(input, password):
             encrypt_list.append(c)
         encrypt_list.append(new_key[key.index(c)]);
     encrypt_input = "".join(encrypt_list)
-    
     return encrypt_input
 
 def decode(input, password):
@@ -97,7 +96,7 @@ def decode(input, password):
     for c in list_input:
         decrypt_list.append(key[new_key.index(c)])
     decrypt_output = "".join(decrypt_list)
-    
+
     return decrypt_output
 
 if __name__ == '__main__':
