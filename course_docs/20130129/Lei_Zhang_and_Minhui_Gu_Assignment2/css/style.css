@@ -1,0 +1,312 @@
+* {
+	margin:0;
+	padding:0;
+	outline:0;
+}
+
+body {
+	font-size:12px;
+	line-height:20px;
+	font-family:Georgia, Arial, Helvetica, Sans-Serif;
+	background:#333333;
+}
+
+.wholePage {
+	width:980px;
+	margin:0 auto;
+}
+#header {
+	height:109px;
+    width:980px;
+    background:#ffffff;
+	position:relative;
+}
+#show_time {
+	float:right;
+    width:180px;
+	height:30px;
+	top:60px;
+    background:#ffffff;
+	position:relative;
+}
+.contact_info {
+    width:978px;
+	height:70px;
+	display:none;
+	border-top:1px solid #dbdbdb;
+	border-bottom:1px solid #dbdbdb;
+    background:#f5f5f5;
+	position:relative;
+}
+
+.contact_info ul {
+	list-style:none;
+}
+
+.contact_info ul li{
+	float:left;
+	height:70px;
+	font-size:12px;
+	font-color:#e8e8e8;
+	line-height:70px;
+}
+.contact_info ul li #word {
+	top:7px;
+	left:5px;
+    width:180px;
+	height:20px;
+    background:#ffffff;
+	border:1px solid #e8e8e8;
+	font:Georgia
+	position:relative;	
+}
+.hint {
+	left:5px;
+    width:180px;
+	height:10px;
+	font:Georgia;
+    background:#f5f5f5;
+	position:relative;	
+}
+
+.github {
+	float:right;
+	left:245px;
+    width:200px;
+	height:10px;
+    background:#f5f5f5;
+	position:relative;	
+}
+
+.contact_info ul li .emailus {
+	float:right;
+	left:145px;
+    width:200px;
+	height:10px;
+	font:Georgia
+    background:#ffffff;
+	position:relative;	
+}
+
+#logo a {
+	background:url(images/logo.png) no-repeat 0 0;
+	width:356px;
+	height:109px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+.left {
+	float:left;
+	display:inline;
+}
+.notext {
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+}
+.border {
+    background:#f5f5f5;
+	border:1px solid #e8e8e8;
+	position:relative;
+}
+
+
+
+#navigation {
+	height:43px;
+	border-top:1px solid #dbdbdb;
+	border-bottom:1px solid #dbdbdb;
+}
+#navigation ul {
+	list-style:none;
+}
+#navigation ul li {
+	float:left;
+	height:43px;
+	border-right:1px solid #dbdbdb;
+	font-size:12px;
+	line-height:43px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#navigation ul li a {
+	float:left;
+	height:43px;
+	color:#000;
+	padding:0 33px;
+}
+#navigation ul li a:hover, #navigation ul li a.active {
+    color: #ff0000;
+    text-decoration: none;
+}
+.slider {
+	width:930px;
+	height:300px;
+	border:1px solid #dbdbdb;
+	position:relative;
+	margin:25px 0 0 24px;
+}
+.slider .item {
+	position:relative;
+	width:928px;
+	height:298px;
+}
+.slider .item img {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+}
+.slider .text {
+	position:absolute;
+	top:50px;
+	left:280px;
+	z-index:2;
+}
+.slider .text h3 {
+	font-size:25px;
+	line-height:45px;
+	color:#000000;
+	padding:0 0 0 7px;
+}
+.slider .text h2 {
+	font-size:15px;
+	line-height:45px;
+	color:#000000;
+	padding:0 0 0 7px;
+}
+.slider-nav {
+	width:92px;
+	height:18px;
+	position:absolute;
+	bottom:9px;
+	right:6px;
+	z-index:3;
+}
+.slider-nav a {
+	width:18px;
+	height:18px;
+	background:#d7d7d8;
+	margin:0 5px 0 0;
+}
+.slider-nav a.active {
+	background:#39393d;
+}
+.main {
+	width:932px;
+	padding:37px 24px 17px 24px;
+}
+.main h3 {
+	font-size:12px;
+	line-height:15px;
+	color:#000;
+	text-transform:uppercase;
+	border-bottom:1px solid #dbdbdb;
+	padding:0 0 9px 0;
+}
+.main p {
+	left:10px;
+	position:relative;
+}
+.main img {
+	left:0px;
+	position:relative;
+}
+.main a {
+	left:10px;
+	position:relative;
+}
+.highlight h3 {
+	margin:0 0 9px 0;
+    color:#000;
+}
+.highlight p {
+	padding:0 0 11px 0;
+    color:#000;
+}
+.highlight img {
+	margin:4px 12px 0 12px;
+}
+
+.projects {
+	padding:65px 0 0 0;
+}
+.projects h3 {
+	margin:0 0 17px 0;
+    color:#000;
+}
+.projects .item {
+	margin:0 0 28px 0;
+}
+.projects .image {
+	width:183px;
+	height:111px;
+	border:1px solid #dbdbdb;
+	padding:2px;
+	margin:0 20px 0 3px;
+}
+.projects .text {
+	width:393px;
+}
+.projects .text h4 {
+	font-size:12px;
+	line-height:15px;
+	color:#000;
+	text-transform:uppercase;
+	padding:3px 0 2px 0;
+}
+.projects .text p {
+	padding:0 0 3px 0;
+    color: #fff;
+}
+
+.right{
+	float:right;
+	display:inline;
+}
+
+#footer {
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	line-height:14px;
+	color:#fff;
+	padding:18px 27px 20px 38px;
+}
+#footer a {
+	color:#7f7f7f;
+	text-decoration:none;
+}
+
+#the_table {
+    color:#000;
+}
+
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
