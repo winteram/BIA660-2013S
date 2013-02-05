@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.9.0.min.js">
+</script>
+<script>
+var i1=0;
+var i2=0;
+var i3=0;
+var i=0;
+$(document).ready(function(){
+    $("#alumni").click(function(){
+    $("#panel").hide();
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle("slow");
+  });
+    $("#syllabus").click(function(){
+    $("#div1").animate({left:"0px"});
+    $("#div1").hide();
+    $("#div2").animate({left:"0px"});
+    $("#div2").hide();
+    $("#div3").animate({left:"0px"});
+    $("#div3").hide();
+    $("#panel1").hide();
+    $("#panel2").hide();
+    $("#panel3").hide();
+    $("#panel").slideToggle();
+  
+  }); 
+    $("#div1").click(function(){
+    if(i1%2==0){
+        $("#div1").animate({left:"300px"});
+        $("#panel1").slideDown();
+        i1++;
+    }
+    else
+    {
+        $("#div1").animate({left:"0px"});
+        $("#panel1").slideUp();
+        i1++;
+    }
+    });
+    $("#div2").click(function(){
+    if(i2%2==0){
+        $("#div2").animate({left:"300px"});
+        $("#panel2").slideDown();
+        i2++;
+    }
+    else
+    {
+        $("#div2").animate({left:"0px"});
+        $("#panel2").slideUp();
+        i2++;
+    }
+    });
+    $("#div3").click(function(){
+    if(i3%2==0){
+        $("#div3").animate({left:"300px"});
+        $("#panel3").slideDown();
+        i3++;
+    }
+    else
+    {
+        $("#div3").animate({left:"0px"});
+        $("#panel3").slideUp();
+        i3++;
+    }
+    });
+});
+</script>
+<style type="text/css"> 
+#panel,#panel1,#panel2,#panel3
+{
+background:url('panel.png')no-repeat;
+width:450px;
+height:150px;
+padding:50px;
+margin-top:5px;
+margin-bottom:5px;
+margin-right:50px;
+margin-left:50px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+padding:100px;
+display:none;
+}
+img.margin
+{
+margin-top:50px;
+margin-bottom:5px;
+margin-right:50px;
+margin-left:50px;
+}
+#alumni
+{
+background:url('alumni.png') no-repeat;
+margin-left:50px;
+float:left;
+width:100px;
+height:30px;
+margin-bottom:5px;
+
+}
+#syllabus
+{
+background:url('syllabus.png') no-repeat;
+margin-left:5px;
+float:left;
+width:100px;
+height:30px;
+margin-bottom:5px;
+
+}
+p
+{
+color:white;
+}
+</style>
+</head>
+<body>
+
+<img class="margin" border="1px" src="webanalysis.png" height="100" width="650" style="position:relative;">
+</img>
+
+<nav>
+    <div id="alumni"></div>
+    <div id="syllabus"></div>
+</nav>
+<br><br><br>
+<img src="obama.png" id="div1" style="width:80px;height:80px;display:none;position:relative;margin-left:50px;"></img><br>
+<div id="panel1">
+      <p>
+          Name: Obama<br>
+          E-mail:obama@gmail.com<br>
+          Address:XXX
+      </p>
+</div>
+<img src="hillary.png" id="div2" style="width:80px;height:80px;display:none;position:relative;margin-left:50px;"></img><br>
+<div id="panel2">
+      <p>
+          Name: Hillary<br>
+          E-mail:hillary@gmail.com<br>
+          Address:XXX
+      </p>
+</div>
+<img src="ray.png" id="div3" style="width:80px;height:80px;display:none;position:relative;margin-left:50px;"></div><br>
+<div id="panel3">
+       <p>
+          Name: Ray<br>
+          E-mail:Ray@gmail.com<br>
+          Address:XXX
+      </p>
+</div>
+<div id="panel">
+      <p>
+          In this course, students will learn through hands-on experience how to extract data from the web and analyze web-scale data using distributed computing.  Students will learn different analysis methods that are widely used across the range of internet companies, from start-ups to online giants like Amazon or Google.  At the end of the course, students will apply these methods to answer a real scientific question or to create a useful web application.
+      </p>
+</div>
+</body>
+</html>
