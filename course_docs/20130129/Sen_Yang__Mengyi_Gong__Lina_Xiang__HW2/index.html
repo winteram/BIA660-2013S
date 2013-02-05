@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>BIA 660</title>
+    <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
+    <link rel="stylesheet" href="css/jquery-ui-1.10.0.custom.min.css/"/>
+    <script src="js/jquery-1.9.0.js"></script>
+    <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script>
+        $(function () {
+            $("#accordion").accordion();
+        });
+    </script>
+    <style>
+        .photo {
+            width: 300px;
+            text-align: start;
+        }
+        .photo .ui-widget-header {
+            margin: 1em 0;
+        }
+        .map {
+            width: 300px;
+            height: 300px;
+        }
+        .ui-tooltip {
+            max-width: 350px;
+        }
+    </style>
+    <script>
+        $(function() {
+            $( document ).tooltip({
+                items: "img, [data-geo], [title]",
+                content: function() {
+                    var element = $( this );
+                    if ( element.is( "[data-geo]" ) ) {
+                        var text = element.text();
+                        return "<img class='photo' alt='Winter Mason' src='images/wm.jpg'>";
+                    }
+                    if ( element.is( "[title]" ) ) {
+                        return element.attr( "title" );
+                    }
+                    if ( element.is( "img" ) ) {
+                        return element.attr( "alt" );
+                    }
+                }
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $( "#show-option" ).tooltip({
+                show: {
+                    effect: "slideDown",
+                    delay: 250
+                }
+            });
+            $( "#hide-option" ).tooltip({
+                hide: {
+                    effect: "explode",
+                    delay: 250
+                }
+            });
+            $( "#open-event" ).tooltip({
+                show: null,
+                position: {
+                    my: "left top",
+                    at: "left bottom"
+                },
+                open: function( event, ui ) {
+                    ui.tooltip.animate({ top: ui.tooltip.position().top + 10 }, "fast" );
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div id="header">
+    <div class="header_content">
+
+        <div class="logo"><a href="index.html">Web Analytics</a> <span>| BIA 660 </span></div>
+
+        <div class="menu">
+            <ul>
+                <li class="selected"><a href="index.html">Home</a></li>
+                <li><a href="syllabus.html">Syllabus</a></li>
+                <li><a href="http://smallsocialsystems.com/about.html" data-geo="data-geo" target="_blank">Teacher</a></li>
+                <li><a href="https://github.com/winteram/BIA660-2013S" target="_blank">Github</a></li>
+                <li><a href="mailto:prof@winteram.com?Subject=BIA660"> Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!-- End of Header-->
+
+<div id="wrap">
+
+
+<div class="top_slogan">
+    Tuesdays, 6:15-8:45pm, BC 220, <a id="hide-option" href="http://smallsocialsystems.com/about.html" title="Visit My Website">Winter Mason</a>
+</div>
+    <div align="center">
+        Please Click On The Following Header To Show The Content
+    </div>
+<div class="clear"></div>
+<br>
+<br>
+<div id="accordion">
+<h3>Course Description: </h3>
+
+<div>
+    <p>
+        In this course, students will learn through hands-on experience how to extract data from the web and analyze
+        web-scale data using distributed computing. Students will learn different analysis methods that are widely used
+        across the range of internet companies, from start-ups to online giants like Amazon or Google. At the end of the
+        course, students will apply these methods to answer a real scientific question or to create a useful web
+        application.
+    </p>
+</div>
+<h3>Prerequisites:</h3>
+
+<div>
+    <p>
+        Students must have programming experience. It is also highly recommended for the students to have taken
+        Multivariate Data Analytics (BIA 652), Knowledge Discovery in Databases (MIS 637) and Statistical Learning &
+        Analytics (BIA 656).
+    </p>
+</div>
+<h3>Grading Percentages:</h3>
+
+<div>
+    <ul>
+        <li>Class work: 20%;</li>
+        <li>Mid-term Project: 30%;</li>
+        <li>Final Project: 50%</li>
+    </ul>
+</div>
+<h3>Mid-term project:</h3>
+
+<div>
+    <ul>
+        <li>Option 1: Choose a scientific question from a relevant literature and write a report describing findings, to
+            be submitted to a scientific journal or conference.
+        </li>
+        <li>Option 2: Combine data sources from the web to generate a useful and interesting web application, to be
+            published online.
+        </li>
+    </ul>
+</div>
+<h3>Textbook(s) or References:</h3>
+
+<div>
+    <ul>
+        <li>
+            <a href="http://www.amazon.com/Programming-Collective-Intelligence-Building-Applications/dp/0596529325/ref=sr_1_1?s=books&ie=UTF8&qid=1310054165&sr=1-1"
+               target="_blank">Programming Collective Intelligence: Building Smart Web 2.0 Applications</a>
+            Toby Segaran / Paperback / 2007
+        </li>
+    </ul>
+</div>
+
+<h3>Recommended Reading:</h3>
+
+<div>
+    <ul>
+        <li><a href="http://www.amazon.com/Hadoop-The-Definitive-Guide-ebook/dp/B0082FE448/ref=dp_kinw_strp_1"
+               target="_blank">Hadoop: The Definitive Guide;</a> Tom White / Paperback / 2010
+        </li>
+        <li>
+            <a href="http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/ref=sr_1_1?s=books&ie=UTF8&qid=1310053258&sr=1-1"
+               target="_blank">The Visual Display of Quantitative Information;</a> Edward Tufte / Hardcover / 2001
+        </li>
+        <li>
+            <a href="http://www.amazon.com/Visualize-This-FlowingData-Visualization-Statistics/dp/0470944889/ref=sr_1_1?ie=UTF8&qid=1310053219&sr=8-1"
+               target="_blank">Visualize This: The FlowingData Guide to Design, Visualization, and Statistics;</a>
+            Nathan Yau / Paperback / 2011
+        </li>
+
+    </ul>
+</div>
+
+</div>
+
+    <div align="center">
+         Created By Sen Yang, Mengyi Gong, Lina Xiang
+    </div>
+
+</div>
+
+</body>
+</html>
