@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./css/webcss.css">
+
+<script>
+function reply_sur()
+{
+var a=document.getElementsByName("sur");
+var b;
+for (var i=0;i<a.length;i++) {
+if (a[i].checked) {
+b=a[i].value
+}
+}
+if (b=="like") {
+alert("I'm very glad you like it! Thank you for your answer!");
+}
+else if (b=="dislike") {
+alert("I'm sorry the web page is not good! I will do better in the future! Thank you for your answer!");
+}
+else { 
+alert("Thank you for your answer!");
+}
+}
+</script>
+</head>
+
+<body>
+
+<div id="title">
+<h1>Web Analytics!</h1>
+<pre style="font-size: xx-large;"><hr><a href="./Course information.html">Course information</a>          <a href="./Textbook&References.html">Textbook&References</a>               <a href="Tools.html">Tools</a><hr></pre>
+</div>
+
+<div id="index">
+<h1>Index</h1>
+<ul>
+<li><a href="#1">1.Introduction</a></li>
+<li><a href="#2">2.On-site web analytics technologies</a>
+<ul>  
+<li><a href="#2.1">2.1.Web server logfile analysis</a></li>
+<li><a href="#2.2">2.2.Page tagging</a></li>
+<li><a href="#2.3">2.3.Logfile analysis vs page tagging</a>
+<ul>
+<li><a href="#2.3.1">2.3.1.Advantages of logfile analysis</a></li>
+<li><a href="#2.3.2">2.3.2.Advantages of page tagging</a></li>
+<li><a href="#2.3.3">2.3.3.Economic factors</a></li>
+</ul>
+</li>
+<li><a href="#2.4">2.4.Hybrid methods</a></li>
+<li><a href="#2.5">2.5.Customer lifecycle analytics</a></li>
+<li><a href="#2.6">2.6.Other methods</a></li>
+</ul>
+</li>
+<li><a href="#3">3.Secure analytics (metering) methods</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+<h1 style="font-size: x-large;" id="1">1.Intrduction</h1>
+<p>Web analytics is the measurement, collection, analysis and reporting of internet data for purposes of understanding and optimizing web usage.</p>
+<p>Web analytics is not just a tool for measuring web traffic but can be used as a tool for business and market research, and to assess and improve the effectiveness of a web site. Web analytics applications can also help companies measure the results of traditional print or broadcast advertising campaigns. It helps one to estimate how traffic to a website changes after the launch of a new advertising campaign. Web analytics provides information about the number of visitors to a website and the number of page views. It helps gauge traffic and popularity trends which is useful for market research.</p>
+<p>There are two categories of web analytics; off-site and on-site web analytics.</p>
+<p>Off-site web analytics refers to web measurement and analysis regardless of whether you own or maintain a website. It includes the measurement of a website's potential audience (opportunity), share of voice (visibility), and buzz (comments) that is happening on the Internet as a whole.</p>
+<p>On-site web analytics measure a visitor's behavior once on your website. This includes its drivers and conversions; for example, the degree to which different landing pages are associated with online purchases. On-site web analytics measures the performance of your website in a commercial context. This data is typically compared against key performance indicators for performance, and used to improve a web site or marketing campaign's audience response. Google Analytics is the most widely-used on-site web analytics service; although new tools are emerging that provide additional layers of information, including heat maps and session replay.</p>
+<p>Historically, web analytics has referred to on-site visitor measurement. However in recent years this has blurred, mainly because vendors are producing tools that span both categories.</p>
+
+<h1 style="font-size: x-large;" id="2">2.On-site web analytics technologies</h1>
+<p>Many different vendors provide on-site web analytics software and services. There are two main technical ways of collecting the data. The first and older method, server log file analysis, reads the logfiles in which the web server records file requests by browsers. The second method, page tagging, uses JavaScript embedded in the site page code to make image requests to a third-party analytics-dedicated server, whenever a page is rendered by a web browser or, if desired, when a mouse click occurs. Both collect data that can be processed to produce web traffic reports.</p>
+<p>In addition, other data sources may be added to augment the web site behavior data described above. For example: e-mail open and click-through rates, direct mail campaign data, sales and lead history, or other data types as needed.</p>
+
+<h2 style="font-size: large;" id="2.1">2.1.Web server logfile analysis</h2>
+<p>Web servers record some of their transactions in a logfile. It was soon realized that these logfiles could be read by a program to provide data on the popularity of the website. Thus arose web log analysis software.</p>
+<p>In the early 1990s, web site statistics consisted primarily of counting the number of client requests (or hits) made to the web server. This was a reasonable method initially, since each web site often consisted of a single HTML file. However, with the introduction of images in HTML, and web sites that spanned multiple HTML files, this count became less useful. The first true commercial Log Analyzer was released by IPRO in 1994.</p>
+<p>Two units of measure were introduced in the mid 1990s to gauge more accurately the amount of human activity on web servers. These were page views and visits (or sessions). A page view was defined as a request made to the web server for a page, as opposed to a graphic, while a visit was defined as a sequence of requests from a uniquely identified client that expired after a certain amount of inactivity, usually 30 minutes. The page views and visits are still commonly displayed metrics, but are now considered rather rudimentary.</p>
+<p>The emergence of search engine spiders and robots in the late 1990s, along with web proxies and dynamically assigned IP addresses for large companies and ISPs, made it more difficult to identify unique human visitors to a website. Log analyzers responded by tracking visits by cookies, and by ignoring requests from known spiders.</p>
+<p>The extensive use of web caches also presented a problem for logfile analysis. If a person revisits a page, the second request will often be retrieved from the browser's cache, and so no request will be received by the web server. This means that the person's path through the site is lost. Caching can be defeated by configuring the web server, but this can result in degraded performance for the visitor and bigger load on the servers.</p>
+
+<h2 style="font-size: large;" id="2.2">2.2.Page tagging</h2>
+<p>Concerns about the accuracy of logfile analysis in the presence of caching, and the desire to be able to perform web analytics as an outsourced service, led to the second data collection method, page tagging or 'Web bugs'.</p>
+<p>In the mid 1990s, Web counters were commonly seen ¡ª these were images included in a web page that showed the number of times the image had been requested, which was an estimate of the number of visits to that page. In the late 1990s this concept evolved to include a small invisible image instead of a visible one, and, by using JavaScript, to pass along with the image request certain information about the page and the visitor. This information can then be processed remotely by a web analytics company, and extensive statistics generated.</p>
+<p>The web analytics service also manages the process of assigning a cookie to the user, which can uniquely identify them during their visit and in subsequent visits. Cookie acceptance rates vary significantly between web sites and may affect the quality of data collected and reported.</p>
+<p>Collecting web site data using a third-party data collection server (or even an in-house data collection server) requires an additional DNS look-up by the user's computer to determine the IP address of the collection server. On occasion, delays in completing a successful or failed DNS look-ups may result in data not being collected.</p>
+<p>With the increasing popularity of Ajax-based solutions, an alternative to the use of an invisible image is to implement a call back to the server from the rendered page. In this case, when the page is rendered on the web browser, a piece of Ajax code would call back to the server and pass information about the client that can then be aggregated by a web analytics company. This is in some ways flawed by browser restrictions on the servers which can be contacted with XmlHttpRequest objects. Also, this method can lead to slightly lower reported traffic levels, since the visitor may stop the page from loading in mid-response before the Ajax call is made.</p>
+
+<h2 style="font-size: large;" id="2.3">2.3.Logfile analysis vs page tagging</h2>
+<p>Both logfile analysis programs and page tagging solutions are readily available to companies that wish to perform web analytics. In some cases, the same web analytics company will offer both approaches. The question then arises of which method a company should choose. There are advantages and disadvantages to each approach.</p>
+
+<h3 style="font-size: medium;" id="2.3.1">2.3.1.Advantages of logfile analysis</h3>
+<p>The main advantages of logfile analysis over page tagging are as follows:</p>
+<ul>
+<li>The web server normally already produces logfiles, so the raw data is already available. No changes to the website are required.</li>
+<li>The data is on the company's own servers, and is in a standard, rather than a proprietary, format. This makes it easy for a company to switch programs later, use several different programs, and analyze historical data with a new program.</li>
+<li>Logfiles contain information on visits from search engine spiders, which generally do not execute JavaScript on a page and are therefore not recorded by page tagging. Although these should not be reported as part of the human activity, it is useful information for search engine optimization.</li>
+<li>Logfiles require no additional DNS lookups or TCP slow starts. Thus there are no external server calls which can slow page load speeds, or result in uncounted page views.</li>
+<li>The web server reliably records every transaction it makes, e.g. serving PDF documents and content generated by scripts, and does not rely on the visitors' browsers cooperating.</li>
+</ul>
+
+<h3 style="font-size: medium;" id="2.3.2">2.3.2.Advantages of page tagging</h3>
+<p>The main advantages of page tagging over logfile analysis are as follows:</p>
+<ul>
+<li>Counting is activated by opening the page (given that the web client runs the tag scripts), not requesting it from the server. If a page is cached, it will not be counted by the server. Cached pages can account for up to one-third of all pageviews. Not counting cached pages seriously skews many site metrics. It is for this reason server-based log analysis is not considered suitable for analysis of human activity on websites.</li>
+<li>Data is gathered via a component ("tag") in the page, usually written in JavaScript, though Java can be used, and increasingly Flash is used. Ajax can also be used in conjunction with a server-side scripting language (such as PHP) to manipulate and (usually) store it in a database, basically enabling complete control over how the data is represented.</li>
+<li>The script may have access to additional information on the web client or on the user, not sent in the query, such as visitors' screen sizes and the price of the goods they purchased.</li>
+<li>Page tagging can report on events which do not involve a request to the web server, such as interactions within Flash movies, partial form completion, mouse events such as onClick, onMouseOver, onFocus, onBlur etc.</li>
+<li>The page tagging service manages the process of assigning cookies to visitors; with logfile analysis, the server has to be configured to do this.</li>
+<li>Page tagging is available to companies who do not have access to their own web servers.</li>
+<li>Lately page tagging has become a standard in web analytics.</li>
+</ul>
+ 
+<h3 style="font-size: medium;" id="2.3.3">2.3.3.Economic factors</h3>
+<p>Logfile analysis is almost always performed in-house. Page tagging can be performed in-house, but it is more often provided as a third-party service. The economic difference between these two models can also be a consideration for a company deciding which to purchase.</p>
+<ul>
+<li>Logfile analysis typically involves a one-off software purchase; however, some vendors are introducing maximum annual page views with additional costs to process additional information. In addition to commercial offerings, several open-source logfile analysis tools are available free of charge.</li>
+<li>For Logfile analysis you have to store and archive your own data, which often grows very large quickly. Although the cost of hardware to do this is minimal, the overhead for an IT department can be considerable.</li>
+<li>For Logfile analysis you need to maintain the software, including updates and security patches.</li>
+<li>Complex page tagging vendors charge a monthly fee based on volume i.e. number of pageviews per month collected.</li>
+</ul>
+<p>Which solution is cheaper to implement depends on the amount of technical expertise within the company, the vendor chosen, the amount of activity seen on the web sites, the depth and type of information sought, and the number of distinct web sites needing statistics.</p>
+<p>Regardless of the vendor solution or data collection method employed, the cost of web visitor analysis and interpretation should also be included. That is, the cost of turning raw data into actionable information. This can be from the use of third party consultants, the hiring of an experienced web analyst, or the training of a suitable in-house person. A cost-benefit analysis can then be performed. For example, what revenue increase or cost savings can be gained by analysing the web visitor data?</p>
+
+<h2 style="font-size: large;" id="2.4">2.4.Hybrid methods</h2>
+<p>Some companies produce solutions that collect data through both logfiles and page tagging and can analyze both kinds. By using a hybrid method, they aim to produce more accurate statistics than either method on its own. An early hybrid solution was produced in 1998 by Rufus Evison.</p>
+
+<h2 style="font-size: large;" id="2.5">2.5.Customer lifecycle analytics</h2>
+<p>Customer lifecycle analytics is a visitor-centric approach to measuring that falls under the umbrella of lifecycle marketing.[citation needed] Page views, clicks and other events (such as API calls, access to third-party services, etc.) are all tied to an individual visitor instead of being stored as separate data points. Customer lifecycle analytics attempts to connect all the data points into a marketing funnel that can offer insights into visitor behavior and website optimization.</p>
+
+<h2 style="font-size: large;" id="2.6">2.6.Other methods</h2>
+<p>Other methods of data collection are sometimes used. Packet sniffing collects data by sniffing the network traffic passing between the web server and the outside world. Packet sniffing involves no changes to the web pages or web servers. Integrating web analytics into the web server software itself is also possible. Both these methods claim to provide better real-time data than other methods.</p>
+
+<h1 style="font-size: x-large;" id="3">3.Secure analytics (metering) methods</h1>
+<p>All the methods described above (and some other methods not mentioned here, like sampling) have the central problem of being vulnerable to manipulation (both inflation and deflation). This means these methods are imprecise and insecure (in any reasonable model of security). This issue has been addressed in a number of papers but to-date the solutions suggested in these papers remain theoretic, possibly due to lack of interest from the engineering community, or because of financial gain the current situation provides to the owners of big websites. For more details, consult the aforementioned papers.</p>
+
+</div>
+
+<div id="survey">
+<h1>survey</h1>
+<p>How do you think this web page?</p>
+<form>
+<input type="radio" name="sur" value="like">I like it, it is very cool!<br>
+<input type="radio" name="sur" value="dislike">I don't like it, it is too simple!<br>
+<input type="radio" name="sur" value="unknown">I have no idea!
+</form>
+
+<button type="button" onclick="reply_sur()">submit</button>
+
+</div>
+
+
+
+
+</body>
+</html>
