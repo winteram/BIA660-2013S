@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script type="text/javascript">
+function SwapText() {
+	var txt = document.getElementById("word").value;
+    document.getElementById("hint").innerHTML = txt;
+}
+function show(){
+	var d=new Date();
+	day="Current Data:"+(d.getYear()+1900)+"/"+(d.getMonth()+1)+"/"+d.getDate();
+	day+=" Time:"+d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+	document.all.show_time.innerHTML=day;
+	setTimeout("show()",1000)
+	}	
+$(document).ready(function(){
+	 $(".show_contact").click(function(){
+	 $(".contact_info").slideToggle("slow");})
+;});
+
+</script>
+
+<head>
+<title>Web Analysis lecturer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
+</head>
+<body onload="show()">
+<div class="wholePage">
+	<div class="border">
+    	<div id="header">
+      		<h1 id="logo"><a href="#" class="notext">WebAnalysis</a></h1>
+			<div id="show_time"></div>
+    	</div>
+    	<div id="navigation">
+      		<ul>
+        		<li><a href="./index.html" >Home</a></li>
+        		<li><a href="./lecturer.html" class="active">Lecturer</a></li>
+        		<li><a href="./syllabus.html">Syllabus</a></li>
+        		<li><a class="show_contact" href="#">Contact</a></li>
+      		</ul>
+    	</div>
+		<div class ="contact_info">
+			<ul>
+				<li><textarea name="" id ="word" onkeyup="SwapText()" rows="" cols=""></textarea>
+					<p class= "hint"> type your word above, just for fun</p></li>
+				<li><a class"emailus" href="mailto:guminhui@hotmail.com,lzhang20@stevens.edu?subject=fromBIA660Website">send us your suggestion via mail</a>	</li>
+				<li><a class="github" href="https://github.com/winteram/BIA660-2013S">GitHub</a></li>
+			</ul>
+		</div>
+
+		<div class="main">
+      		<div class="content" class="left">
+        		<div class="highlight">
+          			<h3>Lecturer</h3>
+          			<p>Winter Mason</p>
+					<img src="css/images/winter.png" alt="" /><br />
+        			<a href="http://smallsocialsystems.com/about.html">Link to my webpage</a>
+					<br />
+		    		<a href="mailto:m@winteram.com">Click to Email Me: m@winteram.com</a>
+        			
+				</div>
+       		</div>
+		</div>
+   </div>
+  <div id="footer">
+    <p class="left">Copyright &copy; 2013, Lei Zhang and Minhui Gu, All Rights Reserved</p>
+    <div class="cl"></div>
+  </div>
+</div>
+</body>
+</html>
