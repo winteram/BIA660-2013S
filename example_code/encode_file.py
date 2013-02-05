@@ -1,6 +1,5 @@
 from optparse import OptionParser
-#from encoder import encode, decode
-from ArunaEncode import encode, decode
+from encoder import encode, decode
 
 if __name__ == "__main__":
     parser = OptionParser()
