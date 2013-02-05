@@ -1,0 +1,63 @@
+<!--
+<html>
+<head>
+<title>无标题文档</title>
+<meta http-equiv="content-Type" content="text/html;charset=gb2312">
+</head>
+<body>
+
+<script language="JavaScript">
+function hao() {
+   if (document.form1.ok.value=="第二个内容")
+   {
+     document.form1.ok.value="第一个内容";
+   }
+   else
+   {
+     document.form1.ok.value="第二个内容";
+   }
+}
+</script>
+<form name="form1" method="post" action="">
+<input name="ok" type="button" id="ok" value="第一个内容" onClick="hao();">
+</form>
+</body>
+</html>
+-->
+<!--
+<html>
+<head>
+<title>点击随机变换背景颜色</title>
+</head>
+ <body>
+<script type = "text/javascript" language = "javascript">
+    function Getcolor() //申明一个16进制所需字符的字符串
+    {
+        var str = "0123456789abcdef" //十六进制颜色头
+        var t = "#"
+        for (j = 0; j < 6; j++) //charAt(index)方法返回一个位于提供给它的参数索引的字符,0--length-1，如果为非整数则向下取整。
+        {
+            t = t + str.charAt(Math.random() * str.length - 1);
+        }
+        return t;
+    }
+    function changColor() {
+        var obj = document.bgColor = Getcolor();
+    }
+ </SCRIPT>
+ <input type = "button" value = "单击后随机变化颜色" onclick = "changColor();"/>
+ </body>
+</html>
+-->
+<html>
+<head>
+<meta http-equiv="content-Type" content="text/html;charset=gb2312">
+<meta name="keywords" content="站长,网页特效,网页特效代码,js特效,js脚本,脚本,广告代码,zzjs,zzjs.net,www.zzjs.net,站长特效 网" />
+<meta name="description" content="www.zzjs.net,站长特效网，站长必备js特效及广告代码。大量高质量js特效，提供高质量广告代码下载,尽在站长特效网" />
+<title>网页特效 文本框内容切换效果 站长特效网</title>
+<body>
+<a href="http://www.zzjs.net/">站长特效网</a>,站长必备的高质量网页特效和广告代码。zzjs.net，站长js特效。<hr>
+<!--欢迎来到站长特效网，我们网站收集大量高质量js特效，提供许多广告代码下载，网址：www.zzjs.net，zzjs@msn.com,用.net打造靓站-->
+<input onclick="value=='√'?value='×':value='√'" myValue="0" style="cursor: default;width:160px;height:16px">
+</body>
+</html>

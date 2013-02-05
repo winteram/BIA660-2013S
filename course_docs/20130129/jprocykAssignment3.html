@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- 
+    John Procyk
+    BIA-660
+    Assignment 3, due 2/5/2013
+-->
+
+ <html>
+ <head>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+
+
+     <script>
+
+          $(document).ready(function(){     
+               $("#changecolors").click(function(){
+                    $("h1").toggleClass("gry");
+                    $("h2").toggleClass("bl");
+               });
+          });
+     </script>
+
+
+
+     <script> 
+          
+$(document).ready(function(){
+             
+  $("#cssctrl").click(function(){
+               
+    $("#csstable").slideToggle("slow");
+             
+  });
+
+          });
+     
+</script>
+
+
+
+     <script>
+          function GetStats(strA)
+          {
+             var a = new Array();
+             a=strA.split(",");
+
+             var b=0;
+             for (i=0;i<a.length;i++){
+             b += parseFloat(a[i]);
+           }
+
+           var fMean = (b/a.length).toFixed(2);
+
+           var Variance=0;
+           for (i=0;i<a.length;i++){
+              varInt = (a[i]-fMean);
+              Variance += varInt * varInt;
+           }
+           Variance = (Variance / a.length).toFixed(2);
+          
+
+           var StdDev = Math.sqrt(Variance).toFixed(2);
+
+           document.getElementById("mean").innerHTML = "Mean of Series: " + fMean; 
+           document.getElementById("var").innerHTML = "Variance: " + Variance; 
+           document.getElementById("stdev").innerHTML = "Std Dev: " + StdDev;
+           }
+     </script>
+
+
+
+     <style type="text/css">
+
+	      body {background-color:#F0FFF0;}
+		h1 {color:#9C9C9C;
+		    font-weight:bold;
+		    background-color:#990000;
+		    margin:10pt;
+		    padding:10pt;
+		    border-style:none none solid solid;
+		    border-color:#660000;}
+		
+ p {color:#000000;
+		    padding-left:30pt;
+		    font-size:12pt;}
+		h2 {color:#990000;
+                    text-decoration:underline;
+                    font-size:14pt;
+		    padding-left:30pt;}
+         watermark {position:absolute;
+                    left:250px;
+                    top:110px;
+                    opacity:0.075;
+                    color:black;
+                    font-size:84px;}
+               .blk {color:#000000;}
+               .gry {color:#D6D6D6;
+                    border-color:#565656;}
+               .bl {color:blue;}
+             td.cd {padding-left:20px;}
+        .boxcolors {background-color:#e5eecc;
+
+                    padding:5px;
+                    text-align:center;
+                    border:solid 1px #c3c3c3;
+}
+ .Stevensboxcolors {background-color:#e5eecc;
+
+                    padding:5px;
+                    text-align:center;
+                    border:solid 1px #c3c3c3;
+                    color:#990000;
+}
+
+          #cssctrl {width:450px;}
+         #csstable {color:#444444
+;
+                    display:none;}
+
+          #jpframe {width:500px; float:left;}
+     #changecolors {
+width:150px; float:left;}
+
+     </style>
+ </head>
+
+ <body>
+
+ <watermark> BIA660 </watermark>
+
+ <div class="Stevensboxcolors">Stevens Institute of Technology</div>
+ <table>
+   <tr> <td><h1 class=blk>BIA660 Web Analytics </h1></td> 
+        <td><h1>Assignment 3 due 2/5/2013</h1></td>
+        <td><div ID="changecolors" class="boxcolors">Change Text Color</div></td>
+   </tr>
+ </table>
+ 
+ <p><h2>BIA660 Web Analytics </h2></p>
+ <p><h2>This Assignment demonstrates the use of HTML, CSS, JavaScript, and jQuery in a web page</h2></p>
+ <div ID="bighouse">
+  <div ID="jpframe">
+   <div ID="cssctrl" class="boxcolors">Click here to see/hide a partial listing of the CSS code for this page:</div>
+   <div ID="csstable">
+    <code>
+     <table>
+      <tr><td>body  </td><td>        {background-color:#F0FFF0;}</td></tr>
+      <tr><td>h1    </td><td>        {color:#CCFFCC;            </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>font-style:italic;        </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>font-weight:bold;         </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>background-color:#4C804C; </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>margin:10pt;              </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>padding:10pt;             </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>border-style:none none solid solid; </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>border-color:#5C805C;}    </td></tr>
+      <tr><td>p     </td><td>         {color:#566B56;           </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>padding-left:30pt;        </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>font-size:12pt;}          </td></tr>
+      <tr><td>h2    </td><td>         {color:blue;              </td></tr>
+      <tr><td>&nbsp;</td><td class=cd> font-size:14pt;          </td></tr>
+      <tr><td>&nbsp;</td><td class=cd> padding-left:30pt;}      </td></tr>
+      <tr><td>.blk   </td><td>          {color:#33FF33;}         </td></tr>
+      <tr><td>.gry   </td><td>          {color:#FFFF00;          </td></tr>
+      <tr><td>      </td><td class=cd> border-color:#FFFF00;}   </td></tr>
+      <tr><td>.bl   </td><td>          {color:blue;}            </td></tr>
+      
+      <!-- don't need to display this section 
+      <tr><td>td.cd </td><td>          {padding-left:20px;}     </td></tr>
+      <tr><td>jp    </td><td>          {position:absolute;      </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>           left:50px;     </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>           top:150px;     </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>       opacity:0.075;     </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>         color:black;     </td></tr>
+      <tr><td>&nbsp;</td><td class=cd>     font-size:84px;}     </td></tr>
+      -->
+     </table>
+    </code>
+   </div>
+  </div>
+
+  <div ID="jpframe">
+    <div class="boxcolors">Input a series of numbers separated by commas, then click to get stats.</div>
+      <INPUT TYPE=text ID="initArray" size=30>
+      <button ID="cmdMean" onclick="GetStats(initArray.value)">Get Stats</button>
+      <div id="mean"></div>
+      <div id="var"></div>
+      <div id="stdev"></div>
+    </div>
+  </div>
+
+ </div>
+
+ </body>
+ </html> 

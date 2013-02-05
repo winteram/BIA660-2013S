@@ -1,0 +1,269 @@
+<html>
+<style>
+#justin{
+ position: absolute;
+ top: 150px;
+ left: 190px;
+}
+#gaga{
+ position: absolute;
+ top: 150px;
+ left: 370px;
+}
+#taylor{
+ position: absolute;
+ top: 150px;
+ left: 550px;
+}
+#kim{
+ position: absolute;
+ top: 150px;
+ left: 730px;
+}
+.Box {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 0.01px;
+ height: 0.01px;
+ background-color: #fff;
+ padding: 5px;
+ font:70%;
+ opacity:0.7;
+}
+b {
+ text-align: center;
+}
+#h1 {
+ position: absolute;
+ left:340px;
+}
+#h3 {
+ position: absolute;
+ top:50px;
+ left:390px;
+}
+#JieRen {
+ position: absolute;
+ top:110px;
+}
+#h4 {
+ position: absolute;
+ top:500px;
+ left:250px;
+ width:500px;
+ height: 100px;
+ text-align:center;
+ opacity:0.5;
+}
+</style>
+<head>
+<script src="http://mbostock.github.com/d3/d3.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+</head>
+<body>
+<div id="h1">
+<h1>Sentiment vs. Popularity</h1>
+</div>
+<div id="h3">
+<h3>Jie Ren's home assignment 2</h3>
+</div>
+<div id="JieRen">
+</div>
+<div id="justin"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRn8T0vPKNID8Bhsw2bSGjwIJxLxqBjFqErG4XTNF8MoCExzFZjrQ" id="test1"  class="testClass" width="120" height="120"/></div>
+<div id="gaga"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiAooTBm_v8PdbyBx-sQ3K1Hq4K9oBjIKqyjr2G6D8NMmhlYSXg" id="test2"  class="testClass" width="120" height="120"/></div>
+<div id="taylor"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKZhAbb5UYr_Dpz6N3HVG83EqrkF1zYzQxWLOP6ZnPY4chngJU" id="test3"  class="testClass" width="120" height="120"/></div>
+<div id="kim"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR1_WczhkRf9hx-isjiKb_P-rwiYek_MFxnD4IWFKMYtSIN26Czjw" id="test4"  class="testClass" width="120" height="120"/></div>
+
+<!--- create textboxes that follow mouse pointers for the mouseover effect -->
+<div id="test1_box" class="Box"> <b>Sentiment score: <br />0.38<br />Twitter followers:<br />33,956,013</b></div>
+<div id="test2_box" class="Box"> <b>Sentiment score: <br />0.51<br /> Twitter followers: <br />33,778,672</b></div>
+<div id="test3_box" class="Box"> <b>Sentiment score: <br />0.585<br /> Twitter followers: <br />23,640,366</b></div>
+<div id="test4_box" class="Box"> <b>Sentiment score: <br />0.107<br /> Twitter followers: <br />17,320,267</b></div>
+<div id="h4">
+<h4>Note: This analysis compares 4 celebrities' sentiment scores with the numbers of their Twitter followers. The sentiment score is calculated as follows. First I selected 100 random tweets that mention each celebrity and substracted the number of negative words from the number of positive words for each tweet. Then I averaged the 100 tweets to calculate the sentiment score for each celebrity.</h4>
+</div>
+
+
+</body>
+<script>
+//create functions to make text follow mouse pointer.
+function setup() {
+                var el = getElementsByClassName('testClass');
+               
+                for(var i = 0; i < el.length; i++) {
+                
+                    var box = document.getElementById(el[i].id + '_box');
+                        box.style.display = 'none';
+
+                    el[i].onmouseover = function(e) {
+                        var mousePos = getMouseLocation(e);
+
+                        var box = document.getElementById(this.id + '_box');
+                        box.style.display = 'block';
+                        box.style.top = (mousePos[1]) + 'px';
+                        box.style.left = (mousePos[0]+20) + 'px';
+                    };
+                    el[i].onmousemove = function(e) {                        
+                        var mousePos = getMouseLocation(e);
+
+                        var box = document.getElementById(this.id + '_box');
+                        box.style.top = (mousePos[1]) + 'px';
+                        box.style.left = (mousePos[0]+20) + 'px';
+                    };
+                    el[i].onmouseout = function() {
+                        var box = document.getElementById(this.id + '_box');
+                        box.style.display = 'none';
+                    };
+                }
+            }
+
+            function getMouseLocation(e) {
+                if (!e) var e = window.event;
+                if (e.pageX || e.pageY) {
+                    posx = e.pageX;
+                    posy = e.pageY;
+                }
+                else if (e.clientX || e.clientY) {
+                    posx = e.clientX + document.body.scrollLeft    + document.documentElement.scrollLeft;
+                    posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+                }
+                return new Array(posx, posy);
+            }
+            window.onload = setup;
+            
+            function getElementsByClassName(className, tag, elm){
+                var testClass = new RegExp("(^|\\s)" + className + "(\\s|$)");
+                var tag = tag || "*";
+                var elm = elm || document;
+                var elements = (tag == "*" && elm.all)? elm.all : elm.getElementsByTagName(tag);
+                var returnElements = [];
+                var current;
+                var length = elements.length;
+                for(var i=0; i<length; i++){
+                    current = elements[i];
+                    if(testClass.test(current.className)){
+                        returnElements.push(current);
+                    }
+                }
+                return returnElements;
+            }
+
+//create the x scale and points with celebrities' names.
+var xScale = d3.scale.ordinal() 
+    .domain(["Justin Bieber", "Lady Gaga", "Taylor Swift", "Kim kardashian"])
+    .rangePoints([240, 780]);
+    
+var xAxis = d3.svg.axis()
+                  .scale(xScale)
+                  .orient("bottom");
+
+
+                      
+var color = d3.scale.category10();  
+
+//create a svg container.                
+var svgContainer = d3.select("#JieRen").append("svg")
+                                    .attr("width", 960)
+                                   .attr("height", 400)
+                                   ;
+svgContainer.append("g")
+    .call(xAxis);
+
+//create functions to group data.
+                                       
+var stack = d3.layout.stack()
+    .values(function(d) { return d.values; })
+    .x(function(d) { return d.celebrity; })
+    .y(function(d) { return d.value; })
+    ;
+    
+var nest = d3.nest()
+    .key(function(d) { return d.group; });
+    
+//insert data.    
+var data = [
+{ "group":"1", "celebrity":"1", "value": "7.6", "rx": 160, "ry": 200, "width": 160},
+{ "group":"1", "celebrity":"2", "value": "10.2", "rx": 340, "ry": 200, "width": 160},
+{ "group":"1", "celebrity":"3", "value": "11.7", "rx": 520, "ry": 200,"width": 160},
+{ "group":"1", "celebrity":"4", "value": "2.14", "rx": 700, "ry": 200, "width": 160},
+{ "group":"2", "celebrity":"1", "value": "29", "rx": 160, "ry": 300, "width": 160},
+{ "group":"2", "celebrity":"2", "value": "28.8", "rx": 340, "ry": 300, "width": 160},
+{ "group":"2", "celebrity":"3", "value": "18.6", "rx": 520, "ry": 300,"width": 160},
+{ "group":"2", "celebrity":"4", "value": "12.3", "rx": 700, "ry": 300, "width": 160}
+];
+
+var dataByGroup = nest.entries(data);
+
+stack(dataByGroup);
+
+var group = svgContainer.selectAll(".group")
+      .data(dataByGroup)
+      .enter().append("g")
+      .attr("class", "group");
+      
+
+
+ group.selectAll("rect")
+      .data(function(d) { return d.values; })
+      .enter().append("rect")
+      .style("fill", function(d) { return color(d.group); });
+
+//append text and set text attributes.
+group.append("text")
+      .attr("x", 30)
+      .attr("y", 0)
+      .transition()
+      .duration(1000)
+      .attr("y", function(d){return d.key*100+150;})
+      .text(function(d){if (d.key==1){return "Sentiment Score";}
+                        else if (d.key==2){return "Popularity";}
+      })
+      .style("font-size", "18px")
+      .style("fill", function(d) { return color(d.key); })
+      .attr("id", function(d) { return "text_"+d.key; })
+      ;
+
+
+//append rectangles and set attributes.      
+group.selectAll("rect").attr("x", function(d) { return d.rx; })
+                       .attr("y", 0)
+                       .attr("width", function(d){return d.width;})
+                       .attr("id", function(d){return "rect_"+d.group;})
+                       .transition()
+                       .duration(1000)
+                       .attr("y", function(d){
+                       var return_y;
+                       if (Number(d.value)*5+30<30){
+                       return_y= d.ry;
+                       }
+                       else if (Number(d.value)*5+30>=30){
+                       return_y = Number(d.ry)-Math.abs(d.value)*2+100;
+                       }
+                       return return_y;})
+                       .attr("height", function(d)
+                       {return Math.abs(d.value)*2;})
+                       .transition()
+                       .delay(2000)
+                       .duration(3000)
+                       .attr("width", function(d){return d.width/3;})
+                       .attr("x", function(d) { return d.group*57+d.rx-15; })
+                       .attr("y", function(d){ return 300-Math.abs(d.value)*5+40;})
+                       .attr("height", function(d)
+                       {return Math.abs(d.value)*5+30;})
+                       ;
+                       
+//create mouseover effects for the rects.
+
+d3.selectAll("#rect_1").on("mouseover", function(){d3.selectAll("#rect_1").style("stroke","#1f77b4")&&d3.selectAll("#text_1").style("stroke","#1f77b4")}) 
+                       .on("mouseout", function(){d3.selectAll("rect").style("stroke",null)&&d3.selectAll("#text_1").style("stroke",null)
+                       });
+                       
+d3.selectAll("#rect_2").on("mouseover", function(){d3.selectAll("#rect_2").style("stroke","#ff7f0e")&&d3.selectAll("#text_2").style("stroke","#ff7f0e")}) 
+                       .on("mouseout", function(){d3.selectAll("rect").style("stroke",null)&&d3.selectAll("#text_2").style("stroke",null)
+                       });
+
+               
+                  
+</script>
+</html>

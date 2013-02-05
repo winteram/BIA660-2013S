@@ -1,0 +1,37 @@
+<html>
+  <head>
+<style>
+body
+{
+background-color:#ccffcc;
+}
+</style>
+    <title>Welcome</title>
+
+    <script type="text/javascript">
+      function touchRock() {
+        var userName = prompt("Hi,What is your name?");
+		var major =prompt("what is your major?");
+        if (userName) {
+	  alert(" Great  to see you !" + userName + "."+"Welcome to BIA 660 "+"Web Analysis");
+          document.getElementById("me").src = "http://media.nj.com/hobokennow_impact/photo/stevens-institutejpg-5319f78112535295_large.jpg";
+        }
+      }
+    </script> 
+   </head>
+
+  <body onLoad="alert('Welcom to BI&A 660');">
+    <div style="margin-top:100px; text-align:center">
+      <img src="http://media.nj.com/hobokennow_impact/photo/stevens-institutejpg-5319f78112535295_large.jpg"  alt="iRock" name="rockImg" id="me" style="cursor:pointer" onClick="touchRock();" />   
+       <p> click the pic!!!</p>
+    </div>
+   
+
+	<div style="font: Arial; font-size:30px;" align="center" >
+        <p><strong> <a href="jscript.html">Enter </a> </strong></p>
+	</div>
+    
+  </body>
+  
+  
+</html>

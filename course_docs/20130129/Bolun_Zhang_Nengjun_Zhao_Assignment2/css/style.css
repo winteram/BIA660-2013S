@@ -1,0 +1,71 @@
+/* CSS Document */
+
+
+dl
+{ 
+padding-left:50px;
+width:1000px; 
+height:auto; 
+float: left;
+margin:0px; 
+position:relative;
+}
+dl dt{width:1000px;height:150px;border:0px solid #6e0061;float: left;margin:0px; position:relative;}
+dl dd{width:1000px; height:40px;float: left;margin:0px; position: relative;}
+.menu{MARGIN: 0px;WIDTH: 1000px;FONT-FAMILY: arial, sans-serif; position:relative; z-index:9}
+.menu ul{list-style-type: none; position: absolute;}
+.menu ul li{float: left;}
+.menu ul li ul {MARGIN: 0px;}
+.menu ul li ul li{float:none;}
+.menu ul li ul{display:none;}
+.menu ul li a{BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; DISPLAY: block; FONT-SIZE: 16px; BACKGROUND: #A9E6F8; BORDER-LEFT: #fff 0px solid; WIDTH: 199px; background-image:url(table%20background.jpg); LINE-HEIGHT: 30px; BORDER-BOTTOM: #CCCCCC; HEIGHT: 35px; TEXT-ALIGN: center; TEXT-DECORATION: none}
+.menu ul li a:hover {BACKGROUND: #b3ab79; COLOR: #fff}
+.menu ul li.sfhover ul{display:block;}
+.menu ul li.sfhover ul li a{BACKGROUND: #faeec7; COLOR: #000;}
+.menu ul li.sfhover ul li a:hover{BACKGROUND: #dfc184; COLOR: #000;}
+hr{position: fixed; z-index:1}<window.onload=menuFix>
+dl dd{width:600px; height: auto; float: left; margin:0px; padding:0px; font-size:12px; position:relative}
+*{margin:0; padding:0;}
+.Stk{ 
+      position:absolute; 
+	  width:230px;
+	  height:300px;
+	 }
+body{ 
+      margin:10px;
+	 }
+.Tab{ 
+      width:600px;
+	 }
+.TabBar{ 
+         width:600px; 
+	     list-style-type:none;
+	    }
+.TabBarNormal{ 
+               float:left; 
+			   width:138px; 
+			   border:3px solid #CCCCCC; 
+			   border-bottom:0px solid #fff; 
+			   line-height:30px; 
+			   text-align:center; 
+			   margin:0 3px;
+			  }
+.TabBarActive{  
+               float:left;  
+			   width:138px;  
+			   border:3px solid #CCCCCC;  
+			   border-bottom:0px solid #fff;  
+			   background-color: #7EAAF1;  
+			   line-height:30px;  
+			   text-align:center;  
+			   margin:0 3px;  
+			   color: #000000 
+			  }
+.TabContent{  
+             width:600px; 
+			 height:240px; 
+			 border:3px solid #CCCCCC; 
+			 padding:5px;  
+			 position:absolute; 
+			 margin-top:-1px;
+			}

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <title>Web Analysis-QiZhu</title>
+   <script src="js/jquery-1.9.0.min.js" type="text/javascript" charset="utf-8"></script>
+  <!-- <script src="js/slider.js" type="text/javascript" charset="utf-8"></script>-->
+   
+   <script>
+    document.write(Date());
+    function myFunction(){
+      var x=document.getElementById("fname");
+      x.balue=x.value.toUpperCase();}	  
+
+   $(document).ready(function(){
+     $("#flip").click(function(){
+	   $("#panel_box").slideToggle("slow");});});
+    </script>
+
+<style>
+header, footer, section, aside, article{display: block;}
+body{
+  margin: 0;
+  padding:0;
+  line-height:1;
+  background:black;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:15px;
+  color:#787878;
+}
+
+#search{
+   float: right;
+   width: 279px;
+   height: 110px;
+   padding: 0;}
+ 
+#search form{
+   height:41px;
+   margin: 0;
+   padding:10px 0 0 30px;}
+
+#search-text{
+   width:195px;
+   padding:6px 10px;
+   border:1px #4C4842 solid;
+   background:none;
+   text-transform: lowercase;
+   font:normal 11px Arial, Helvetica, sans-serif;
+   color: #808080;}
+   
+#search-submit{display:none;}
+ 
+
+#intro{padding-bottom: 10px;}
+
+#slider{
+   width:800px;
+   margin: 0 auto;
+   position: relative;
+   border: 10px solid #ccc;}
+   
+.scroll{
+   overflow: hidden;
+   width: 800px;
+   margin: 0 auto;
+   position: relative;}
+   
+.scrollContainer{position: relative;}
+.scrollContainer div.panel{
+   padding: 10px;
+   width: 274px;
+   height: 318px;}
+   
+.inside{
+    padding: 10px;
+	border:1px solid #999;}
+.inside img{
+    display:block;
+	border:1px solid #999;
+	margin:0 0 10px 0;
+	width:250px;}
+.inside h2{
+    font-weight: normal;
+	color: #111;
+	font-size: 16px;
+	margin: 0 0 8px 0;}
+.inside p {
+	font-size: 11px;
+	color: #ccc;}
+
+a {
+	color: #999;
+	text-decoration: none;
+	border-bottom: 1px dotted #ccc;}
+
+a:hover {border-bottom: 1px solid #999;}
+
+.scrollButtons {
+    position: absolute;
+    top: 127px;
+    cursor: pointer;}
+
+.scrollButtons.left {left: -45px;}
+.scrollButtons.right {right: -45px;}
+.hide {display: none;}	
+	
+	
+	
+<!--main layout-->
+#wrapper{
+   margin: 0 auto;
+   padding: 0;
+   width:940px;
+   margin-top:10px;
+   margin-bottom:20px;}
+
+ #main{
+   width:940px;
+   margin:0 auto;
+   background: #FFF;
+   overflow:hidden;}
+ 
+ #content{
+   float: right;
+   width:940px;
+   padding:0;}
+   
+#footer{
+   width: 940px;
+   margin: 0 auto;
+   clear: both;}
+   
+ <!--basics-->
+
+h1,h2,h3,h4,h5,h6 {
+   font-weight: bold;
+   clear: both;}
+
+a:link, a:visited {
+    color:#F39;
+    text-decoration: none;}
+
+a:hover, a:active {text-decoration: underline;}
+p {margin-bottom: 18px;}
+li {padding-left: 5px;}
+
+<!-- header -->
+#header{
+   width:960px;
+   height:240px;
+   margin: 0 auto;
+   text-align:center;
+   background: url(images/img02.jpg) repeat-x left top;}
+   
+<!-- Menu -->
+#panel_box,#flip{
+   padding:5px;
+   text-align:center;
+   background-color:#F39;
+   border:solid 1px #c3c3c3;}
+
+#panel_box{
+   padding: 10px;
+   display:none;}
+
+.menu{
+   width:960px;
+   height:50px;
+   border-top:none; 
+   border-bottom:2px solid white;
+   margin:0 auto;
+   padding:0;
+   background: url(images/img03.jpg) repeat-x left top;
+   }
+     
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 25px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {float:left;}
+
+#menu a {
+	display: block;
+	height: 18px;
+	margin-right: 3px;
+    float:left;
+	padding: 15px 40px 20px 40px;
+	background: url(images/img06.jpg) no-repeat right 10px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {}
+
+.current_page_item a {padding-left: 0;}
+#menu a:hover {text-decoration: underline;} 
+<!--page-->
+#page{
+   width:960px;
+   margin:0 auto;
+   padding: 0;
+   background: url(images/img04.jpg) repeat-y left top;
+  }
+ 
+#page-bgbtm{padding: 30px 20px 0px 20px;}
+
+<!--content-->
+.box-wrapper { -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; padding: 20px; background: white; border: 1px solid #ccc; margin: -1px 0 0 0; height: 210px; position: relative; }
+.content-box { 
+    overflow: hidden; 
+	position: absolute; 
+	top: 20px; left: 20px; 
+	width: 658px; 
+	height: 230px;}
+
+.current { }
+
+.col-one, .col-two, .col-three { width: 30%; float: left; position: relative; top: 400px; }
+.col-one, .col-two { margin-right: 3%; }
+
+article{ padding: 15px 10px 8px 20px;}
+article img{ border: none;}
+
+#content h1,h2,h3,h4,h5,h6{
+    color: #F0C;
+	line-height: 1.5em;
+	margin: 0 20px 20px 0;}
+#content h1,h2,h3{ padding-left: 10px;}
+	 
+	   	
+<!--footer-->
+#aside ul {
+    list-style: none;
+	margin-bottom:20px;
+	margin-top: -15px;}
+
+#aside li a{
+    display: block;
+	text-decoration: none;}
+
+#footer-area{
+    background:#000000;
+	color:#F3F;
+	font-size:13px;
+	padding: 10px 25px;
+	overflow: hidden;}
+
+.footer-segment{
+   float: center;
+   width: 190px;
+   margin-right:100px;
+   margin-left:40px;}
+  
+ footer a:link, footer a:visited{color:#F09;} 
+
+</style>
+</head>
+
+<!--header start-->
+<body>
+<div id="wrapper">
+    <header>
+	   <h1>Web Analytics</h1>
+	</header>
+<div id="search">
+	<form method="get" action="">
+	    <fieldset>
+		<input type="text" name="s" id="search-text" size="15" value="enter keywords here..." />
+		<input type="submit" id="search-submit" value="GO" />
+		</fieldset>
+	</form>
+</div>
+
+<div id="flip">Click to slide down or up!Try~.</div>
+
+<div id="panel_box">~Hello~</div>
+  
+
+<!--menu start-->
+<div id="menu">
+	<ul>
+		<li class="current_page_item"><a href="#one">HOME</a></li>
+			<li><a href="#two">DIAGRAM</a></li>
+			<li><a href="#three">DATA</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">LINKS</a></li>
+			<li><a href="#">CONTACTS</a></li>
+			<li id="magic-line" style="width:60px; left:0px;"></li>
+	</ul>
+</div>	
+	
+<!-- content start -->	
+<section id="main">
+	<p><br></p>	
+	<div id="slider">    
+        <img class="scrollButtons left" src="images/leftarrow.png">
+  	<div style="overflow: hidden;" class="scroll">
+	<div class="scrollContainer" style="width: 1570px; left; -350px; ">
+	
+    <div class="panel" id="panel_1" style="float:left; position: relative;">
+		<div class="inside">
+			<img src="images/pic1.jpg" alt="picture" />
+				<h2>Business</h2>
+				<p>A very short excerpt goes here... <a href="#">more link</a></p>
+		</div>
+	</div>
+
+    <div class="panel" id="panel_2" style="float:left; position: relative;">
+		<div class="inside">
+			<img src="images/pic2.jpg" alt="picture" />
+				<h2>Analysis</h2>
+				<p>A very short excerpt goes here... <a href="#">more link</a></p>
+		</div>
+	</div>
+				
+    <div class="panel" id="panel_3" style="float:left; position: relative;">
+		<div class="inside">
+			<img src="images/pic3.jpg" alt="picture" />
+				<h2>Network</h2>
+				<p>A very short excerpt goes here... <a href="#">more link</a></p>
+		</div>
+	</div>
+					
+	<div class="panel" id="panel_4" style="float:left; position: relative;">
+		<div class="inside">
+			<img src="images/pic4.png" alt="picture" />
+				<h2>BI</h2>
+				<p>A very short excerpt goes here... <a href="#">more link</a></p>
+		</div>
+	</div>
+					
+	<div class="panel" id="panel_5" style="float:left; position: relative;">
+		<div class="inside">
+			<img src="images/pic5.jpg" alt="picture" />
+				<h2></h2>
+			    <p>A very short excerpt goes here... <a href="#">more link</a></p>
+		</div>
+	</div>
+	<img class="scrollButtons right" src="images/rightarrow.png">
+    </div>
+    </div>
+    </div>
+	
+<article>
+    <p> <strong>Web analytics</strong>  is the measurement, collection, analysis and reporting of internet data for purposes of understanding 
+	    and optimizing web usage. Web analytics is not just a tool for measuring web traffic but can be used as a tool for business and market 
+		research, and to assess and improve the effectiveness of a web site. Web analytics applications can also help companies measure the 
+		results of traditional print or broadcast advertising campaigns. It helps one to estimate how traffic to a website changes after the 
+		launch of a new advertising campaign. Web analytics provides information about the number of visitors to a website and the number of 
+		page views. It helps gauge traffic and popularity trends which is useful for market research.
+    </p>
+</article>        
+</section>
+<!-- end of #content -->
+
+<footer>
+<section id="footer-area">
+	<aside class="footer-segment">
+		<ul>
+			<li><a href="http://www.python.org" target="_blank">Visit Python Website</a></li>
+			<br>
+			<li><a href="https://github.com" target="_blank">Visit GitHub Website</a></li>
+			<br>
+			<li><a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a></li>
+		</ul>
+	</aside>
+</section>
+</footer>
+
+</div>
+</body>
+</html>

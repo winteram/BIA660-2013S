@@ -1,0 +1,18 @@
+Websites visted:
+
+http://w3schools.com
+http://jsfiddle.net
+http://d3js.org
+http://jquery.com
+
+
+Assignment:
+
+Put together a creative webpage that has CSS and Javascript / jQuery
+elements.  The purpose of the page should be to advertise this class or the
+subject of this class (Big Data, Web Analytics, etc.) in some way.  Think
+of this as the landing page for the class website.  The page does not have
+to be fancy, but it does have to have HTML, CSS, and Javascript / jQuery
+elements.  The more time you put into it, the better it will be.
+
+Note: Work in teams of 2-4 people.
