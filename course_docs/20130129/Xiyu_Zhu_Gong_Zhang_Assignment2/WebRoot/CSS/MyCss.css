@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+body
+{
+	background-image:url("../images/back.jpg");
+	background-position:right top;
+	background-repeat:no-repeat;
+}
+.title
+{
+	font-family:"arial";
+	font-size:50px;
+	color:red;
+	font-weight:bold;
+}
+.number
+{
+	font-family:"arial";
+	font-size:30px;
+	color:#000000;
+}
+.paragraph
+{
+	font-family:"arial";
+	font-size:30px;
+	color:#000000;
+}

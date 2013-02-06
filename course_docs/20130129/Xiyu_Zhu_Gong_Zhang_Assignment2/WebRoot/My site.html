@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+	  	<link rel="stylesheet" type="text/css" href="CSS/MyCss.css" />
+   		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  	</head>
+  <body >
+<script type="text/javascript">
+
+var no = 50;
+var speed = 20;
+var ns4up = (document.layers) ? 1 : 0;
+var ie4up = (document.all) ? 1 : 0;
+var s, x, y, sn, cs;
+var a, r, cx, cy;
+var i, doc_width = 1024, doc_height = 800;
+if (ns4up) {
+doc_width = self.innerWidth;
+doc_height = self.innerHeight;
+}
+else
+if (ie4up) {
+doc_width = document.body.clientWidth;
+doc_height = document.body.clientHeight;
+}
+x = new Array();
+y = new Array();
+r = new Array();
+cx = new Array();
+cy = new Array();
+s = 10;
+for (i = 0; i < no; ++ i) {  
+initRain();
+if (ns4up) {
+if (i == 0) {
+document.write("<layer name=\"dot"+ i +"\" left=\"1\" ");
+document.write("top=\"1\" visibility=\"show\"><font color=\"black\">");
+document.write("*</font></layer>");
+}
+else {
+document.write("<layer name=\"dot"+ i +"\" left=\"1\" ");
+document.write("top=\"1\" visibility=\"show\"><font color=\"black\">");
+document.write("*</font></layer>");
+   }
+}
+else 
+if (ie4up) {
+if (i == 0) {
+document.write("<div id=\"dot"+ i +"\" style=\"POSITION: ");
+document.write("absolute; Z-INDEX: "+ i +"; VISIBILITY: ");
+document.write("visible; TOP: 15px; LEFT: 15px;\"><font color=\"black\">");
+document.write("*</font></div>");
+}
+else {
+document.write("<div id=\"dot"+ i +"\" style=\"POSITION: ");
+document.write("absolute; Z-INDEX: "+ i +"; VISIBILITY: ");
+document.write("visible; TOP: 15px; LEFT: 15px;\"><font color=\"black\">");
+document.write("*</font></div>");
+      }
+   }
+}
+function initRain() {
+a = 6;
+r[i] = 1;
+sn = Math.sin(a);
+cs = Math.cos(a);
+cx[i] = Math.random() * doc_width + 1;
+cy[i] = Math.random() * doc_height + 1;
+x[i] = r[i] * sn + cx[i];
+y[i] = cy[i];
+}
+function makeRain() {
+r[i] = 1;
+cx[i] = Math.random() * doc_width + 1;
+cy[i] = 1;
+x[i] = r[i] * sn + cx[i];
+y[i] = r[i] * cs + cy[i];
+}
+function updateRain() {
+r[i] += s;
+x[i] = r[i] * sn + cx[i];
+y[i] = r[i] * cs + cy[i];
+}
+function raindropNS() {
+for (i = 0; i < no; ++ i) {
+updateRain();
+if ((x[i] <= 1) || (x[i] >= (doc_width - 20)) || (y[i] >= (doc_height - 20))) {
+makeRain();
+doc_width = self.innerWidth;
+doc_height = self.innerHeight;
+}
+document.layers["dot"+i].top = y[i];
+document.layers["dot"+i].left = x[i];
+}
+setTimeout("raindropNS()", speed);
+}
+function raindropIE() {
+for (i = 0; i < no; ++ i) {
+updateRain();
+if ((x[i] <= 1) || (x[i] >= (doc_width - 20)) || (y[i] >= (doc_height - 20))) {
+makeRain();
+doc_width = document.body.clientWidth;
+doc_height = document.body.clientHeight;
+}
+document.all["dot"+i].style.pixelTop = y[i];
+document.all["dot"+i].style.pixelLeft = x[i];
+}
+setTimeout("raindropIE()", speed);
+}
+if (ns4up) {
+raindropNS();
+}
+else
+if (ie4up) {
+raindropIE();
+}
+
+</script>
+
+	
+    <div style="margin:0px 0px 0px 0px">
+    <p class="title">Web Analytics</p>
+    <hr size="2" color="#000000" style="filter:alpha(opacity=10,finishopacity=100,style=1,startX=100,startY=100,finishX=0,finishY=0);width:100%;"> 
+	<p class="number">Course Number:<a href="Result.html">BIA 660</a></p>
+	<p class="paragraph">In this course, students will learn through hands-on experience how to extract data from the web and analyze web-scale data using distributed computing.  Students will learn different analysis methods that are widely used across the range of internet companies, from start-ups to online giants like Amazon or Google.  At the end of the course, students will apply these methods to answer a real scientific question or to create a useful web application.</p>
+  	</div>
+  	<div>
+  		<a href="https://twitter.com/WinterMason" class="paragraph" target=”_blank” ><b>Winter Mason</b></a>
+  	</div>
+  </body>
+</html>

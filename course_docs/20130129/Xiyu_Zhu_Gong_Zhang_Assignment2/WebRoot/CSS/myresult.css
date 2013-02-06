@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+body
+{
+	font-family:"arial";
+	background-position:right top;
+	background-repeat:no-repeat;
+	background-image:url("../images/1.jpg");
+}
+h1.head
+{
+	color:black;
+	font-size:40pt;
+	font-family:"arial";
+}
+p.PCD
+{
+	display:none;
+}
+p.PP
+{
+	display:none;
+}
+p.GPP
+{
+	display:none;
+}
+p.MPP
+{
+	display:none;
+}
+p.FPP
+{
+	display:none;
+}
+div.TRP
+{
+	display:none;
+}
+div.RRP
+{
+	display:none;
+}
+button {
+	color:#fff;
+	border:solid 1px #333;
+	font-family:"arial";
+	outline:none;
+	background:#616161;
+	background:-webkit-gradient(linear,left top,left bottom,from(#616161),to(#050505));
+	background:-moz-linear-gradient(top,#616161,#050505);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#616161',endColorstr='#050505');
+}
+button:hover {
+	background:#616161;
+	background:-webkit-gradient(linear,left top,left bottom,from(#050505),to(#616161));
+	background:-moz-linear-gradient(top,#050505,#616161);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#050505',endColorstr='#616161');
+}
+button:active {
+	color:#ccc;
+	background:-webkit-gradient(linear,left top,left bottom,from(#616161),to(#050505));
+	background:-moz-linear-gradient(top,#616161,#050505);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#616161',endColorstr='#050505');
+}

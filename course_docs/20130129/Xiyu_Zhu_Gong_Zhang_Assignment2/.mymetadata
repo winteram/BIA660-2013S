@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Xiyu_Zhu_Gong_Zhang_Assignment2"
+  id="myeclipse.1359656682762"
+  context-root="/West Home"
+  j2ee-spec="5.0"
+  archive="Xiyu_Zhu_Gong_Zhang_Assignment2.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
