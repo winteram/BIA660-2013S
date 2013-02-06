@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./css/webcss.css">
+
+<script>
+function reply_sur()
+{
+var a=document.getElementsByName("sur");
+var b;
+for (var i=0;i<a.length;i++) {
+if (a[i].checked) {
+b=a[i].value
+}
+}
+if (b=="like") {
+alert("I'm very glad you like it! Thank you for your answer!");
+}
+else if (b=="dislike") {
+alert("I'm sorry the web page is not good! I will do better in the future! Thank you for your answer!");
+}
+else { 
+alert("Thank you for your answer!");
+}
+}
+</script>
+</head>
+
+<body>
+
+<div id="title">
+<h1>Web Analytics!</h1>
+<pre style="font-size: xx-large;"><hr><a href="./Course information.html">Course information</a>          <a href="./Textbook&References.html">Textbook&References</a>               <a href="Tools.html">Tools</a><hr></pre>
+</div>
+
+<div id="index">
+<h1>Index</h1>
+<ul>
+<li><a href="#h1">1.Installing python</a></li>
+<li><a href="#h2">2. Learning the basics</a></li>
+<li><a href="#h3">3. Practice the basics</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+<h1 style="font-size: x-large;" id="h1">1.Installing python</h1>
+<p>There are many ways you can install Python and the libraries required for this class, depending on your system and experience with command-line tools.  We will be using Python 2.7!  There is python 3.x, but many packages are not supported in that version, and others are not supported in older versions of python.</p>
+
+<p>The easiest is to use the Enthought distribution <a href="http://www.enthought.com/products/epd.php" target="_blank">(Website)</a>, which has nearly all of the packages required for the class</p>
+
+<p>Another is to install python <a href="http://www.python.org/getit/" target="_blank">(Website)</a>, and then install pip (a package installer; Mac: <a href=" http://www.pidby.com/2009/07/installing-pip-and-ipython-on-mac.html" target="_blank">Website</a>; Windows: <a href=" http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows" target="_blank">Website</a>£©</p>
+<p>From there you need to be sure you have all of the packages required for the class.  To test a package, simply start python (you¡¯ll see this prompt: >>>) and type import [package name].  If it does not give you an error, you have the package installed.</p>
+<p>Packages:</p>
+<ul>
+<li>numpy</li>
+<li>scipy</li>
+<li>matplotlib</li>
+<li>pandas</li>
+<li>mechanize</li>
+<li>beautifulsoup</li>
+<li>twitter</li>
+<li>boto</li>
+<li>json</li>
+</ul>
+
+<h1 style="font-size: x-large;" id="h2">2. Learning the basics</h1>
+<p>Once installation of Python and the associated packages is complete, go through Chapters 2-4 in Dive Into Python, a free online tutorial<a href="http://www.diveintopython.net/toc/index.html" target="_blank">http://www.diveintopython.net/toc/index.html</a></p>
+
+<h1 style="font-size: x-large;" id="h3">3. Practice the basics</h1>
+<p>When ready, try your hand at CheckIO, a game for learning Python<a href="http://www.checkio.org/" target="_blank">http://www.checkio.org/</a></p>
+</div>
+
+<div id="survey">
+<h1>survey</h1>
+<p>How do you think this web page?</p>
+<form>
+<input type="radio" name="sur" value="like">I like it, it is very cool!<br>
+<input type="radio" name="sur" value="dislike">I don't like it, it is too simple!<br>
+<input type="radio" name="sur" value="unknown">I have no idea!
+</form>
+
+<button type="button" onclick="reply_sur()">submit</button>
+
+</div>
+
+
+
+
+</body>
+</html>

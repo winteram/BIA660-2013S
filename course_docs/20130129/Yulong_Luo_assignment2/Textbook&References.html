@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./css/webcss.css">
+
+<script>
+function reply_sur()
+{
+var a=document.getElementsByName("sur");
+var b;
+for (var i=0;i<a.length;i++) {
+if (a[i].checked) {
+b=a[i].value
+}
+}
+if (b=="like") {
+alert("I'm very glad you like it! Thank you for your answer!");
+}
+else if (b=="dislike") {
+alert("I'm sorry the web page is not good! I will do better in the future! Thank you for your answer!");
+}
+else { 
+alert("Thank you for your answer!");
+}
+}
+</script>
+</head>
+
+<body>
+
+<div id="title">
+<h1>Web Analytics!</h1>
+<pre style="font-size: xx-large;"><hr><a href="./Course information.html">Course information</a>          <a href="./Textbook&References.html">Textbook&References</a>               <a href="Tools.html">Tools</a><hr></pre>
+</div>
+
+<div id="index">
+<h1>Index</h1>
+<ul>
+<li><a href="#h1">1.Textbook</a></li>
+<li><a href="#h2">2.Recommended Reading:</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+<h1 style="font-size: x-large;" id="h1">1.Textbook</h1>
+<p>Programming Collective Intelligence: Building Smart Web 2.0 Applications 
+Toby Segaran / Paperback / 2007</p>
+
+<img src="./images/1.JPG" alt="book front" width="80%" height="600" id="bigimg">
+
+<p>You can buy it from:<a href="http://www.amazon.com/Programming-Collective-Intelligence-Building-Applications/dp/0596529325/ref=sr_1_1?s=books&ie=UTF8&qid=1310054165&sr=1-1" target="_blank">Amazon</a></p>
+
+<h1 style="font-size: x-large;" id="h2">2.Recommended Reading:</h1>
+<p><a href="http://www.amazon.com/Hadoop-The-Definitive-Guide-ebook/dp/B0043D2ECC/ref=pd_sim_kinc_4?ie=UTF8&m=AG56TWVU5XWC2" target="_blank">Hadoop: The Definitive Guide</a></p>
+<p>Tom White / Paperback / 2010</p>
+<p><a href="http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/ref=sr_1_1?s=books&ie=UTF8&qid=1310053258&sr=1-1" target="_blank">The Visual Display of Quantitative Information</a></p>
+<p>Edward Tufte / Hardcover / 2001</p>
+<p><a href="http://www.amazon.com/Visualize-This-FlowingData-Visualization-Statistics/dp/0470944889/ref=sr_1_1?ie=UTF8&qid=1310053219&sr=8-1" target="_blank">Visualize This: The FlowingData Guide to Design, Visualization, and Statistics</a></p>
+<p>Nathan Yau / Paperback / 2011</p>
+</div>
+
+<div id="survey">
+<h1>survey</h1>
+<p>How do you think this web page?</p>
+<form>
+<input type="radio" name="sur" value="like">I like it, it is very cool!<br>
+<input type="radio" name="sur" value="dislike">I don't like it, it is too simple!<br>
+<input type="radio" name="sur" value="unknown">I have no idea!
+</form>
+
+<button type="button" onclick="reply_sur()">submit</button>
+
+</div>
+
+
+
+
+</body>
+</html>
