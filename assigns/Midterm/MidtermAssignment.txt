@@ -1,0 +1,33 @@
+BIA660 - Web Analytics
+Spring 2013
+Mid-term project
+
+
+1. Create your team:  
+   - Find your teammates.  
+   - Come up with a team name.
+   - Create a folder in "BIA660-2013S/assigns/Midterm" with your team name 
+   - Create a file in your team's foldercalled "team_members.txt" that has each
+     team member's name and email address on one line 
+   - Determine how you will
+     coordinate and communicate for the project
+
+2. Begin the project:
+   - Pick a company to "represent" (e.g., Coca-cola)
+   - Come up with relevant keywords (e.g., coke, pepsi, soda)
+   - Find relevant data sources (e.g., Twitter, Google News)
+
+3. Write Python code to:
+   - pull data from the data sources
+   - clean and validate the data
+   - analyze the data
+   - visualize the analyses
+
+4. Write a 2+ page report (plus graphics) explaining:
+   - who you researched
+   - from where and how you obtained the data
+   - what insights you obtained from your analysis
+
+5. Prepare a presentation based on the report
+
+6. Evaluate yourself and your teammates on teamwork

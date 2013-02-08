@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+<meta name="author" content="Harris,Pinar, Yue" />
+<meta name="description" content="A Fake website for BIA 660 course" />
+<meta charset=utf-8" />
+<title>WM</title>
+<script language="JavaScript" type="text/javascript" src="http://cdn.jquerytools.org/1.1.2/full/jquery.tools.min.js"></script>
+
+<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Open+Sans:400,300,700|Yesteryear" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+	$.getJSON("https://api.twitter.com/1/statuses/user_timeline.json?screen_name=WinterMason1&count=5&callback=?",
+ 		function(data){
+			$.each(data, function(i,item){
+				ct = item.text;
+				mytime = item.created_at;
+				var strtime = mytime.replace(/(\+\S+) (.*)/, '$2 $1')
+				var mydate = new Date(Date.parse(strtime)).toLocaleDateString();
+				var mytime = new Date(Date.parse(strtime)).toLocaleTimeString();		
+
+				ct = ct.replace(/http:\/\/\S+/g,  '<a href="$&" target="_blank">$&</a>');
+			    ct = ct.replace(/\s(@)(\w+)/g,    ' @<a href="http://twitter.com/$2" target="_blank">$2</a>');
+			    ct = ct.replace(/\s(#)(\w+)/g,    ' #<a href="http://search.twitter.com/search?q=%23$2" target="_blank">$2</a>');
+				$("#jstweets").append('<div>'+ct + " <small><i>(" + mydate + " @ " + mytime + ")</i></small></div>");
+ 			});
+		});
+</script>	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>
+function displayfact() 
+{
+	document.getElementById("fact").innerHTML = "This is a fake website. Click to hide this fact!";
+		$(document).ready(function(){
+		$("button.BI").click(function(){
+			$("p.fact").show();
+		});
+	});
+}
+
+$(document).ready(function(){
+	$("p.fact").click(function(){
+		$(this).hide();
+	});
+});
+
+</script>
+ 
+</head>
+<body>
+
+
+<div id="menu-wrapper">
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="#">Homepage</a></li>
+			<li><a href="images/winter profile.png" />Profile</a></li>
+			<li><a href="http://crabbyoldfart.wordpress.com">Blog</a></li>
+            <li><a href="http://www.oddee.com/_media/imgs/articles2/a97171_g113_9-knitting.jpg">Knitting Breasts</a></li>
+			<li><a href="https://twitter.com/WinterMason1">Twitter</a></li>
+			<li><a href="https://www.facebook.com/winter.mason.75">Facebook</a></li>
+		</ul>
+	</div>
+</div>
+<div id="header-wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">Winter<span>Mason</span></a></h1>
+			<p>The Secret Life of a Brooklynite</p>
+		</div>
+	</div>
+</div>
+<div id="wrapper">
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="#">Revealed</a></h2>
+						<p class="meta"><span class="date">Feb 5, 2013</span><span class="posted">Posted by Gossip PhDs</a></span></p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+							<p>You may think you know someone until you discover all of his online secret profiles.<br/> Let Gossip PhDs help you find the truth.<br/> We are the source of the scandalous life of your academic idols. </p>
+ <div class="twitter" id="jstweets">
+
+<h2 class="title">My Second Life in Twitter</h2>
+
+</div>	
+
+							<p></p>
+                            <br/><br/>
+                          <button type="button" class="BI" onclick="displayfact()"> Click here for more info </button>
+                            <br/>
+                            <br/><br/>
+                          <p id="fact" class="fact"></p>
+						</div>
+					</div>
+					
+				</div>
+				<div id="sidebar">
+					<ul>
+						<li>
+							<h2>Don't Search Here</h2>
+							<div id="search" >
+								<form method="get" action="#">
+									<div>
+										<input type="text" name="s" id="search-text" value="" />
+										<input type="submit" id="search-submit" value="" />
+									</div>
+								</form>
+							</div>
+							<div style="clear: both;">&nbsp;</div>
+						</li>
+						<div id="tweets"></div>
+						<li>
+							<h2>External Links</h2>
+							<ul>
+								<iframe width="300" height="250" src="http://www.youtube.com/embed/pJ8fdi39Lc4" frameborder="0" allowfullscreen></iframe>
+								
+							
+							</ul>
+						</li>
+						<li>
+						</li>
+					</ul>
+				</div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p> WM.com. |  | Design by XO XO XO, Gossip PhDs</a>.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+cd example_code
+python encode_file.py -f [FILENAME] -p [PASSWORD] -d

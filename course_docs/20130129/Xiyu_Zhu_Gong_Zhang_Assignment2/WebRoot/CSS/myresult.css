@@ -1,16 +1,16 @@
 @CHARSET "UTF-8";
 body
 {
-	font-family:"Comic Sans MS";
+	font-family:"arial";
 	background-position:right top;
 	background-repeat:no-repeat;
 	background-image:url("../images/1.jpg");
 }
 h1.head
 {
-	color:red;
+	color:black;
 	font-size:40pt;
-	font-family:"Times New Roman";
+	font-family:"arial";
 }
 p.PCD
 {
@@ -43,7 +43,7 @@ div.RRP
 button {
 	color:#fff;
 	border:solid 1px #333;
-	font-family:"Comic Sans MS";
+	font-family:"arial";
 	outline:none;
 	background:#616161;
 	background:-webkit-gradient(linear,left top,left bottom,from(#616161),to(#050505));

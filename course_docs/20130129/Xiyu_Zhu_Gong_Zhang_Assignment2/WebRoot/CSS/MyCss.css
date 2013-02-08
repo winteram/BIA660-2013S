@@ -5,22 +5,22 @@ body
 	background-position:right top;
 	background-repeat:no-repeat;
 }
-p.title
+.title
 {
-	font-family:"Times New Roman";
+	font-family:"arial";
 	font-size:50px;
 	color:red;
 	font-weight:bold;
 }
-p.number
+.number
 {
-	font-family:"Comic Sans MS";
+	font-family:"arial";
 	font-size:30px;
 	color:#000000;
 }
-p.paragraph
+.paragraph
 {
-	font-family:"Comic Sans MS";
+	font-family:"arial";
 	font-size:30px;
 	color:#000000;
 }

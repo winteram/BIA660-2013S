@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Team Members: Sen Yang, Mengyi Gong, Lina Xiang-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>BIA 660</title>
+    <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
+    <link rel="stylesheet" href="css/jquery-ui-1.10.0.custom.min.css/"/>
+    <script src="js/jquery-1.9.0.js"></script>
+    <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script>
+        $(function () {
+            $("#accordion").accordion();
+        });
+    </script>
+    <style>
+        .photo {
+            width: 300px;
+            text-align: start;
+        }
+        .photo .ui-widget-header {
+            margin: 1em 0;
+        }
+        .map {
+            width: 300px;
+            height: 300px;
+        }
+        .ui-tooltip {
+            max-width: 350px;
+        }
+    </style>
+    <script>
+        $(function() {
+            $( document ).tooltip({
+                items: "img, [data-geo], [title]",
+                content: function() {
+                    var element = $( this );
+                    if ( element.is( "[data-geo]" ) ) {
+                        var text = element.text();
+                        return "<img class='photo' alt='Winter Mason' src='images/wm.jpg'>";
+                    }
+                    if ( element.is( "[title]" ) ) {
+                        return element.attr( "title" );
+                    }
+                    if ( element.is( "img" ) ) {
+                        return element.attr( "alt" );
+                    }
+                }
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $( "#show-option" ).tooltip({
+                show: {
+                    effect: "slideDown",
+                    delay: 250
+                }
+            });
+            $( "#hide-option" ).tooltip({
+                hide: {
+                    effect: "explode",
+                    delay: 250
+                }
+            });
+            $( "#open-event" ).tooltip({
+                show: null,
+                position: {
+                    my: "left top",
+                    at: "left bottom"
+                },
+                open: function( event, ui ) {
+                    ui.tooltip.animate({ top: ui.tooltip.position().top + 10 }, "fast" );
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div id="header">
+    <div class="header_content">
+
+        <div class="logo"><a href="index.html">Web Analytics</a> <span>| BIA 660 </span></div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="selected"><a href="syllabus.html">Syllabus</a></li>
+                <li><a href="http://smallsocialsystems.com/about.html" data-geo="data-geo" target="_blank">Teacher</a></li>
+                <li><a href="https://github.com/winteram/BIA660-2013S" target="_blank">Github</a></li>
+                <li><a href="mailto:prof@winteram.com?Subject=BIA660"> Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!-- End of Header-->
+
+<div id="wrap">
+
+<div class="top_slogan">
+    Tuesdays, 6:15-8:45pm, BC 220, <a id="hide-option" href="http://smallsocialsystems.com/about.html" title="Visit My Website">Winter Mason</a>
+</div>
+
+<div class="clear"></div>
+
+<div id="accordion">
+<h3 align="center">Schdule</h3>
+
+<div align="center">
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="473"
+       style="border-collapse:collapse;border:none">
+<tbody>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">&nbsp;</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal" align="center" style="text-align:center"><b>Topic(s)</b></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal" align="center" style="text-align:center"><b>Reading(s)</b></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal" align="center" style="text-align:center"><b>HW</b></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">1/15</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Introduction to the course </span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Install python &amp; packages</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Install gitHub</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Install Google AppEngine</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Dive Into Python, Chapter
+  5-6</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">CheckIO,, problems 4-6</span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">1/22</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Diving into Python</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">In-class Python exercises</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">&nbsp;</p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">1/29</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">XML, HTML, CSS</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Javascript, JSON</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">In-class web-page exercises</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Ch. 4 in Programming
+  Collective IQ</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Dive Into Python, Chapter 8
+  &amp; 11</span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">&nbsp;</p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">2/5</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Obtaining Data:</span></p>
+
+        <p class="MsoListParagraph" style="margin-left:7.6pt"><span style="font-size:
+  10.0pt">Scraping Web Data</span></p>
+
+        <p class="MsoListParagraph" style="margin-left:7.6pt"><span style="font-size:
+  10.0pt">Web Crawlers</span></p>
+
+        <p class="MsoListParagraph" style="margin-left:7.6pt"><span style="font-size:
+  10.0pt">APIs</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Introduce mid-term projects
+  </span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;Dive Into Python,
+  Chapter 7</span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Decide coordination plan
+  with team</span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">2/12</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoListParagraph" style="margin-left:0cm"><span style="font-size:
+  10.0pt">Databases (AppEngine Data Store)</span></p>
+
+        <p class="MsoListParagraph" style="margin-left:0cm"><span style="font-size:
+  10.0pt">Data cleaning</span></p>
+
+        <p class="MsoListParagraph" style="margin-left:0cm"><span style="font-size:
+  10.0pt">&nbsp;&nbsp; Regex</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><i><span style="font-size:10.0pt">Visual display of
+  quantitative information, Ch. 2 &amp; 4</span></i></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Work on mid-term project </span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">2/26</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Visualizing data for
+  exploration</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Basic data analysis</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Prepare presentation</span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">3/5</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><b><span style="font-size:10.0pt">Presentation of Mid-Term
+  Project Results</span></b></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><i><span style="font-size:10.0pt">Chapter 2,3,5,6 in
+  Hadoop: The Definitive Guide</span></i></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">3/19</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Cloud computing:</span></p>
+
+        <p class="MsoListParagraph" style="margin-left:7.6pt"><span style="font-size:
+  10.0pt">Map Reduce</span></p>
+
+        <p class="MsoListParagraph" style="margin-left:7.6pt"><span style="font-size:
+  10.0pt">Hadoop</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Amazon AWS</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Word count example</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">3/26</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Cloud computing:</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;&nbsp; Streaming
+  Algorithms </span></p>
+
+        <p class="MsoListParagraph" style="margin-left:7.6pt"><span style="font-size:
+  10.0pt">PIG</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">BFS example</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><i><span style="font-size:10.0pt">Visual display of quantitative
+  information, Ch. 5 &amp; 9</span></i></p>
+
+        <p class="MsoNormal"><i><span style="font-size:10.0pt">Visualize This</span></i></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">4/2</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoListParagraph" style="margin-left:0cm"><span style="font-size:
+  10.0pt">Final Project Introductions</span></p>
+
+        <p class="MsoListParagraph" style="margin-left:0cm"><span style="font-size:
+  10.0pt">Visualizing data for exposition</span></p>
+
+        <p class="MsoListParagraph" style="margin-left:0cm"><span style="font-size:
+  10.0pt">d3, bootstrap, processing</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Ch. 3 in Programming
+  Collective IQ</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Newman (2001)</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Decide coordination plan
+  with team</span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">4/9</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Social Network Analysis</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Ch. 6 in Programming
+  Collective IQ</span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">4/16</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Text Mining</span></p>
+
+        <p class="MsoNormal"><span style="font-size:10.0pt">Topic Modeling</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Ch. 7 &amp; 9 in
+  Programming Collective Intelligence </span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Begin work on Final project</span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">4/23</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Statistical Learning /
+  Classification</span></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">Continue work on Final
+  project</span></p>
+    </td>
+</tr>
+<tr style="height:12.75pt">
+    <td width="55" nowrap="" valign="top" style="width:55.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal">4/30</p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:140.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><b><span style="font-size:10.0pt">Final Project Presentations</span></b></p>
+    </td>
+    <td width="158" nowrap="" valign="top" style="width:157.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+    <td width="140" nowrap="" valign="top" style="width:139.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt">
+        <p class="MsoNormal"><span style="font-size:10.0pt">&nbsp;</span></p>
+    </td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 align="center">Back To Top</h3>
+</div>
+<div align="center">
+    Created By Sen Yang, Mengyi Gong, Lina Xiang
+</div>
+</div>
+
+</body>
+</html>
