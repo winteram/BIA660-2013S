@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="author" content="Jennifer Meidl">
+<title>Just For Nerds</title> 
+<style type="text/css">
+h1 {color:white;}
+h2 {color:red;}
+h3 {color:white;}
+h4 {color:white;}
+p {color:red;}
+a {color:yellow;}
+</style>
+</head>
+
+
+<body>
+
+<div style="opacity:0.5;position:absolute;left:50px;width:400px;height:150px;background-color:#ADFF2F;"></div>
+
+<div style="font-family:verdana;padding:20px;border-radius:10px;border:10px solid green;">
+
+<div style="opacity:0.3;position:absolute;left:120px;width:100px;height:200px;background-color:blue;"></div>
+
+<h3>The World of Big Data</h3>
+
+<div style="letter-spacing:18px;color:blue"><b>TRENDING</b></div>
+<div style="padding:3px;letter-spacing:20px;color:red;"><b><i>Innovation</i></b>
+<div style="padding:5px;color:yellow;">DATA</div>
+</div>
+</div>
+
+<body style="background-color:black;">
+<br>
+<br>
+<br>
+<nav>
+<a href="#about">About</a> |
+<a href="#learn">BIA</a> |
+<a href="#tools">Tools</a> |
+<a href="#examples">Examples</a> |
+<a href="#company">Companies</a>
+</nav>
+
+
+<h1 style="text-align:center;">BIA660 Web Analytics</h1>
+<h2 style="text-align:center;">Discovering BIG DATA</h2>
+<br>
+<br>
+
+<a name="about">Welcome to the World of Big Data!</a>
+<p>Every day, we create 2.5 quintillion bytes of data — so much that 90% of the data in the world today has been created in the last two years alone. This data comes from everywhere: sensors used to gather climate information, posts to social media sites, digital pictures and videos, purchase transaction records, and cell phone GPS signals to name a few. This data is big data<p><br>
+
+
+<input type="button" value="Hide/Show" onclick="HideFrame();"  />
+<IFRAME id="frDocViewer" src="http://www-01.ibm.com/software/data/bigdata/" name="frDocViewer" height="75%" width="100%" frameborder="1" ></IFRAME>
+<script language="javascript">
+function HideFrame(){
+ fr = document.getElementById ("frDocViewer");
+ if (fr.style.display!='none'){
+  fr.style.display="none";
+ }
+ else {
+  fr.style.display="block";
+ }
+}
+
+</script>
+<br>
+<a name="learn">Learn BIA!</a><br>
+<p>Stevens Institute of Technology offers a new Program in BI&A. The MS in Business Intelligence and Analytics (BI&A) is 36 credit-degree, designed for part-time and full-time students who have completed undergraduate degrees in science, mathematics, computer science or engineering and are interested in pursuing careers in industry-specific analytical fields (e.g. financial, pharmaceutical, underwriting, manufacturing, information technology, telecommunications, energy and engineering, etc.).<p><a href="http://www.stevens.edu/howe/academics/graduate/business-intelligence-analytics-bi-ms/msbi-overview/" target="_blank" style="text-decoration:none">Click here to learn more</a><br></p>
+<br>
+<br>
+<br>
+<a name="tools">Tools</a><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a name="examples">Examples</a><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a name="company">Companies</a>
+
+<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+                $(".contactLink").click(function(){
+                    if ($("#contactForm").is(":hidden")){
+                        $("#contactForm").slideDown("slow");
+                    }
+                    else{
+                        $("#contactForm").slideUp("slow");
+                    }
+                });
+            });
+            function closeForm(){
+                $("#messageSent").show("slow");
+                setTimeout('$("#messageSent").hide();$("#contactForm").slideUp("slow")', 2000);
+           }
+
+$(document).ready(function() {
+  function filterPath(string) {
+    return string
+      .replace(/^\//,'')
+      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+      .replace(/\/$/,'');
+  }
+  $('a[href*=#]').each(function() {
+    if ( filterPath(location.pathname) == filterPath(this.pathname)
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+         $(this).click(function() {
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           var d = document.createElement("div");
+        d.style.height = "101%";
+        d.style.overflow = "hidden";
+        document.body.appendChild(d);
+        window.scrollTo(0,scrollToM);
+        setTimeout(function() {
+        d.parentNode.removeChild(d);
+            }, 10);
+           return false;
+         });
+      }
+    }
+  });
+});
+</script>-->
+
+</body>
+
+</html>
