@@ -1,2 +1,5 @@
 DataSource,APIorDL,description,[fields?]
 dev.twitter.com,API,API for Twitter Data, n/a
+https://developers.facebook.com,API,APIs for Facebook,
+https://developers.google.com/,API,APIs for Google including Youtube,
+IMDB.com,DL,Data source for Movies,
