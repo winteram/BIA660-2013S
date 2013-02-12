@@ -3,3 +3,6 @@ dev.twitter.com,API,API for Twitter Data, n/a
 https://developers.facebook.com,API,APIs for Facebook,
 https://developers.google.com/,API,APIs for Google including Youtube,
 IMDB.com,DL,Data source for Movies,
+http://www.retrosheet.org/,DL,Major League Baseball data ,
+http://ec.europa.eu/information_society/policy/psi/open_data_portal/index_en.htm,DL,European Union open data,
+http://www.data.gov/,DL,US Government data,
