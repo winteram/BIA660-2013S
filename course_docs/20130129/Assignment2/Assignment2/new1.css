@@ -1,0 +1,48 @@
+
+#background
+  {
+  width:100%;
+  height:25%;
+  background:url(http://www.azoft.com/images/content/banner.jpg) repeat;
+
+  }
+.child{
+	
+
+   background: rgba(255,255,255, .5);  
+
+	
+	
+}
+#text
+{
+  font-style:italic; 
+    font-size:30px;
+    color :  #00FF00;
+    text-align:center;
+}
+
+
+body{
+    background-color:#ccccff;}
+#bar {
+
+    background-color:#3399ff;
+   
+   
+}
+li{
+  float:left;  
+}
+a
+{
+display:block;
+width:300px;
+background-color:#3399ff;
+}
+b
+{
+display:block;
+width:100px;
+background-color:#ff9933;
+}
