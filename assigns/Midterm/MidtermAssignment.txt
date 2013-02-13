@@ -7,10 +7,9 @@ Mid-term project
    - Find your teammates.  
    - Come up with a team name.
    - Create a folder in "BIA660-2013S/assigns/Midterm" with your team name 
-   - Create a file in your team's foldercalled "team_members.txt" that has each
+   - Create a file in your team's folder called "team_members.txt" that has each
      team member's name and email address on one line 
-   - Determine how you will
-     coordinate and communicate for the project
+   - Determine how you will coordinate and communicate for the project
 
 2. Begin the project:
    - Pick a company to "represent" (e.g., Coca-cola)
