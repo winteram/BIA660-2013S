@@ -1,0 +1,24 @@
+me@google.com
+ME@YAHOO.COM
+WINTER.MASON@YAHOO.COM
+winter.mason@yahoo.com
+this is a test me@example.com
+this is a harder test me@example.com.
+An email in context me@example.com is hard.
+alpha123@google.com
+alpha.123@google.com
+123@google.com
+under_score@mail.edu
+h@bit.ly
+oddly+@mail.com
+
+
+---------------------
+
+@twitter handle
+not.valid@domain
+domain@valid.butnotreally
+This&isn't@right.com
+not=valid@domain.com
+also@not@valid@domain.com
+
