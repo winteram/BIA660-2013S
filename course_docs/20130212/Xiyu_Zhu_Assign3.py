@@ -7,7 +7,7 @@ Email+="\."
 Email+="[a-zA-Z0-9_-]{1,99}$"
 
 email = re.compile(Email)
-fh=open("Email.txt")
+fh=open("testEmails.txt")
 emails = fh.readlines()
 
 for em in emails:
