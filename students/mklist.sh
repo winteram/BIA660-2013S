@@ -1,0 +1,1 @@
+cut -d',' -f 2 EmailList.txt | tr "\\n" "," > emaillist.csv
