@@ -27,7 +27,7 @@ followers = []
 regexurls = re.compile("(https?://)*([a-zA-Z0-9]+\.)*[a-zA-Z0-9]+\.[a-zA-Z]{2,4}(/[a-zA-Z0-9_\(\)\-]*)*")
 
 for tweet in someTweets:
- 	if first:
+    if first:
     	pp.pprint(tweet)
     	first = False
     if 'text' in tweet:
