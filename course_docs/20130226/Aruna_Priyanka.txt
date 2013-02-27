@@ -1,0 +1,17 @@
+TestEmail Code
+Submitted by Aruna Cheruvu and Priyanka Kalangutkar
+
+// This code takes an input file containing correct and incorrect email ids and prints out email ids with correct format against "Correct :" and the incorrect ones against "Incorrect:". (Replace file provided by professor in the place of "RegEx1.txt" with full path)
+
+
+import re
+
+pattern = '(^[a-z0-9A-Z][\w\-\.]+@\w[\w\-]+[\.][a-zA-Z]{2,3}$)'
+RegEx = re.compile(pattern)
+fh = open("RegEx1.txt",'r')
+testit = fh.readlines()
+for i in testit:
+  if RegEx.findall(i):
+    print "Correct: %s" %i
+  else:
+    print "Incorrect: %s" %i
