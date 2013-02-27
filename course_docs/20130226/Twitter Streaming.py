@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# <nbformat>3.0</nbformat>
+
+# <codecell>
+
 # do pip install tweepy first
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
@@ -49,5 +54,7 @@ auth.set_access_token(access_token, access_token_secret)
 
 stream = Stream(auth, lis, timeout=60)	
 stream.filter(track=['song'])
+
+# <rawcell>
 
 
