@@ -20,18 +20,20 @@ class StdOutListener(StreamListener):
 	"""
 	def __init__(self):
 		self.tweets = []
+		self.starttime = time.strftime("%d_%H_%M",time.localtime())
 
 	def on_data(self, data):
 		tweet = json.loads(data)
-		print tweet
+#		print tweet
 		self.tweets.append(tweet)
-		if len(self.tweets) > 30:
+		if len(self.tweets) % 30 == 0:
 			print len(self.tweets)
 			twitterData = pd.DataFrame(self.tweets)
-			now = time.strftime("%d_%h_%m",time.localtime())
-			twitterData.to_csv("tweets_"+now+".csv",encoding="utf-8")
-			self.tweets = []
-		return True
+			twitterData.to_csv("tweets_"+self.starttime+".csv",encoding="utf-8")
+		if len(self.tweets) > 200:
+			exit(0)
+		else:
+			return True
 
 	def on_error(self, status):
 		print status
