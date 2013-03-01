@@ -7,7 +7,7 @@ import twitter
 import re
 
 # create interface for Twitter API
-api = twitter.Api(consumer_secret='xr0nXTJytnMdN7XIsoUIGNErJ5QuPJYv92VfBJnX8XI',consumer_key='HrI9pkJWwsdTL1jv9fDmg',access_token_key='19202628-uzTh3h9JB6pM07JaB4fqA4oHnWffsd1blEwApA',access_token_secret='bpP3m3anqew88u3MGAWPqFGElUv5RG4zFkEUDkAD2A')
+api = twitter.Api(consumer_secret='yUp8DLewT0S88wOwqrDw',consumer_key='ReoGMpdkmdwuLR6hIVep1pk98Nye3Xb0XP4joPVoOY',access_token_key='1228573202-iZrLcTVmvuQ7aZbm4xtIqdgzcQQ2XZ9BlwCFtog',access_token_secret='a4U4T3hxD7VLJCNdlM4dZWxcWUUy7AD7IvonNQnk6o')
 
 # List of keywords
 keywds = ['flight','airline','usair','united','delta','jetblue']
