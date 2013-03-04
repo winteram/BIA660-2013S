@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="Twitter.css">
+<script src="http://mbostock.github.com/d3/d3.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<script>
+  $(function() {
+    $( "#menu" ).menu();
+  }); 
+</script>
+<style>
+ .ui-menu { 
+  width: 200px; 
+  }
+  #introduction {
+  opacity:0.5;
+  }
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+#h4 {
+ position: absolute;
+ top:700px;
+ left:250px;
+ width:500px;
+ height: 100px;
+ text-align:center;
+ opacity:0.5;
+}
+
+</style>
+</head>
+<div id="introduction">
+<h1> Preliminary Results of Sentiments Vs. Popularity (By Jie Ren)</h1>
+</div>  
+<ul id="menu">
+  <li>
+    <a href="#" style="text-decoration:none">YouTube</a>
+    <ul>
+      <li>
+        <a href="#">Top Rated</a>
+        <ul>
+          <li><a href="Youtube_Toprated_General.html">General</a></li>
+          <li><a href="Youtube_Toprated_Music.html">Music</a></li>
+          <li><a href="Youtube_Toprated_Howto.html">Howto</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Recently Featured</a>
+        <ul>
+          <li><a href="Youtube_Recentlyfeatured_General.html">General</a></li>
+          <li><a href="Youtube_Recentlyfeatured_Music.html">Music</a></li>
+          <li><a href="Youtube_Recentlyfeatured_Howto.html">Howto</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="Twitter.html" style="text-decoration:none">Twitter</a></li>
+</ul>
+<body>
+<script>
+var margin = {top: 60, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var color = d3.scale.category10();
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var toprated_music = [
+{"NumberofViews" :	1.00265972	,	"AverageRating" :	4.954437	,	"Category" :	"Music"}	,
+{"NumberofViews" :	0.55261395	,	"AverageRating" :	4.857248	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.47637623	,	"AverageRating" :	4.9387054	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.18878937	,	"AverageRating" :	4.8719697	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.72926793	,	"AverageRating" :	4.705564	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.40565	,	"AverageRating" :	4.917449	,	"Category" :	"Music"}	,
+{"NumberofViews" :	2.21338179	,	"AverageRating" :	4.866271	,	"Category" :	"Music"}	,
+{"NumberofViews" :	0.9614219	,	"AverageRating" :	4.936138	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.33152015	,	"AverageRating" :	4.9526324	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.87764519	,	"AverageRating" :	4.879128	,	"Category" :	"Music"}	,
+{"NumberofViews" :	3.17183613	,	"AverageRating" :	4.3406973	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.29250367	,	"AverageRating" :	4.9023075	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.58763983	,	"AverageRating" :	4.8681064	,	"Category" :	"Music"}	,
+{"NumberofViews" :	5.06290235	,	"AverageRating" :	4.296277	,	"Category" :	"Music"}	,
+{"NumberofViews" :	3.1229797	,	"AverageRating" :	3.1658936	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.47313048	,	"AverageRating" :	4.926847	,	"Category" :	"Music"}	,
+{"NumberofViews" :	0.69733199	,	"AverageRating" :	4.9567857	,	"Category" :	"Music"}	,
+{"NumberofViews" :	0.59107371	,	"AverageRating" :	4.9065237	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.82062346	,	"AverageRating" :	4.653444	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.47094952	,	"AverageRating" :	4.9259996	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.18474894	,	"AverageRating" :	4.7837477	,	"Category" :	"Music"}	,
+{"NumberofViews" :	8.25766203	,	"AverageRating" :	2.2571356	,	"Category" :	"Music"}	,
+{"NumberofViews" :	1.81362313	,	"AverageRating" :	3.9216483	,	"Category" :	"Music"}	,
+{"NumberofViews" :	0.7694461	,	"AverageRating" :	4.9430094	,	"Category" :	"Music"}	];
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+ svg.selectAll("dot")
+      .data(toprated_music)
+      .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 10)
+      .attr("cx", function(d) { return d.AverageRating*d.AverageRating*35; })
+      .attr("cy", function(d) { return height-d.NumberofViews*45; })
+      .style("fill", function(d) { return color(d.Category); });
+
+  x.domain(d3.extent(toprated_music, function(d) { return d.AverageRating; })).nice();
+  y.domain(d3.extent(toprated_music, function(d) { return d.NumberofViews; })).nice();
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+      .text("Average Rating");
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Number of Views (Hundred Million)")
+
+
+  var legend = svg.selectAll(".legend")
+      .data(color.domain())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 18)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d; });
+
+</script>
+<div id="h4">
+<h2>Top Rated YouTube Music Videos</h2>
+<h4>Note: This analysis compares 25 top rated YouTube music videos' average ratings with their numbers of views. The correlation is significantly negative: -0.85.</h4>
+</div>
+</body>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="Twitter.css">
+<script src="http://mbostock.github.com/d3/d3.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<script>
+  $(function() {
+    $( "#menu" ).menu();
+  }); 
+</script>
+<style>
+ .ui-menu { 
+  width: 200px; 
+  }
+  #introduction {
+  opacity:0.5;
+  }
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+#h4 {
+ position: absolute;
+ top:700px;
+ left:250px;
+ width:500px;
+ height: 100px;
+ text-align:center;
+ opacity:0.5;
+}
+
+</style>
+</head>
+<div id="introduction">
+<h1> Preliminary Results of Sentiments Vs. Popularity (By Jie Ren)</h1>
+</div>  
+<ul id="menu">
+  <li>
+    <a href="#" style="text-decoration:none">YouTube</a>
+    <ul>
+      <li>
+        <a href="#">Top Rated</a>
+        <ul>
+          <li><a href="Youtube_Toprated_General.html">General</a></li>
+          <li><a href="Youtube_Toprated_Music.html">Music</a></li>
+          <li><a href="Youtube_Toprated_Howto.html">Howto</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Recently Featured</a>
+        <ul>
+          <li><a href="Youtube_Recentlyfeatured_General.html">General</a></li>
+          <li><a href="Youtube_Recentlyfeatured_Music.html">Music</a></li>
+          <li><a href="Youtube_Recentlyfeatured_Howto.html">Howto</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="Twitter.html" style="text-decoration:none">Twitter</a></li>
+</ul>
+<body>
+<script>
+var margin = {top: 60, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var color = d3.scale.category10();
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var recentlyfeatured_howto = [
+{"NumberofViews" :	0.52925	,	"AverageRating" :	4.964137	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	4.24504	,	"AverageRating" :	4.9301696	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.17689	,	"AverageRating" :	4.9077196	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.71288	,	"AverageRating" :	4.983127	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.59232	,	"AverageRating" :	4.8787556	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	1.50755	,	"AverageRating" :	4.5217314	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.63966	,	"AverageRating" :	4.9433646	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.51738	,	"AverageRating" :	4.6792364	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.83296	,	"AverageRating" :	4.9571776	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.6819	,	"AverageRating" :	4.9369645	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.39634	,	"AverageRating" :	4.9789143	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.60955	,	"AverageRating" :	4.977744	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.53233	,	"AverageRating" :	4.866447	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.48969	,	"AverageRating" :	4.8814816	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	3.31609	,	"AverageRating" :	4.917013	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.69882	,	"AverageRating" :	4.543974	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.22694	,	"AverageRating" :	4.8024693	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.20559	,	"AverageRating" :	4.9583874	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.96933	,	"AverageRating" :	4.9081545	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.33605	,	"AverageRating" :	4.939394	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.52398	,	"AverageRating" :	4.874297	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.36143	,	"AverageRating" :	4.9289775	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.28956	,	"AverageRating" :	4.9625063	,	"Category" :	"Howto"}	,
+{"NumberofViews" :	0.22576	,	"AverageRating" :	4.97228	,	"Category" :	"Howto"}	];
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+ svg.selectAll("dot")
+      .data(recentlyfeatured_howto)
+      .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 10)
+      .attr("cx", function(d) { return d.AverageRating*d.AverageRating*35; })
+      .attr("cy", function(d) { return height-d.NumberofViews*45; })
+      .style("fill", function(d) { return color(d.Category); });
+
+  x.domain(d3.extent(recentlyfeatured_howto, function(d) { return d.AverageRating; })).nice();
+  y.domain(d3.extent(recentlyfeatured_howto, function(d) { return d.NumberofViews; })).nice();
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+      .text("Average Rating");
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Number of Views (Hundred Thousand)")
+
+
+  var legend = svg.selectAll(".legend")
+      .data(color.domain())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 18)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d; });
+
+</script>
+<div id="h4">
+<h2>Recently Featured YouTube Howto Videos</h2>
+<h4>Note: This analysis compares recently featured 25 YouTube howto videos' average ratings with their numbers of views. The correlation is negative: -0.05 and it is not significant.</h4>
+</div>
+</body>
