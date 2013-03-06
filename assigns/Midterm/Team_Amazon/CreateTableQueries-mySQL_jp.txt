@@ -1,0 +1,93 @@
+-- create table to capture customer sentiment (reviews)
+--    Loaded by Python code
+-- john procyk 2/24/2012
+-- BIA660
+
+CREATE TABLE `reviews` (
+
+  `IDReview` int(11) NOT NULL AUTO_INCREMENT,
+
+  `IDModel` varchar(45) DEFAULT NULL,
+
+  `Reviewer` varchar(45) DEFAULT NULL,
+
+  `ReviewDate` date DEFAULT NULL,
+
+  `ReviewTitle` varchar(140) DEFAULT NULL,
+
+  `Rating` int(11) DEFAULT NULL,
+
+  `IDSource` int(11) DEFAULT NULL,
+
+  PRIMARY KEY (`IDReview`),
+
+  UNIQUE KEY `IDReview_UNIQUE` (`IDReview`),
+
+  UNIQUE KEY `idxRvwRvwerDate_Unique` (`ReviewDate`,`Reviewer`,`IDReview`),
+
+  KEY `idxIDModel` (`IDModel`),
+
+  KEY `idxIDSource` (`IDSource`),
+
+  KEY `idxRating` (`Rating`),
+
+  KEY `idxReviewDate` (`ReviewDate`)
+
+) 
+
+
+
+
+
+-- create table to hold Source data (amazon.com, bn.com, etc)
+--    Table is loaded manually
+-- john procyk 2/24/2012
+-- BIA660
+
+CREATE TABLE `reviewsource` (
+
+  `IDSource` int(11) NOT NULL AUTO_INCREMENT,
+
+  `ReviewSource` varchar(45) DEFAULT NULL,
+
+  PRIMARY KEY (`IDSource`),
+
+  UNIQUE KEY `IDSource_UNIQUE` (`IDSource`)
+
+) 
+
+
+
+
+-- create table to hold eReader data (different models of kindle, Sony ereader, etc)
+--    Table is loaded manually
+-- john procyk 2/24/2012
+-- BIA660
+
+CREATE TABLE `reader` (
+
+  `IDModel` varchar(20) NOT NULL,
+
+  `Brand` varchar(45) DEFAULT NULL,
+
+  `Model` varchar(45) DEFAULT NULL,
+
+  `ModelDescr` varchar(45) DEFAULT NULL,
+
+  `ModelName` varchar(45) DEFAULT NULL,
+
+  PRIMARY KEY (`IDModel`),
+
+  UNIQUE KEY `IDModel_UNIQUE` (`IDModel`),
+
+  KEY `idxIDModel` (`IDModel`),
+
+  KEY `idxBrand` (`Brand`),
+
+  KEY `idxModel` (`Model`)
+
+)
+
+
+
+
