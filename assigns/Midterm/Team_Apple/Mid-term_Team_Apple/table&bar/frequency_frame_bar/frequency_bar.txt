@@ -1,0 +1,2 @@
+   1.Iphone  2.Galaxy  3.Lumia  4.IOS  5.Android  6.Windowsphone  7.Total Tweets
+0       325        43       60    723        213              13          311774
