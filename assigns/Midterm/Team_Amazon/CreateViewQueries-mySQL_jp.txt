@@ -1,0 +1,94 @@
+-- create view to capture complete records of customer sentiment (reviews)
+--    
+-- john procyk 2/24/2012
+-- BIA660
+
+
+CREATE VIEW procyk01.GetEReaderData AS
+
+SELECT R.IDModel
+
+	 , M.Brand
+
+	 , M.ModelDescr
+
+	 , R.ReviewDate
+
+	 , R.Reviewer
+
+	 , R.ReviewTitle
+
+	 , R.Rating
+
+	 , S.ReviewSource
+
+	 , year(R.ReviewDate) AS RevYr
+
+	 , month(R.ReviewDate) AS RevMo
+
+FROM procyk01.reviews as R INNER JOIN procyk01.reader as M
+
+	ON R.IDModel = M.IDModel
+
+	INNER JOIN procyk01.reviewsource as S
+
+	ON R.IDSource = S.IDSource
+
+
+
+
+-- create view to find duplicate records
+--    
+-- john procyk 2/24/2012
+-- BIA660
+
+
+CREATE VIEW procyk01.findduplicates AS 
+SELECT	 a.IDReview AS Aidreview
+	,a.Reviewer AS Areviewer
+	,a.ReviewDate AS Areviewdate
+	,a.ReviewTitle AS Areviewtitle
+	,b.IDReview AS Bidreview
+	,b.Reviewer AS Breviewer
+	,b.ReviewDate AS Breviewdate
+	,b.ReviewTitle AS Breviewtitle 
+FROM (reviews a join reviews b 
+ON (((a.ReviewDate = b.ReviewDate) 
+AND (a.ReviewTitle = b.ReviewTitle) 
+AND (a.Reviewer = b.Reviewer) 
+AND (a.IDReview > b.IDReview))))
+
+
+
+
+-- create view to get summaries by Yr/Mo/Brand/Descr
+--    
+-- john procyk 2/24/2012
+-- BIA660
+
+CREATE VIEW procyk01.GetEReaderDataByMonth AS
+
+SELECT     revYr
+
+	 , revMo
+
+	 , Brand
+
+	 , ModelDescr
+
+	 , count(*) 
+FROM procyk01.GetEReaderData
+
+GROUP BY revYr, revMo, Brand, ModelDescr
+
+ORDER BY revYr, revMo, Brand, ModelDescr;
+
+
+
+--    Usage --
+
+-- SELECT * 
+
+-- FROM procyk01.GetEReaderDataByMonth
+
+-- WHERE Brand = Sony
