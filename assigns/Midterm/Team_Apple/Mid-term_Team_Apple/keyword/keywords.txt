@@ -1,0 +1,9 @@
+brand: apple  samsung  htc  blackberry  nokia  motorola
+system: windows    android    Mac OS   iOS
+product: iphone   galaxy     nokia lumia     htc one
+
+
+电话我想搜('iphone','samsung galaxy','lumia')
+操作系统我搜('ios','android','windowsphone')
+
+

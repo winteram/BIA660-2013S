@@ -1,0 +1,10 @@
+  1.Product  2.Positive  3.Negative 4.Positive percentage  5.Tweets_Count
+0    Iphone       12916         955                93.12%          239328
+1    Galaxy         338          21                94.15%           46361
+2     Lumia         123           9                93.18%            4054
+
+
+      1.Product  2.Positive  3.Negative 4.Positive percentage  5.Tweets_Count
+0           Ios        1747         101                94.53%           40280
+1       Android        5713         435                92.92%          379752
+2  Windowsphone          50          10                83.33%            1411

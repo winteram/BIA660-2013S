@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="Twitter.css">
+<script src="http://mbostock.github.com/d3/d3.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<script>
+  $(function() {
+    $( "#menu" ).menu();
+  }); 
+</script>
+<style>
+ .ui-menu { 
+  width: 200px; 
+  }
+  #introduction {
+  opacity:0.5;
+  }
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+#h4 {
+ position: absolute;
+ top:700px;
+ left:250px;
+ width:500px;
+ height: 100px;
+ text-align:center;
+ opacity:0.5;
+}
+
+</style>
+</head>
+<div id="introduction">
+<h1> Preliminary Results of Sentiments Vs. Popularity (By Jie Ren)</h1>
+</div>  
+<ul id="menu">
+  <li>
+    <a href="#" style="text-decoration:none">YouTube</a>
+    <ul>
+      <li>
+        <a href="#">Top Rated</a>
+        <ul>
+          <li><a href="Youtube_Toprated_General.html">General</a></li>
+          <li><a href="Youtube_Toprated_Music.html">Music</a></li>
+          <li><a href="Youtube_Toprated_Howto.html">Howto</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Recently Featured</a>
+        <ul>
+          <li><a href="Youtube_Recentlyfeatured_General.html">General</a></li>
+          <li><a href="Youtube_Recentlyfeatured_Music.html">Music</a></li>
+          <li><a href="Youtube_Recentlyfeatured_Howto.html">Howto</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="Twitter.html" style="text-decoration:none">Twitter</a></li>
+</ul>
+<body>
+<script>
+var margin = {top: 60, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var color = d3.scale.category10();
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var toprated_general = [
+{"NumberofViews" :	2.09567815 ,	"AverageRating" :	4.7038403,	"Category" :	"Comedy",	"Title":	"Evolution of Dance - By Judson Laipply"},
+{"NumberofViews" :	1.00265972 ,	"AverageRating" :	4.954437,	"Category" :	"Music",	"Title":	"Linkin Park - Numb"},
+{"NumberofViews" :	1.38591743 ,	"AverageRating" :	4.8440475,	"Category" :	"Comedy",	"Title":	"Potter Puppet Pals: The Mysterious Ticking Noise"},
+{"NumberofViews" :	0.88187047 ,	"AverageRating" :	4.346497,	"Category" :	"News",	"Title":	"Chocolate Rain Original Song by Tay Zonday"},
+{"NumberofViews" :	5.09885223 ,	"AverageRating" :	4.494148,	"Category" :	"Comedy",	"Title":	"Charlie bit my finger - again !"},
+{"NumberofViews" :	0.72386468 ,	"AverageRating" :	4.760852,	"Category" :	"Animals",	"Title":	"The Mean Kitty Song"},
+{"NumberofViews" :	1.61957665 ,	"AverageRating" :	4.801504,	"Category" :	"Entertainment",	"Title":	"Jeff Dunham - Achmed the Dead Terrorist"},
+{"NumberofViews" :	1.47637623 ,	"AverageRating" :	4.9387054,	"Category" :	"Music",	"Title":	"Jason Mraz - I'm Yours (Live On Earth Single Video)"},
+{"NumberofViews" :	1.24037911 ,	"AverageRating" :	4.841713,	"Category" :	"Comedy",	"Title":	"Jizz In My Pants"},
+{"NumberofViews" :	1.05056937 ,	"AverageRating" :	4.9015746,	"Category" :	"Comedy",	"Title":	"Like A Boss (ft. Seth Rogen) - Uncensored Version"},
+{"NumberofViews" :	1.40565000 ,	"AverageRating" :	4.917449,	"Category" :	"Music",	"Title":	"Linkin Park - New Divide"},
+{"NumberofViews" :	2.21338179 ,	"AverageRating" :	4.866271,	"Category" :	"Music",	"Title":	"Taylor Swift - You Belong With Me"},
+{"NumberofViews" :	0.96142190 ,	"AverageRating" :	4.936138,	"Category" :	"Music",	"Title":	"Nirvana - Smells Like Teen Spirit"},
+{"NumberofViews" :	1.33152015 ,	"AverageRating" :	4.9526324,	"Category" :	"Music",	"Title":	"Eminem - When I'm Gone"},
+{"NumberofViews" :	3.17183613 ,	"AverageRating" :	4.3406973,	"Category" :	"Music",	"Title":	"Miley Cyrus - Party In The U.S.A."},
+{"NumberofViews" :	1.29250367 ,	"AverageRating" :	4.9023075,	"Category" :	"Music",	"Title":	"System Of A Down - Chop Suey!"},
+{"NumberofViews" :	1.58763983 ,	"AverageRating" :	4.8681064,	"Category" :	"Music",	"Title":	"Empire State of Mind Jay Z | Alicia Keys [OFFICIAL VIDEO]"},
+{"NumberofViews" :	5.06290235 ,	"AverageRating" :	4.296275,	"Category" :	"Music",	"Title":	"Lady Gaga - Bad Romance"},
+{"NumberofViews" :	3.12297970 ,	"AverageRating" :	3.1658936,	"Category" :	"Music",	"Title":	"Justin Bieber - One Time"},
+{"NumberofViews" :	1.47313048 ,	"AverageRating" :	4.926847,	"Category" :	"Music",	"Title":	"Eminem - Beautiful"},
+{"NumberofViews" :	1.47094952 ,	"AverageRating" :	4.9259996,	"Category" :	"Music",	"Title":	"Guns N Roses - November Rain"},
+{"NumberofViews" :	1.18474894 ,	"AverageRating" :	4.7837477,	"Category" :	"Music",	"Title":	"We Are The World 25 For Haiti - Official Video"},
+{"NumberofViews" :	8.25766203 ,	"AverageRating" :	2.2571356,	"Category" :	"Music",	"Title":	"Justin Bieber - Baby ft. Ludacris"},
+{"NumberofViews" :	1.40339490 ,	"AverageRating" :	4.909592,	"Category" :	"Music",	"Title":	"Travie McCoy: Billionaire ft. Bruno Mars [OFFICIAL VIDEO]"}
+];
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+ svg.selectAll("dot")
+      .data(toprated_general)
+      .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 10)
+      .attr("cx", function(d) { return d.AverageRating*d.AverageRating*35; })
+      .attr("cy", function(d) { return height-d.NumberofViews*45; })
+      .style("fill", function(d) { return color(d.Category); });
+
+  x.domain(d3.extent(toprated_general, function(d) { return d.AverageRating; })).nice();
+  y.domain(d3.extent(toprated_general, function(d) { return d.NumberofViews; })).nice();
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+      .text("Average Rating");
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Number of Views (Hundred Million)")
+
+
+  var legend = svg.selectAll(".legend")
+      .data(color.domain())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 18)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d; });
+
+</script>
+<div id="h4">
+<h2>Top Rated YouTube Videos</h2>
+<h4>Note: This analysis compares 25 top rated YouTube videos' average ratings with their numbers of views. The correlation is significantly negative: -0.81.</h4>
+</div>
+</body>
