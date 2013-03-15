@@ -13,8 +13,6 @@
 		Sen Yang: syang12@stevens.edu
 		Aruna: acheruvu@stevens.edu
 		Priyanka: pkalangu@stevens.edu
-
-	Created by Han Yan
 	
 '''
 

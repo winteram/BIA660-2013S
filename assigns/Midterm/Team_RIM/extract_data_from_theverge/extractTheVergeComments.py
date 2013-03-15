@@ -14,8 +14,6 @@
 		Aruna: acheruvu@stevens.edu
 		Priyanka: pkalangu@stevens.edu
 
-	Created by Han Yan
-
 '''
 
 import urllib2
