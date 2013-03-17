@@ -61,6 +61,7 @@ def autolabel(rects):
 
 autolabel(rects1)
 autolabel(rects2)
+
 plt.savefig("Attention_youtube.png")
 plt.show()
 
@@ -70,14 +71,12 @@ plt.xlabel('Series')
 plt.ylabel('Subscription Rate')
 plt.xticks( x + 0.4,  ('Dell','HP','Lenovo','Apple'))
 rects1=plt.bar(x, subscribe, color='b')
-def autolabel(rects):
+def autolabel2(rects):
     # attach some text labels
     for rect in rects:
         height = rect.get_height()
         plt.text(rect.get_x()+rect.get_width()/1.5, 1.01*height, '%d'%int(height),
                 ha='center', va='bottom')
-autolabel(rects1)
+autolabel2(rects1)
 plt.savefig("Subscription_rate.png")
 plt.show()
-f.close()
-

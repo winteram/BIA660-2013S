@@ -12,7 +12,6 @@ from matplotlib.ticker import FuncFormatter
 from pylab import *
 
 line_num = 0
-num1 = 0
 f=open('tweets_HP_04_13_06.csv','rU')
 reader=csv.reader(f)
 for row in reader:
@@ -32,6 +31,7 @@ pie(fracs, colors=colors, explode=explode, labels=labels, autopct='%1.4f%%', sha
 title('Comments for HP', bbox={'facecolor':'1', 'pad':5})
 plt.savefig("hp_comments.png")
 plt.show()
+num1 = 0
 x = np.arange(5)
 for row in reader:
     if(num1==0):
@@ -53,5 +53,3 @@ autolabel(rects1)
 plt.savefig("hp_prod.png")
 plt.show()
 f.close()
-
-

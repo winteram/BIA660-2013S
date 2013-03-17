@@ -12,7 +12,6 @@ from matplotlib.ticker import FuncFormatter
 from pylab import *
 
 line_num = 0
-num1 = 0
 f=open('tweets_DELL_04_13_24.csv','rU')
 reader=csv.reader(f)
 for row in reader:
@@ -33,11 +32,10 @@ pie(fracs, colors=colors, explode=explode, labels=labels, autopct='%1.4f%%', sha
 title('Comments for DELL', bbox={'facecolor':'1', 'pad':5})
 plt.savefig("dell_comments.png")
 plt.show()
-
+num1 = 0
 x = np.arange(4)
 for row in reader:
     num1 = num1 + 1
-    
 number = [int(row[1]),int(row[2]),int(row[3]),int(row[4])]
 ax = plt.subplot(111)
 width = 0.35
@@ -46,6 +44,7 @@ plt.ylabel('Attention Rate')
 rects1=plt.bar(x, number, color='g')
 plt.xticks( x + width,  ('Alienware','Inspiron','Latitude','XPS') )
 def autolabel(rects):
+    # attach some text labels
     for rect in rects:
         height = rect.get_height()
         plt.text(rect.get_x()+rect.get_width()/1.5, 1.01*height, '%d'%int(height),
@@ -54,3 +53,4 @@ autolabel(rects1)
 plt.savefig("dell_prod.png")
 plt.show()
 f.close()
+
