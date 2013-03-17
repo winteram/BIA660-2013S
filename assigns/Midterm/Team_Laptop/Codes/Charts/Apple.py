@@ -12,6 +12,7 @@ from matplotlib.ticker import FuncFormatter
 from pylab import *
 
 line_num = 0
+num1 = 0
 f=open('tweets_Apple_04_20_20.csv','rU')
 reader=csv.reader(f)
 for row in reader:
@@ -31,7 +32,6 @@ pie(fracs, colors=colors, explode=explode, labels=labels, autopct='%1.4f%%', sha
 title('Comments for Apple', bbox={'facecolor':'1', 'pad':5})
 plt.savefig("Apple_comments.png")
 plt.show()
-num1 = 0
 x = np.arange(2)
 for row in reader:
     if(num1==0):
@@ -44,7 +44,6 @@ plt.xlabel('Series')
 plt.ylabel('Attention Rate')
 rects1=plt.bar(x, number, color='orange')
 def autolabel(rects):
-    # attach some text labels
     for rect in rects:
         height = rect.get_height()
         plt.text(rect.get_x()+rect.get_width()/1.5, 1.01*height, '%d'%int(height),
