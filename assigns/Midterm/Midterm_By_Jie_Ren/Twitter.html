@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="Twitter.css">
+<script src="http://mbostock.github.com/d3/d3.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<script>
+  $(function() {
+    $( "#menu" ).menu();
+  }); 
+</script>
+<style>
+ .ui-menu { 
+  width: 200px; 
+  }
+  #introduction {
+  opacity:0.5;
+  }
+</style>
+</head>
+<div id="introduction">
+<h1> Preliminary Results of Sentiments Vs. Popularity (By Jie Ren)</h1>
+</div>  
+<ul id="menu">
+  <li>
+    <a href="#" style="text-decoration:none">Youtube</a>
+    <ul>
+      <li>
+        <a href="#">Top Rated</a>
+        <ul>
+          <li><a href="Youtube_Toprated_General.html">General</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Howto</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Recently Featured</a>
+        <ul>
+          <li><a href="#">General</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Howto</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="Twitter.html" style="text-decoration:none">Twitter</a></li>
+</ul>
+<div id="JieRen"></div>
+<div id="justin"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRn8T0vPKNID8Bhsw2bSGjwIJxLxqBjFqErG4XTNF8MoCExzFZjrQ" id="test1"  class="testClass" width="120" height="120"/></div>
+<div id="gaga"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiAooTBm_v8PdbyBx-sQ3K1Hq4K9oBjIKqyjr2G6D8NMmhlYSXg" id="test2"  class="testClass" width="120" height="120"/></div>
+<div id="taylor"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKZhAbb5UYr_Dpz6N3HVG83EqrkF1zYzQxWLOP6ZnPY4chngJU" id="test3"  class="testClass" width="120" height="120"/></div>
+<div id="kim"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR1_WczhkRf9hx-isjiKb_P-rwiYek_MFxnD4IWFKMYtSIN26Czjw" id="test4"  class="testClass" width="120" height="120"/></div>
+
+<!--- create textboxes that follow mouse pointers for the mouseover effect -->
+<div id="test1_box" class="Box"> <b>Sentiment score: <br />0.38<br />Twitter followers:<br />33,956,013</b></div>
+<div id="test2_box" class="Box"> <b>Sentiment score: <br />0.51<br /> Twitter followers: <br />33,778,672</b></div>
+<div id="test3_box" class="Box"> <b>Sentiment score: <br />0.585<br /> Twitter followers: <br />23,640,366</b></div>
+<div id="test4_box" class="Box"> <b>Sentiment score: <br />0.107<br /> Twitter followers: <br />17,320,267</b></div>
+<div id="h4">
+<h4>Note: This analysis compares 4 celebrities' sentiment scores with the numbers of their Twitter followers. The sentiment score is calculated as follows. First I selected 100 random tweets that mention each celebrity and substracted the number of negative words from the number of positive words for each tweet. Then I averaged the 100 tweets to calculate the sentiment score for each celebrity.</h4>
+</div>
+<body>
+<script src="Twitter.js" type="text/javascript"></script>
+
+</body>

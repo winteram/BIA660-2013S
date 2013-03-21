@@ -29,7 +29,7 @@ class StdOutListener(StreamListener):
 
 	def on_data(self, data):
 		tweet = json.loads(data)
-#		print tweet
+	#	print tweet
 		self.tweets.append(tweet)
 		if len(self.tweets) % 30 == 0:
 			print len(self.tweets)
