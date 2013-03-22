@@ -6,9 +6,11 @@
 import numpy as np
 from scipy import stats
 import pandas as pd
+'''
 import statsmodels.api as sm
 from pylab import *
 import matplotlib.pyplot as plt
+'''
 import twitter
 import re
 
@@ -69,6 +71,7 @@ for keyword in keywds:
 		# num negative words
 		tweet_dict['negative'] = len(re.findall('|'.join(negative_words),tweet.text))
 		d.append(tweet_dict)
+'''
 df = pd.DataFrame(d)
 
 # <codecell>
@@ -259,5 +262,6 @@ from twitter import Api
 import tweepy
 
 # <codecell>
+'''
 
 
