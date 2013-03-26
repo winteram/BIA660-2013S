@@ -1,0 +1,9 @@
+too much alcohol	1992	320	280	120
+much alcohol is	1992	310	280	118
+alcohol is bad	1992	400	290	110
+find my religion	1989	65	45	12
+who loves alcohol	1990	72	60	30
+loves alcohol and	1990	70	60	30
+alcohol and religion	1990	120	88	16
+alcohol is bad	1991	64	62	60
+religion is good	1999	170	160	50
