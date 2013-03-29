@@ -30,7 +30,7 @@ step = StreamingStep(name='Alcohol Step',
 	input='s3://datasets.elasticmapreduce/ngrams/books/20090715/eng-us-all/3gram/data',
 	output='s3n://bia660-winter/output/alcohol_religion')
 
-jobid = emrcon.run_jobflow(name='Alcohol Religion 7', log_uri='s3://bia660-winter/logfiles',steps=[step],num_instances=4)
+jobid = emrcon.run_jobflow(name='Alcohol Religion 9', log_uri='s3://bia660-winter/logfiles',steps=[step],num_instances=4)
 print "Job created: %s" % jobid
 
 status = emrcon.describe_jobflow(jobid)
