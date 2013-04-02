@@ -8,7 +8,7 @@ def main(argv):
 	for line in sys.stdin:
 		if idx == 0:
 			print line
-		elif idx % 100 == 0:
+		elif idx % 100000 == 0:
 			print >> sys.stderr, str(idx) + "th line"
 			if nlenerr > 0:
 				print >> sys.stderr, str(nlenerr)
@@ -20,6 +20,9 @@ def main(argv):
 			continue
 		data = line.split('\t')
 		words = data[0].split()
+		if len(data[1]) != 4:
+			print >> sys.stderr, "bad year: %s" % data[1]
+
 		for word in words:
 			if word.lower() == 'alcohol':
 				print >> sys.stdout, 'alcohol-%s\t%s\t%s' % (data[1],data[2],data[3])
