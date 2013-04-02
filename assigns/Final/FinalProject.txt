@@ -1,0 +1,39 @@
+BIA660 - Web Analytics
+Spring 2013
+Final project
+
+
+1. Organize your team:  
+	- Come up with a team name.
+	- Change the folder in "BIA660-2013S/assigns/Final" to your team name 
+	- Choose a team coordinator, whose responsibility is to ensure the team is communicating effectively and work is being completed in a timely manner.
+	- Determine how you will communicate about and collaborate on the project.
+
+2. Come up with a final project & work plan
+	- The project can take one of two forms:
+		1. Choose a business or organization and collect data and do analyses to generate actionable insights.  The objective is to persuade product managers, CEOs, COOs, etc., to change the way they do business.  Therefore, the analyses and report must be convincing!
+		2. Use data to create an online application that would be of interest to consumers.  In other words, use data & analytics to create a web site that generates traffic!
+		- Bonus: Use a data set large enough that it requires Hadoop
+		- Bonus: Draw from diverse data sets
+		- Bonus: Merge multiple data sets on key variables
+	- Write 1 page summary of project idea & work plan DUE 11:59pm EST APRIL 8, 2013
+
+3. Write Python code to:
+	- pull data from the data sources
+	- clean and validate the data
+	- analyze the data
+	- visualize the analyses
+
+4. Write a 5+ page report (including graphics) explaining:
+	- the purpose of your final project 
+	- from where and how you obtained the data
+		AND
+	- what analyses you conducted
+	- what insights you obtained from your analysis
+		OR
+	- what product you created
+	- what benefit customers receive from your product
+
+5. Prepare a presentation based on the report
+
+6. Evaluate yourself and your teammates on teamwork
