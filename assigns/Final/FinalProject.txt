@@ -18,7 +18,7 @@ Final project
 		- Bonus: Merge multiple data sets on key variables
 	- Write 1 page summary of project idea & work plan DUE 11:59pm EST APRIL 8, 2013
 
-3. Write Python code to:
+3. Write code to:
 	- pull data from the data sources
 	- clean and validate the data
 	- analyze the data
