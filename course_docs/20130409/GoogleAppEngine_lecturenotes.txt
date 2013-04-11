@@ -1,0 +1,91 @@
+Notes for lecture on Google App Engine
+
+Comments:
+- Won't detect changes unless pyobjc installed
+- Need to install jinja2 locally
+
+Process:
+- Start with design overview: what do you want the appliction / website to look like eventually?
+- Think about the overall process, from getting the data to processing it, to what the output will be and what it will look like
+- Consider how data will be stored: what are the fields, what are the tables, what are the connections between tables?
+- Mark the dynamic parts and note how they might work
+- With design in mind, now start building.
+
+- Copy "hello world" app from tutorial.  Good to have a starting place
+- Copy & modify app.yaml
+- Open Google App Engine Launcher, create new application, Run
+- Open localhost:8080 or 9080 to verify it works
+- Create template html file (using jinja templating if necessary)
+	- create static css file with placeholders for each div
+	- create placeholders for data viz segments
+	- Add script blocks for jquery / jquery ui
+- add static css file location to app.yaml
+
+- map template values to values in app
+
+- create database classes in main app (alumni-outcomes.py)
+- Datastore can handle files as well, but have to submit as form with type='file'
+- AJAX elements need to be served by main app, so must be separate class to handle posts (LoadContent)
+- Write javascript that posts to those classes
+	- init function: checks available templates, disables radio button if none, creates drop-down menu if one or more
+	- Progress bar: every second asks for update on number crawled & changes progress bar. 
+	- Use console.log to verify progress
+	- Test on pieces, debug with console log in GoogleAppEngineLauncher
+
+- For interacting with LinkedIn, have to send user to LinkedIn authentication and then when they return, record the token
+- Write a handler just for that purpose.
+- First responds to initialization by sending user to LinkedIn for authentication
+- Next gets return from LinkedIn and gets token
+
+
+Design overview:
+
+- Application title: Alumni outcomes
+- Input: 
+	- load from file + name of school (provide advice on choosing school name) + name for input job (to identify input list for continuing pull)
+		OR
+	- choose from existing job (to continue pulling)
+	- Move input to data store
+- Processing:
+	- For each name, search name + school
+	- Save # of results found
+	- Mark names as crawled
+	- Catch throttle limit on crawl & alert when reached
+- Data format:
+	- class: template
+		- template name
+		- date created
+		- input file name?
+		- school name
+	- class: person (parent = template)
+		- input first name (required) [string]
+		- input last name (required) [string]
+		- is crawled [boolean]
+		- number of results [integer]
+		- crawled first name [string]
+		- crawled last name [string]
+		- industry [string]
+		- location name [string]
+		- country code [string]
+	- class: job position (parent = person)
+		- job title [string]
+		- company name [string]
+- Analyses:
+	- Percent from list with exact matches
+	- Histogram of regions
+	- Pie chart of countries
+	- Histogram of industries
+	- Wordle of titles
+- Layout:
+	- Top section has Title, brief description, and radio button for new / existing.
+	- At bottom of top section is displayed either input box for uploading a file + school name or drop-down menu for existing jobs (depending on radio button selection), and button to begin / continue process or "show" for completed jobs
+	- Bottom section is blank at first, has progress bar while loading, and after completion or throttle limit displays analysis results when complete below progress bar.
+- Dynamic components
+	- Upload file requires dialog to find local file name, & copy to server to process file & put in data store
+	- Job name has to be unique (check against existing names in data store)
+	- Existing job list has to be populated
+	- Progress bar has to be updated with % of names crawled
+	- As names are crawled, data has to be put in data store
+
+
+
