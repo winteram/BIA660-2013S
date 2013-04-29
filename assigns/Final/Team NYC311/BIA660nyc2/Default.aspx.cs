@@ -101,6 +101,9 @@ public partial class _Default : System.Web.UI.Page
             OdbcDataReader reader1 = cmdO.ExecuteReader();
             Chart1.DataSource = reader1;
             Chart1.DataBind();
+
+            Chart1.Series["Series1"].ToolTip = "#VALX\nCount: #VALY";
+
             reader1.Close();
             con1.Close();
 
@@ -122,6 +125,9 @@ public partial class _Default : System.Web.UI.Page
             OdbcDataReader reader2 = cmd2.ExecuteReader();
             Chart2.DataSource = reader2;
             Chart2.DataBind();
+
+            Chart2.Series["Series1"].ToolTip = "#VALX\nCount: #VALY";
+            
             reader2.Close();
             con2.Close();
 
@@ -178,5 +184,9 @@ public partial class _Default : System.Web.UI.Page
 
     protected void GridView2_SelectedIndexChanged(object sender, EventArgs e)
     {
+    }
+    protected void Chart1_Click(object sender, ImageMapEventArgs e)
+    {
+
     }
 }
