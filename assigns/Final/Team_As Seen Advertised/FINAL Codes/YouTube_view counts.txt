@@ -1,0 +1,27 @@
+import gdata.youtube
+import gdata.youtube.service
+
+yt_service = gdata.youtube.service.YouTubeService()
+
+# authorize - you need to sign up for your own access key, or be rate-limited
+yt_service.developer_key = 'AIzaSyAegxS1vJGs-5ioXZYikW8F7wCvGNK4OGA'
+yt_service.client_id = '629522983852.apps.googleusercontent.com'
+
+def PrintEntryDetails(entry):
+    print 'Video title: %s' % entry.media.title.text
+    print 'Video watch page: %s' % entry.media.player.url
+    print 'Video flash player URL: %s' % entry.GetSwfUrl()
+    print 'Video tags: %s' % entry.media.keywords.text
+    print 'Video duration: %s' % entry.media.duration.seconds
+    print 'Video view count: %s' % entry.statistics.view_count
+
+
+if __name__=="__main__":    
+    query = gdata.youtube.service.YouTubeVideoQuery()
+    query.vq = 'hello world!'
+    query.orderby = 'viewCount'
+    query.racy = 'include'
+    query.time= 'all_time'
+    feed = yt_service.YouTubeQuery(query)
+    for entry in feed.entry:
+        PrintEntryDetails(entry)

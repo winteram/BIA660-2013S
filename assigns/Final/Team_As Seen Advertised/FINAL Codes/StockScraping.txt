@@ -1,0 +1,57 @@
+import urllib, csv, re
+
+##Doritos etrade google godaddy coca-cola
+
+
+base_url = "http://ichart.finance.yahoo.com/table.csv?s="
+ticker_symbol_list = ("pep","dady","ko","etfc")
+directory="S&P"
+
+
+filename = "Stock_prices2.csv"
+filetowrite = csv.writer(open(filename, "wb"))
+
+
+for ticker_symbol in ticker_symbol_list:
+
+    stock_url = base_url + ticker_symbol
+
+
+    def pull_historical_data():
+        try:
+            urllib.urlretrieve(stock_url, ticker_symbol + ".csv")
+        except urllib.ContentTooShortError as e:
+            outfile = open(make_filename(ticker_symbol, directory), "w")
+            outfile.write(e.content)
+            outfile.close()
+
+    pull_historical_data()
+
+
+    with open(ticker_symbol+'.csv', 'rb') as csvfile:
+        jan10_date_script = '(2010-01-04),([0-9.]*),'
+        jan11_date_script = '(2011-01-03),([0-9.]*),'
+        jan12_date_script = '(2012-01-04),([0-9.]*),'
+        apr10_date_script = '(2010-04-01),([0-9.]*),'
+        apr11_date_script = '(2011-04-01),([0-9.]*),'
+        apr12_date_script = '(2012-04-02),([0-9.]*),'
+       
+        spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for row in spamreader:
+            row1 = ', '.join(row)
+            record = []
+            record += re.findall(jan10_date_script,row1)
+            record += re.findall(jan11_date_script,row1)
+            record += re.findall(jan12_date_script,row1)
+            record += re.findall(apr10_date_script,row1)
+            record += re.findall(apr11_date_script,row1)
+            record += re.findall(apr12_date_script,row1)
+
+
+            if record != []:
+
+                record += (ticker_symbol,)
+                        
+                print record
+                filetowrite.writerow(record)
+            #print ', '.join(row)
