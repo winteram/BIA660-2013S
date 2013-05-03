@@ -1,0 +1,684 @@
+{
+    "2002": {
+        "Charlton Athletic": {
+            "Goal Different": "-11"
+        }, 
+        "Southampton": {
+            "Goal Different": "-3"
+        }, 
+        "Manchester United": {
+            "Goal Different": "40"
+        }, 
+        "Liverpool": {
+            "Goal Different": "20"
+        }, 
+        "Fulham": {
+            "Goal Different": "-9"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "-11"
+        }, 
+        "Birmingham City": {
+            "Goal Different": "-8"
+        }, 
+        "Leeds United": {
+            "Goal Different": "1"
+        }, 
+        "West Ham United": {
+            "Goal Different": "-17"
+        }, 
+        "Manchester City": {
+            "Goal Different": "-7"
+        }, 
+        "Arsenal": {
+            "Goal Different": "43"
+        }, 
+        "Bolton Wanderers": {
+            "Goal Different": "-10"
+        }, 
+        "West Bromwich Albion": {
+            "Goal Different": "-36"
+        }, 
+        "Middlesbrough": {
+            "Goal Different": "4"
+        }, 
+        "Newcastle United": {
+            "Goal Different": "15"
+        }, 
+        "Aston Villa": {
+            "Goal Different": "-5"
+        }, 
+        "Blackburn Rovers": {
+            "Goal Different": "9"
+        }, 
+        "Everton": {
+            "Goal Different": "-1"
+        }, 
+        "Chelsea": {
+            "Goal Different": "30"
+        }, 
+        "Sunderland": {
+            "Goal Different": "-44"
+        }
+    }, 
+    "2003": {
+        "Charlton Athletic": {
+            "Goal Different": "0"
+        }, 
+        "Southampton": {
+            "Goal Different": "-1"
+        }, 
+        "Manchester United": {
+            "Goal Different": "29"
+        }, 
+        "Liverpool": {
+            "Goal Different": "18"
+        }, 
+        "Fulham": {
+            "Goal Different": "6"
+        }, 
+        "Portsmouth": {
+            "Goal Different": "-7"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "-10"
+        }, 
+        "Birmingham City": {
+            "Goal Different": "-5"
+        }, 
+        "Leeds United": {
+            "Goal Different": "-39"
+        }, 
+        "Aston Villa": {
+            "Goal Different": "4"
+        }, 
+        "Arsenal": {
+            "Goal Different": "47"
+        }, 
+        "Bolton Wanderers": {
+            "Goal Different": "-8"
+        }, 
+        "Middlesbrough": {
+            "Goal Different": "-8"
+        }, 
+        "Newcastle United": {
+            "Goal Different": "12"
+        }, 
+        "Blackburn Rovers": {
+            "Goal Different": "-8"
+        }, 
+        "Everton": {
+            "Goal Different": "-12"
+        }, 
+        "Wolverhampton Wanderers": {
+            "Goal Different": "-39"
+        }, 
+        "Chelsea": {
+            "Goal Different": "37"
+        }, 
+        "Leicester City": {
+            "Goal Different": "-17"
+        }, 
+        "Manchester City": {
+            "Goal Different": "1"
+        }
+    }, 
+    "2006": {
+        "Charlton Athletic": {
+            "Goal Different": "-26"
+        }, 
+        "Manchester United": {
+            "Goal Different": "56"
+        }, 
+        "Liverpool": {
+            "Goal Different": "30"
+        }, 
+        "Fulham": {
+            "Goal Different": "-22"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "3"
+        }, 
+        "Manchester City": {
+            "Goal Different": "-15"
+        }, 
+        "West Ham United": {
+            "Goal Different": "-24"
+        }, 
+        "Aston Villa": {
+            "Goal Different": "2"
+        }, 
+        "Arsenal": {
+            "Goal Different": "28"
+        }, 
+        "Newcastle United": {
+            "Goal Different": "-9"
+        }, 
+        "Bolton Wanderers": {
+            "Goal Different": "-5"
+        }, 
+        "Wigan Athletic": {
+            "Goal Different": "-22"
+        }, 
+        "Middlesbrough": {
+            "Goal Different": "-5"
+        }, 
+        "Portsmouth": {
+            "Goal Different": "3"
+        }, 
+        "Watford": {
+            "Goal Different": "-30"
+        }, 
+        "Blackburn Rovers": {
+            "Goal Different": "-2"
+        }, 
+        "Everton": {
+            "Goal Different": "16"
+        }, 
+        "Reading": {
+            "Goal Different": "5"
+        }, 
+        "Chelsea": {
+            "Goal Different": "40"
+        }, 
+        "Sheffield United": {
+            "Goal Different": "-23"
+        }
+    }, 
+    "2007": {
+        "Derby County": {
+            "Goal Different": "-69"
+        }, 
+        "Sunderland": {
+            "Goal Different": "-23"
+        }, 
+        "Manchester United": {
+            "Goal Different": "58"
+        }, 
+        "Liverpool": {
+            "Goal Different": "39"
+        }, 
+        "Fulham": {
+            "Goal Different": "-22"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "5"
+        }, 
+        "Manchester City": {
+            "Goal Different": "-8"
+        }, 
+        "West Ham United": {
+            "Goal Different": "-8"
+        }, 
+        "Aston Villa": {
+            "Goal Different": "20"
+        }, 
+        "Arsenal": {
+            "Goal Different": "43"
+        }, 
+        "Newcastle United": {
+            "Goal Different": "-20"
+        }, 
+        "Bolton Wanderers": {
+            "Goal Different": "-18"
+        }, 
+        "Wigan Athletic": {
+            "Goal Different": "-17"
+        }, 
+        "Middlesbrough": {
+            "Goal Different": "-10"
+        }, 
+        "Portsmouth": {
+            "Goal Different": "8"
+        }, 
+        "Blackburn Rovers": {
+            "Goal Different": "2"
+        }, 
+        "Everton": {
+            "Goal Different": "22"
+        }, 
+        "Reading": {
+            "Goal Different": "-25"
+        }, 
+        "Chelsea": {
+            "Goal Different": "39"
+        }, 
+        "Birmingham City": {
+            "Goal Different": "-16"
+        }
+    }, 
+    "2004": {
+        "Charlton Athletic": {
+            "Goal Different": "-16"
+        }, 
+        "Southampton": {
+            "Goal Different": "-21"
+        }, 
+        "Manchester United": {
+            "Goal Different": "32"
+        }, 
+        "Liverpool": {
+            "Goal Different": "11"
+        }, 
+        "Portsmouth": {
+            "Goal Different": "-16"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "6"
+        }, 
+        "Aston Villa": {
+            "Goal Different": "-7"
+        }, 
+        "Birmingham City": {
+            "Goal Different": "-6"
+        }, 
+        "Manchester City": {
+            "Goal Different": "8"
+        }, 
+        "Arsenal": {
+            "Goal Different": "51"
+        }, 
+        "Newcastle United": {
+            "Goal Different": "-10"
+        }, 
+        "Bolton Wanderers": {
+            "Goal Different": "5"
+        }, 
+        "Crystal Palace": {
+            "Goal Different": "-21"
+        }, 
+        "West Bromwich Albion": {
+            "Goal Different": "-25"
+        }, 
+        "Middlesbrough": {
+            "Goal Different": "7"
+        }, 
+        "Fulham": {
+            "Goal Different": "-8"
+        }, 
+        "Blackburn Rovers": {
+            "Goal Different": "-11"
+        }, 
+        "Norwich City": {
+            "Goal Different": "-35"
+        }, 
+        "Everton": {
+            "Goal Different": "-1"
+        }, 
+        "Chelsea": {
+            "Goal Different": "57"
+        }
+    }, 
+    "2005": {
+        "Charlton Athletic": {
+            "Goal Different": "-14"
+        }, 
+        "Birmingham City": {
+            "Goal Different": "-22"
+        }, 
+        "Manchester United": {
+            "Goal Different": "38"
+        }, 
+        "Liverpool": {
+            "Goal Different": "32"
+        }, 
+        "Fulham": {
+            "Goal Different": "-10"
+        }, 
+        "Portsmouth": {
+            "Goal Different": "-25"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "15"
+        }, 
+        "Aston Villa": {
+            "Goal Different": "-13"
+        }, 
+        "West Ham United": {
+            "Goal Different": "-3"
+        }, 
+        "Manchester City": {
+            "Goal Different": "-5"
+        }, 
+        "Arsenal": {
+            "Goal Different": "37"
+        }, 
+        "Bolton Wanderers": {
+            "Goal Different": "8"
+        }, 
+        "Wigan Athletic": {
+            "Goal Different": "-7"
+        }, 
+        "West Bromwich Albion": {
+            "Goal Different": "-27"
+        }, 
+        "Middlesbrough": {
+            "Goal Different": "-10"
+        }, 
+        "Newcastle United": {
+            "Goal Different": "5"
+        }, 
+        "Blackburn Rovers": {
+            "Goal Different": "9"
+        }, 
+        "Everton": {
+            "Goal Different": "-15"
+        }, 
+        "Chelsea": {
+            "Goal Different": "50"
+        }, 
+        "Sunderland": {
+            "Goal Different": "-43"
+        }
+    }, 
+    "2008": {
+        "Manchester United": {
+            "Goal Different": "44"
+        }, 
+        "Liverpool": {
+            "Goal Different": "50"
+        }, 
+        "Stoke City": {
+            "Goal Different": "-17"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "0"
+        }, 
+        "Manchester City": {
+            "Goal Different": "8"
+        }, 
+        "West Ham United": {
+            "Goal Different": "-3"
+        }, 
+        "Aston Villa": {
+            "Goal Different": "6"
+        }, 
+        "Arsenal": {
+            "Goal Different": "31"
+        }, 
+        "Newcastle United": {
+            "Goal Different": "-19"
+        }, 
+        "Bolton Wanderers": {
+            "Goal Different": "-12"
+        }, 
+        "Wigan Athletic": {
+            "Goal Different": "-11"
+        }, 
+        "West Bromwich Albion": {
+            "Goal Different": "-31"
+        }, 
+        "Sunderland": {
+            "Goal Different": "-20"
+        }, 
+        "Fulham": {
+            "Goal Different": "5"
+        }, 
+        "Blackburn Rovers": {
+            "Goal Different": "-20"
+        }, 
+        "Hull City": {
+            "Goal Different": "-25"
+        }, 
+        "Everton": {
+            "Goal Different": "18"
+        }, 
+        "Portsmouth": {
+            "Goal Different": "-19"
+        }, 
+        "Chelsea": {
+            "Goal Different": "44"
+        }, 
+        "Middlesbrough": {
+            "Goal Different": "-29"
+        }
+    }, 
+    "2009": {
+        "Portsmouth": {
+            "Goal Different": "-32"
+        }, 
+        "Manchester United": {
+            "Goal Different": "58"
+        }, 
+        "Liverpool": {
+            "Goal Different": "26"
+        }, 
+        "Stoke City": {
+            "Goal Different": "-14"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "26"
+        }, 
+        "Aston Villa": {
+            "Goal Different": "13"
+        }, 
+        "Birmingham City": {
+            "Goal Different": "-9"
+        }, 
+        "Manchester City": {
+            "Goal Different": "28"
+        }, 
+        "Arsenal": {
+            "Goal Different": "42"
+        }, 
+        "Bolton Wanderers": {
+            "Goal Different": "-25"
+        }, 
+        "Wigan Athletic": {
+            "Goal Different": "-42"
+        }, 
+        "Sunderland": {
+            "Goal Different": "-8"
+        }, 
+        "Fulham": {
+            "Goal Different": "-7"
+        }, 
+        "Blackburn Rovers": {
+            "Goal Different": "-14"
+        }, 
+        "Hull City": {
+            "Goal Different": "-41"
+        }, 
+        "Everton": {
+            "Goal Different": "11"
+        }, 
+        "Burnley": {
+            "Goal Different": "-40"
+        }, 
+        "Wolverhampton Wanderers": {
+            "Goal Different": "-24"
+        }, 
+        "Chelsea": {
+            "Goal Different": "71"
+        }, 
+        "West Ham United": {
+            "Goal Different": "-19"
+        }
+    }, 
+    "2011": {
+        "Aston Villa": {
+            "Goal Different": "-16"
+        }, 
+        "Manchester United": {
+            "Goal Different": "56"
+        }, 
+        "Newcastle United": {
+            "Goal Different": "5"
+        }, 
+        "Wolverhampton Wanderers": {
+            "Goal Different": "-42"
+        }, 
+        "Fulham": {
+            "Goal Different": "-3"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "25"
+        }, 
+        "Norwich City": {
+            "Goal Different": "-14"
+        }, 
+        "Stoke City": {
+            "Goal Different": "-17"
+        }, 
+        "Manchester City": {
+            "Goal Different": "64"
+        }, 
+        "Arsenal": {
+            "Goal Different": "25"
+        }, 
+        "Swansea City": {
+            "Goal Different": "-7"
+        }, 
+        "Wigan Athletic": {
+            "Goal Different": "-20"
+        }, 
+        "West Bromwich Albion": {
+            "Goal Different": "-7"
+        }, 
+        "Sunderland": {
+            "Goal Different": "-1"
+        }, 
+        "Liverpool": {
+            "Goal Different": "7"
+        }, 
+        "Blackburn Rovers": {
+            "Goal Different": "-30"
+        }, 
+        "Everton": {
+            "Goal Different": "10"
+        }, 
+        "Queens Park Rangers": {
+            "Goal Different": "-23"
+        }, 
+        "Bolton Wanderers": {
+            "Goal Different": "-31"
+        }, 
+        "Chelsea": {
+            "Goal Different": "19"
+        }
+    }, 
+    "2010": {
+        "Birmingham City": {
+            "Goal Different": "-21"
+        }, 
+        "Manchester United": {
+            "Goal Different": "41"
+        }, 
+        "Liverpool": {
+            "Goal Different": "15"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "9"
+        }, 
+        "Aston Villa": {
+            "Goal Different": "-11"
+        }, 
+        "Stoke City": {
+            "Goal Different": "-2"
+        }, 
+        "Manchester City": {
+            "Goal Different": "27"
+        }, 
+        "Arsenal": {
+            "Goal Different": "29"
+        }, 
+        "Newcastle United": {
+            "Goal Different": "-1"
+        }, 
+        "Bolton Wanderers": {
+            "Goal Different": "-4"
+        }, 
+        "Wigan Athletic": {
+            "Goal Different": "-21"
+        }, 
+        "West Bromwich Albion": {
+            "Goal Different": "-15"
+        }, 
+        "Sunderland": {
+            "Goal Different": "-11"
+        }, 
+        "Fulham": {
+            "Goal Different": "6"
+        }, 
+        "Blackburn Rovers": {
+            "Goal Different": "-13"
+        }, 
+        "Everton": {
+            "Goal Different": "6"
+        }, 
+        "Wolverhampton Wanderers": {
+            "Goal Different": "-20"
+        }, 
+        "Chelsea": {
+            "Goal Different": "36"
+        }, 
+        "Blackpool": {
+            "Goal Different": "-23"
+        }, 
+        "West Ham United": {
+            "Goal Different": "-27"
+        }
+    }, 
+    "2012": {
+        "Aston Villa": {
+            "Goal Different": "-27"
+        }, 
+        "Southampton": {
+            "Goal Different": "-7"
+        }, 
+        "Manchester United": {
+            "Goal Different": "43"
+        }, 
+        "Liverpool": {
+            "Goal Different": "19"
+        }, 
+        "Stoke City": {
+            "Goal Different": "-11"
+        }, 
+        "Tottenham Hotspur": {
+            "Goal Different": "17"
+        }, 
+        "Norwich City": {
+            "Goal Different": "-20"
+        }, 
+        "West Ham United": {
+            "Goal Different": "-7"
+        }, 
+        "Manchester City": {
+            "Goal Different": "29"
+        }, 
+        "Arsenal": {
+            "Goal Different": "30"
+        }, 
+        "Newcastle United": {
+            "Goal Different": "-17"
+        }, 
+        "Swansea City": {
+            "Goal Different": "1"
+        }, 
+        "Wigan Athletic": {
+            "Goal Different": "-23"
+        }, 
+        "West Bromwich Albion": {
+            "Goal Different": "-1"
+        }, 
+        "Sunderland": {
+            "Goal Different": "-7"
+        }, 
+        "Fulham": {
+            "Goal Different": "-8"
+        }, 
+        "Everton": {
+            "Goal Different": "13"
+        }, 
+        "Queens Park Rangers": {
+            "Goal Different": "-27"
+        }, 
+        "Reading": {
+            "Goal Different": "-28"
+        }, 
+        "Chelsea": {
+            "Goal Different": "31"
+        }
+    }
+}

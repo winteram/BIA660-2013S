@@ -1,0 +1,904 @@
+{
+  "2003-04": {
+    "Albacete": {
+      "GC": 48, 
+      "GS": 40
+    }, 
+    "Real Valladolid": {
+      "GC": 56, 
+      "GS": 46
+    }, 
+    "Deportivo La Coru\u00c3\u00b1a": {
+      "GC": 34, 
+      "GS": 60
+    }, 
+    "Malaga": {
+      "GC": 55, 
+      "GS": 50
+    }, 
+    "Athletic Bilbao": {
+      "GC": 49, 
+      "GS": 53
+    }, 
+    "Real Madrid": {
+      "GC": 54, 
+      "GS": 72
+    }, 
+    "Racing Santander": {
+      "GC": 63, 
+      "GS": 48
+    }, 
+    "Real Betis": {
+      "GC": 43, 
+      "GS": 46
+    }, 
+    "Celta Vigo": {
+      "GC": 68, 
+      "GS": 48
+    }, 
+    "Barcelona": {
+      "GC": 39, 
+      "GS": 63
+    }, 
+    "Real Sociedad": {
+      "GC": 53, 
+      "GS": 49
+    }, 
+    "Villarreal": {
+      "GC": 49, 
+      "GS": 47
+    }, 
+    "Murcia": {
+      "GC": 57, 
+      "GS": 29
+    }, 
+    "Atletico Madrid": {
+      "GC": 53, 
+      "GS": 51
+    }, 
+    "Osasuna": {
+      "GC": 37, 
+      "GS": 38
+    }, 
+    "Real Zaragoza": {
+      "GC": 55, 
+      "GS": 46
+    }, 
+    "Sevilla FC": {
+      "GC": 45, 
+      "GS": 56
+    }, 
+    "Valencia": {
+      "GC": 27, 
+      "GS": 71
+    }, 
+    "Mallorca": {
+      "GC": 66, 
+      "GS": 54
+    }, 
+    "Espanyol": {
+      "GC": 64, 
+      "GS": 48
+    }
+  }, 
+  "2006-07": {
+    "Getafe": {
+      "GC": 33, 
+      "GS": 39
+    }, 
+    "Celta Vigo": {
+      "GC": 59, 
+      "GS": 40
+    }, 
+    "Deportivo La Coru\u00c3\u00b1a": {
+      "GC": 45, 
+      "GS": 32
+    }, 
+    "Athletic Bilbao": {
+      "GC": 62, 
+      "GS": 44
+    }, 
+    "Gimnastic de Tarragona": {
+      "GC": 69, 
+      "GS": 34
+    }, 
+    "Real Madrid": {
+      "GC": 40, 
+      "GS": 66
+    }, 
+    "Racing Santander": {
+      "GC": 48, 
+      "GS": 42
+    }, 
+    "Villarreal": {
+      "GC": 44, 
+      "GS": 48
+    }, 
+    "Barcelona": {
+      "GC": 33, 
+      "GS": 78
+    }, 
+    "Real Sociedad": {
+      "GC": 47, 
+      "GS": 32
+    }, 
+    "Real Zaragoza": {
+      "GC": 43, 
+      "GS": 55
+    }, 
+    "Atletico Madrid": {
+      "GC": 39, 
+      "GS": 46
+    }, 
+    "Osasuna": {
+      "GC": 49, 
+      "GS": 51
+    }, 
+    "Recreativo Huelva": {
+      "GC": 52, 
+      "GS": 54
+    }, 
+    "Sevilla FC": {
+      "GC": 35, 
+      "GS": 64
+    }, 
+    "Valencia": {
+      "GC": 42, 
+      "GS": 57
+    }, 
+    "Levante": {
+      "GC": 53, 
+      "GS": 37
+    }, 
+    "Real Betis": {
+      "GC": 49, 
+      "GS": 36
+    }, 
+    "Mallorca": {
+      "GC": 47, 
+      "GS": 41
+    }, 
+    "Espanyol": {
+      "GC": 53, 
+      "GS": 46
+    }
+  }, 
+  "2007-08": {
+    "Getafe": {
+      "GC": 48, 
+      "GS": 44
+    }, 
+    "Real Zaragoza": {
+      "GC": 61, 
+      "GS": 50
+    }, 
+    "Deportivo La Coru\u00c3\u00b1a": {
+      "GC": 47, 
+      "GS": 46
+    }, 
+    "Athletic Bilbao": {
+      "GC": 43, 
+      "GS": 40
+    }, 
+    "Real Madrid": {
+      "GC": 36, 
+      "GS": 84
+    }, 
+    "Racing Santander": {
+      "GC": 41, 
+      "GS": 42
+    }, 
+    "Real Betis": {
+      "GC": 51, 
+      "GS": 45
+    }, 
+    "Murcia": {
+      "GC": 65, 
+      "GS": 36
+    }, 
+    "Barcelona": {
+      "GC": 43, 
+      "GS": 76
+    }, 
+    "Real Valladolid": {
+      "GC": 57, 
+      "GS": 42
+    }, 
+    "Villarreal": {
+      "GC": 40, 
+      "GS": 63
+    }, 
+    "Atletico Madrid": {
+      "GC": 47, 
+      "GS": 66
+    }, 
+    "Osasuna": {
+      "GC": 44, 
+      "GS": 37
+    }, 
+    "Recreativo Huelva": {
+      "GC": 60, 
+      "GS": 40
+    }, 
+    "Sevilla FC": {
+      "GC": 49, 
+      "GS": 75
+    }, 
+    "Valencia": {
+      "GC": 62, 
+      "GS": 48
+    }, 
+    "Levante": {
+      "GC": 75, 
+      "GS": 33
+    }, 
+    "Almeria": {
+      "GC": 45, 
+      "GS": 42
+    }, 
+    "Mallorca": {
+      "GC": 54, 
+      "GS": 69
+    }, 
+    "Espanyol": {
+      "GC": 53, 
+      "GS": 43
+    }
+  }, 
+  "2008-09": {
+    "Getafe": {
+      "GC": 56, 
+      "GS": 50
+    }, 
+    "Deportivo La Coru\u00c3\u00b1a": {
+      "GC": 47, 
+      "GS": 48
+    }, 
+    "Malaga": {
+      "GC": 59, 
+      "GS": 55
+    }, 
+    "Athletic Bilbao": {
+      "GC": 62, 
+      "GS": 47
+    }, 
+    "Real Madrid": {
+      "GC": 52, 
+      "GS": 83
+    }, 
+    "Racing Santander": {
+      "GC": 48, 
+      "GS": 49
+    }, 
+    "Real Betis": {
+      "GC": 58, 
+      "GS": 51
+    }, 
+    "Barcelona": {
+      "GC": 35, 
+      "GS": 105
+    }, 
+    "Real Valladolid": {
+      "GC": 58, 
+      "GS": 46
+    }, 
+    "Villarreal": {
+      "GC": 54, 
+      "GS": 61
+    }, 
+    "Recreativo Huelva": {
+      "GC": 57, 
+      "GS": 34
+    }, 
+    "Atletico Madrid": {
+      "GC": 57, 
+      "GS": 80
+    }, 
+    "Osasuna": {
+      "GC": 47, 
+      "GS": 41
+    }, 
+    "Sporting Gijon": {
+      "GC": 79, 
+      "GS": 47
+    }, 
+    "Numancia": {
+      "GC": 69, 
+      "GS": 38
+    }, 
+    "Sevilla FC": {
+      "GC": 39, 
+      "GS": 54
+    }, 
+    "Valencia": {
+      "GC": 54, 
+      "GS": 68
+    }, 
+    "Almeria": {
+      "GC": 61, 
+      "GS": 45
+    }, 
+    "Mallorca": {
+      "GC": 60, 
+      "GS": 53
+    }, 
+    "Espanyol": {
+      "GC": 49, 
+      "GS": 46
+    }
+  }, 
+  "2011-12": {
+    "Getafe": {
+      "GC": 51, 
+      "GS": 40
+    }, 
+    "Osasuna": {
+      "GC": 61, 
+      "GS": 44
+    }, 
+    "Malaga": {
+      "GC": 53, 
+      "GS": 54
+    }, 
+    "Athletic Bilbao": {
+      "GC": 52, 
+      "GS": 49
+    }, 
+    "Villarreal": {
+      "GC": 53, 
+      "GS": 39
+    }, 
+    "Real Madrid": {
+      "GC": 32, 
+      "GS": 121
+    }, 
+    "Rayo Vallecano": {
+      "GC": 73, 
+      "GS": 53
+    }, 
+    "Racing Santander": {
+      "GC": 63, 
+      "GS": 28
+    }, 
+    "Real Sociedad": {
+      "GC": 52, 
+      "GS": 46
+    }, 
+    "Barcelona": {
+      "GC": 29, 
+      "GS": 114
+    }, 
+    "Real Zaragoza": {
+      "GC": 61, 
+      "GS": 36
+    }, 
+    "Atletico Madrid": {
+      "GC": 46, 
+      "GS": 53
+    }, 
+    "Sporting Gijon": {
+      "GC": 69, 
+      "GS": 42
+    }, 
+    "Sevilla FC": {
+      "GC": 47, 
+      "GS": 48
+    }, 
+    "Granada": {
+      "GC": 56, 
+      "GS": 35
+    }, 
+    "Valencia": {
+      "GC": 44, 
+      "GS": 59
+    }, 
+    "Levante": {
+      "GC": 50, 
+      "GS": 54
+    }, 
+    "Real Betis": {
+      "GC": 56, 
+      "GS": 47
+    }, 
+    "Mallorca": {
+      "GC": 46, 
+      "GS": 42
+    }, 
+    "Espanyol": {
+      "GC": 56, 
+      "GS": 46
+    }
+  }, 
+  "2004-05": {
+    "Getafe": {
+      "GC": 46, 
+      "GS": 38
+    }, 
+    "Albacete": {
+      "GC": 56, 
+      "GS": 33
+    }, 
+    "Deportivo La Coru\u00c3\u00b1a": {
+      "GC": 50, 
+      "GS": 46
+    }, 
+    "Malaga": {
+      "GC": 48, 
+      "GS": 40
+    }, 
+    "Athletic Bilbao": {
+      "GC": 54, 
+      "GS": 59
+    }, 
+    "Real Madrid": {
+      "GC": 32, 
+      "GS": 71
+    }, 
+    "Racing Santander": {
+      "GC": 58, 
+      "GS": 41
+    }, 
+    "Real Betis": {
+      "GC": 50, 
+      "GS": 62
+    }, 
+    "Numancia": {
+      "GC": 61, 
+      "GS": 30
+    }, 
+    "Barcelona": {
+      "GC": 29, 
+      "GS": 73
+    }, 
+    "Real Sociedad": {
+      "GC": 56, 
+      "GS": 47
+    }, 
+    "Villarreal": {
+      "GC": 37, 
+      "GS": 69
+    }, 
+    "Atletico Madrid": {
+      "GC": 34, 
+      "GS": 40
+    }, 
+    "Osasuna": {
+      "GC": 65, 
+      "GS": 46
+    }, 
+    "Real Zaragoza": {
+      "GC": 57, 
+      "GS": 52
+    }, 
+    "Sevilla FC": {
+      "GC": 41, 
+      "GS": 44
+    }, 
+    "Valencia": {
+      "GC": 39, 
+      "GS": 54
+    }, 
+    "Levante": {
+      "GC": 58, 
+      "GS": 39
+    }, 
+    "Mallorca": {
+      "GC": 63, 
+      "GS": 42
+    }, 
+    "Espanyol": {
+      "GC": 46, 
+      "GS": 54
+    }
+  }, 
+  "2009-10": {
+    "Getafe": {
+      "GC": 48, 
+      "GS": 58
+    }, 
+    "Deportivo La Coru\u00c3\u00b1a": {
+      "GC": 49, 
+      "GS": 35
+    }, 
+    "Sporting Gijon": {
+      "GC": 51, 
+      "GS": 36
+    }, 
+    "Athletic Bilbao": {
+      "GC": 53, 
+      "GS": 50
+    }, 
+    "Xerez": {
+      "GC": 66, 
+      "GS": 38
+    }, 
+    "Real Madrid": {
+      "GC": 35, 
+      "GS": 102
+    }, 
+    "Racing Santander": {
+      "GC": 59, 
+      "GS": 42
+    }, 
+    "Barcelona": {
+      "GC": 24, 
+      "GS": 98
+    }, 
+    "Real Valladolid": {
+      "GC": 62, 
+      "GS": 37
+    }, 
+    "Villarreal": {
+      "GC": 57, 
+      "GS": 58
+    }, 
+    "Atletico Madrid": {
+      "GC": 61, 
+      "GS": 57
+    }, 
+    "Osasuna": {
+      "GC": 46, 
+      "GS": 37
+    }, 
+    "Tenerife": {
+      "GC": 74, 
+      "GS": 40
+    }, 
+    "Real Zaragoza": {
+      "GC": 64, 
+      "GS": 46
+    }, 
+    "Sevilla FC": {
+      "GC": 49, 
+      "GS": 65
+    }, 
+    "Valencia": {
+      "GC": 40, 
+      "GS": 59
+    }, 
+    "Malaga": {
+      "GC": 48, 
+      "GS": 42
+    }, 
+    "Almeria": {
+      "GC": 55, 
+      "GS": 43
+    }, 
+    "Mallorca": {
+      "GC": 44, 
+      "GS": 59
+    }, 
+    "Espanyol": {
+      "GC": 46, 
+      "GS": 29
+    }
+  }, 
+  "2005-06": {
+    "Getafe": {
+      "GC": 49, 
+      "GS": 54
+    }, 
+    "Osasuna": {
+      "GC": 43, 
+      "GS": 49
+    }, 
+    "Alav\u00c3\u00a9s": {
+      "GC": 54, 
+      "GS": 35
+    }, 
+    "Athletic Bilbao": {
+      "GC": 46, 
+      "GS": 40
+    }, 
+    "Real Madrid": {
+      "GC": 40, 
+      "GS": 70
+    }, 
+    "Racing Santander": {
+      "GC": 49, 
+      "GS": 36
+    }, 
+    "Villarreal": {
+      "GC": 39, 
+      "GS": 50
+    }, 
+    "Atletico Madrid": {
+      "GC": 37, 
+      "GS": 45
+    }, 
+    "Barcelona": {
+      "GC": 35, 
+      "GS": 80
+    }, 
+    "Real Sociedad": {
+      "GC": 65, 
+      "GS": 48
+    }, 
+    "Malaga": {
+      "GC": 68, 
+      "GS": 36
+    }, 
+    "Celta Vigo": {
+      "GC": 33, 
+      "GS": 45
+    }, 
+    "Deportivo La Coru\u00c3\u00b1a": {
+      "GC": 45, 
+      "GS": 47
+    }, 
+    "Real Zaragoza": {
+      "GC": 51, 
+      "GS": 46
+    }, 
+    "Sevilla FC": {
+      "GC": 39, 
+      "GS": 54
+    }, 
+    "Valencia": {
+      "GC": 33, 
+      "GS": 58
+    }, 
+    "C\u00c3\u00a1diz": {
+      "GC": 52, 
+      "GS": 36
+    }, 
+    "Real Betis": {
+      "GC": 51, 
+      "GS": 34
+    }, 
+    "Mallorca": {
+      "GC": 51, 
+      "GS": 37
+    }, 
+    "Espanyol": {
+      "GC": 56, 
+      "GS": 36
+    }
+  }, 
+  "2012-13": {
+    "Getafe": {
+      "GC": 48, 
+      "GS": 39
+    }, 
+    "Celta Vigo": {
+      "GC": 47, 
+      "GS": 31
+    }, 
+    "Osasuna": {
+      "GC": 36, 
+      "GS": 26
+    }, 
+    "Malaga": {
+      "GC": 37, 
+      "GS": 45
+    }, 
+    "Athletic Bilbao": {
+      "GC": 57, 
+      "GS": 35
+    }, 
+    "Real Madrid": {
+      "GC": 30, 
+      "GS": 83
+    }, 
+    "Real Betis": {
+      "GC": 49, 
+      "GS": 48
+    }, 
+    "Barcelona": {
+      "GC": 33, 
+      "GS": 99
+    }, 
+    "Deportivo La Coru\u00c3\u00b1a": {
+      "GC": 64, 
+      "GS": 43
+    }, 
+    "Sevilla FC": {
+      "GC": 46, 
+      "GS": 48
+    }, 
+    "Atletico Madrid": {
+      "GC": 25, 
+      "GS": 57
+    }, 
+    "Mallorca": {
+      "GC": 64, 
+      "GS": 34
+    }, 
+    "Real Zaragoza": {
+      "GC": 51, 
+      "GS": 29
+    }, 
+    "Real Sociedad": {
+      "GC": 39, 
+      "GS": 57
+    }, 
+    "Granada": {
+      "GC": 51, 
+      "GS": 28
+    }, 
+    "Valencia": {
+      "GC": 46, 
+      "GS": 52
+    }, 
+    "Levante": {
+      "GC": 51, 
+      "GS": 35
+    }, 
+    "Rayo Vallecano": {
+      "GC": 52, 
+      "GS": 41
+    }, 
+    "Real Valladolid": {
+      "GC": 45, 
+      "GS": 41
+    }, 
+    "Espanyol": {
+      "GC": 42, 
+      "GS": 42
+    }
+  }, 
+  "2002-03": {
+    "Deportivo La Coru\u00c3\u00b1a": {
+      "GC": 47, 
+      "GS": 67
+    }, 
+    "Malaga": {
+      "GC": 49, 
+      "GS": 44
+    }, 
+    "Athletic Bilbao": {
+      "GC": 61, 
+      "GS": 63
+    }, 
+    "Real Madrid": {
+      "GC": 42, 
+      "GS": 86
+    }, 
+    "Racing Santander": {
+      "GC": 64, 
+      "GS": 54
+    }, 
+    "Real Betis": {
+      "GC": 53, 
+      "GS": 56
+    }, 
+    "Atletico Madrid": {
+      "GC": 56, 
+      "GS": 51
+    }, 
+    "Barcelona": {
+      "GC": 47, 
+      "GS": 63
+    }, 
+    "Real Valladolid": {
+      "GC": 40, 
+      "GS": 37
+    }, 
+    "Alav\u00c3\u00a9s": {
+      "GC": 68, 
+      "GS": 38
+    }, 
+    "Celta Vigo": {
+      "GC": 36, 
+      "GS": 45
+    }, 
+    "Recreativo Huelva": {
+      "GC": 61, 
+      "GS": 35
+    }, 
+    "Osasuna": {
+      "GC": 48, 
+      "GS": 40
+    }, 
+    "Sevilla FC": {
+      "GC": 39, 
+      "GS": 38
+    }, 
+    "Real Sociedad": {
+      "GC": 45, 
+      "GS": 71
+    }, 
+    "Villarreal": {
+      "GC": 53, 
+      "GS": 44
+    }, 
+    "Valencia": {
+      "GC": 35, 
+      "GS": 56
+    }, 
+    "Rayo Vallecano": {
+      "GC": 62, 
+      "GS": 31
+    }, 
+    "Mallorca": {
+      "GC": 56, 
+      "GS": 49
+    }, 
+    "Espanyol": {
+      "GC": 54, 
+      "GS": 48
+    }
+  }, 
+  "2010-11": {
+    "Getafe": {
+      "GC": 60, 
+      "GS": 49
+    }, 
+    "Osasuna": {
+      "GC": 46, 
+      "GS": 45
+    }, 
+    "Sporting Gijon": {
+      "GC": 42, 
+      "GS": 35
+    }, 
+    "Athletic Bilbao": {
+      "GC": 55, 
+      "GS": 59
+    }, 
+    "Real Madrid": {
+      "GC": 33, 
+      "GS": 102
+    }, 
+    "Racing Santander": {
+      "GC": 56, 
+      "GS": 41
+    }, 
+    "Real Sociedad": {
+      "GC": 66, 
+      "GS": 49
+    }, 
+    "Deportivo La Coru\u00c3\u00b1a": {
+      "GC": 47, 
+      "GS": 31
+    }, 
+    "Barcelona": {
+      "GC": 21, 
+      "GS": 95
+    }, 
+    "Mallorca": {
+      "GC": 56, 
+      "GS": 41
+    }, 
+    "Villarreal": {
+      "GC": 44, 
+      "GS": 54
+    }, 
+    "Atletico Madrid": {
+      "GC": 53, 
+      "GS": 62
+    }, 
+    "Real Zaragoza": {
+      "GC": 53, 
+      "GS": 40
+    }, 
+    "Sevilla FC": {
+      "GC": 61, 
+      "GS": 62
+    }, 
+    "Valencia": {
+      "GC": 44, 
+      "GS": 64
+    }, 
+    "Malaga": {
+      "GC": 68, 
+      "GS": 54
+    }, 
+    "Hercules": {
+      "GC": 60, 
+      "GS": 36
+    }, 
+    "Almeria": {
+      "GC": 70, 
+      "GS": 36
+    }, 
+    "Levante": {
+      "GC": 52, 
+      "GS": 41
+    }, 
+    "Espanyol": {
+      "GC": 55, 
+      "GS": 46
+    }
+  }
+}
