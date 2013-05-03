@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="./Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    BIA-660 Team NYC-311
+                </h1>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="./zipcodemap.aspx" Text="ZipCodeMap"/>
+                        <asp:MenuItem NavigateUrl="./Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="./TableauOct2012.aspx" Text="Tableau-Oct2012"/>
+                        <asp:MenuItem NavigateUrl="./TableauJan2013.aspx" Text="Tableau-Jan2013"/>
+                        <asp:MenuItem NavigateUrl="./About.aspx" Text="About"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+
+        <div class="clear">
+        </div>
+    </div>
+
+    <div class="footer">        
+    </div>
+
+    </form>
+</body>
+</html>

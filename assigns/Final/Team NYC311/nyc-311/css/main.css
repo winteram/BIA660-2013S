@@ -1,0 +1,172 @@
+.demo-headline {
+  padding: 3px 0 3px;
+  text-align: center; }
+
+.demo-logo {
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 100px; }
+  /*
+  .demo-logo .logo {
+    background: url("nyc_img.jpg") center 0 no-repeat;
+    background-size: 256px 186px;
+    height: 186px;
+    margin: 0 auto 26px;
+    overflow: hidden;
+    text-indent: -9999em;
+    width: 256px; }
+    */
+  .demo-logo small {
+    color: rgba(52, 73, 94, 0.5);
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-top: 5px; }
+
+.background_img {
+    height: 800px;
+    width: auto;
+    text-align: center;}
+  
+.content_back{
+    width: auto;
+    height: 3500px;
+
+    /*background-color: #ECF0F1;*/
+    box-shadow: 0px 0px 10px 2px #888888;
+  }
+
+.selection_box {
+    float:left;
+    margin-bottom: 20px;
+    width: 220px;}
+    
+#date_selection{
+    float: left;
+  }
+#selection_bar{
+  width: 98.8%;
+  height: auto;
+  position: absolute;
+  background-color: #1C1C1C;
+  box-shadow: 0px 0px 10px 2px #888888;
+}
+/*#wordcloud1{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 100px;
+    position: absolute;
+    border-style:hidden;
+    border-width:5px;
+    box-shadow: 0px 0px 10px 2px #888888;
+}
+#wordcloud2{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: 750px;
+    margin-top: 100px;
+    position: absolute;
+    border-style:hidden;
+    border-width:5px;
+    box-shadow: 0px 0px 10px 2px #888888;
+}*/
+#tableau_map{
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 100px;
+    position: absolute;
+    border-style:hidden;
+    border-width:5px;
+    box-shadow: 0px 0px 10px 2px #888888; 
+
+}
+#line_div{
+
+    width: 1200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 800px;
+    position: absolute;
+    border-style:hidden;
+    border-width:5px;
+    box-shadow: 0px 0px 10px 2px #888888; 
+}
+#chart_div1{
+    float: left;
+    width: 700px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 1200px;
+    position: absolute;
+    border-style:hidden;
+    border-width:5px;
+    box-shadow: 0px 0px 10px 2px #888888;
+    
+
+    
+}
+#chart_div2{
+    float: left;
+    width: 700px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 1600px;
+    position: absolute;
+    border-style:hidden;
+    border-width:5px;
+    box-shadow: 0px 0px 10px 2px #888888;
+    
+
+    
+}
+
+#table_div1{
+    float: left;
+    width: auto;
+    height: 300px;
+    margin-left: 750px;
+    margin-top: 1200px;
+    position: absolute;
+    box-shadow: 0px 0px 10px 2px #888888;
+
+    
+}
+
+#table_div2{
+    float: left;
+    width: auto;
+    height: 300px;
+    margin-left: 750px;
+    margin-top: 1600px;
+    position: absolute;
+    box-shadow: 0px 0px 10px 2px #888888;
+
+    
+}
+
+#tableau_div1{
+   /* float: left;*/
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 2000px;
+    position: absolute;
+    box-shadow: 0px 0px 10px 2px #888888;
+}
+#tableau_div2{
+    /*float: left;*/
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 2750px;
+    position: absolute;
+    box-shadow: 0px 0px 10px 2px #888888;
+}
+
+

@@ -1,0 +1,904 @@
+{
+    "2002": {
+        "Charlton Athletic": {
+            "Goals Conceded": "56", 
+            "Goals Scored": "45"
+        }, 
+        "Southampton": {
+            "Goals Conceded": "46", 
+            "Goals Scored": "43"
+        }, 
+        "Manchester United": {
+            "Goals Conceded": "34", 
+            "Goals Scored": "74"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "41", 
+            "Goals Scored": "61"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "50", 
+            "Goals Scored": "41"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "62", 
+            "Goals Scored": "51"
+        }, 
+        "Birmingham City": {
+            "Goals Conceded": "49", 
+            "Goals Scored": "41"
+        }, 
+        "Leeds United": {
+            "Goals Conceded": "57", 
+            "Goals Scored": "58"
+        }, 
+        "West Ham United": {
+            "Goals Conceded": "59", 
+            "Goals Scored": "42"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "54", 
+            "Goals Scored": "47"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "42", 
+            "Goals Scored": "85"
+        }, 
+        "Bolton Wanderers": {
+            "Goals Conceded": "51", 
+            "Goals Scored": "41"
+        }, 
+        "West Bromwich Albion": {
+            "Goals Conceded": "65", 
+            "Goals Scored": "29"
+        }, 
+        "Middlesbrough": {
+            "Goals Conceded": "44", 
+            "Goals Scored": "48"
+        }, 
+        "Newcastle United": {
+            "Goals Conceded": "48", 
+            "Goals Scored": "63"
+        }, 
+        "Aston Villa": {
+            "Goals Conceded": "47", 
+            "Goals Scored": "42"
+        }, 
+        "Blackburn Rovers": {
+            "Goals Conceded": "43", 
+            "Goals Scored": "52"
+        }, 
+        "Everton": {
+            "Goals Conceded": "49", 
+            "Goals Scored": "48"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "38", 
+            "Goals Scored": "68"
+        }, 
+        "Sunderland": {
+            "Goals Conceded": "65", 
+            "Goals Scored": "21"
+        }
+    }, 
+    "2003": {
+        "Charlton Athletic": {
+            "Goals Conceded": "51", 
+            "Goals Scored": "51"
+        }, 
+        "Southampton": {
+            "Goals Conceded": "45", 
+            "Goals Scored": "44"
+        }, 
+        "Manchester United": {
+            "Goals Conceded": "35", 
+            "Goals Scored": "64"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "37", 
+            "Goals Scored": "55"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "46", 
+            "Goals Scored": "52"
+        }, 
+        "Portsmouth": {
+            "Goals Conceded": "54", 
+            "Goals Scored": "47"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "57", 
+            "Goals Scored": "47"
+        }, 
+        "Birmingham City": {
+            "Goals Conceded": "48", 
+            "Goals Scored": "43"
+        }, 
+        "Leeds United": {
+            "Goals Conceded": "79", 
+            "Goals Scored": "40"
+        }, 
+        "Aston Villa": {
+            "Goals Conceded": "44", 
+            "Goals Scored": "48"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "26", 
+            "Goals Scored": "73"
+        }, 
+        "Bolton Wanderers": {
+            "Goals Conceded": "56", 
+            "Goals Scored": "48"
+        }, 
+        "Middlesbrough": {
+            "Goals Conceded": "52", 
+            "Goals Scored": "44"
+        }, 
+        "Newcastle United": {
+            "Goals Conceded": "40", 
+            "Goals Scored": "52"
+        }, 
+        "Blackburn Rovers": {
+            "Goals Conceded": "59", 
+            "Goals Scored": "51"
+        }, 
+        "Everton": {
+            "Goals Conceded": "57", 
+            "Goals Scored": "45"
+        }, 
+        "Wolverhampton Wanderers": {
+            "Goals Conceded": "77", 
+            "Goals Scored": "38"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "30", 
+            "Goals Scored": "67"
+        }, 
+        "Leicester City": {
+            "Goals Conceded": "65", 
+            "Goals Scored": "48"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "54", 
+            "Goals Scored": "55"
+        }
+    }, 
+    "2006": {
+        "Charlton Athletic": {
+            "Goals Conceded": "60", 
+            "Goals Scored": "34"
+        }, 
+        "Manchester United": {
+            "Goals Conceded": "27", 
+            "Goals Scored": "83"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "27", 
+            "Goals Scored": "57"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "60", 
+            "Goals Scored": "38"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "54", 
+            "Goals Scored": "57"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "44", 
+            "Goals Scored": "29"
+        }, 
+        "West Ham United": {
+            "Goals Conceded": "59", 
+            "Goals Scored": "35"
+        }, 
+        "Aston Villa": {
+            "Goals Conceded": "41", 
+            "Goals Scored": "43"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "35", 
+            "Goals Scored": "63"
+        }, 
+        "Newcastle United": {
+            "Goals Conceded": "47", 
+            "Goals Scored": "38"
+        }, 
+        "Bolton Wanderers": {
+            "Goals Conceded": "52", 
+            "Goals Scored": "47"
+        }, 
+        "Wigan Athletic": {
+            "Goals Conceded": "59", 
+            "Goals Scored": "37"
+        }, 
+        "Middlesbrough": {
+            "Goals Conceded": "49", 
+            "Goals Scored": "44"
+        }, 
+        "Portsmouth": {
+            "Goals Conceded": "42", 
+            "Goals Scored": "45"
+        }, 
+        "Watford": {
+            "Goals Conceded": "59", 
+            "Goals Scored": "29"
+        }, 
+        "Blackburn Rovers": {
+            "Goals Conceded": "54", 
+            "Goals Scored": "52"
+        }, 
+        "Everton": {
+            "Goals Conceded": "36", 
+            "Goals Scored": "52"
+        }, 
+        "Reading": {
+            "Goals Conceded": "47", 
+            "Goals Scored": "52"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "24", 
+            "Goals Scored": "64"
+        }, 
+        "Sheffield United": {
+            "Goals Conceded": "55", 
+            "Goals Scored": "32"
+        }
+    }, 
+    "2007": {
+        "Derby County": {
+            "Goals Conceded": "89", 
+            "Goals Scored": "20"
+        }, 
+        "Sunderland": {
+            "Goals Conceded": "59", 
+            "Goals Scored": "36"
+        }, 
+        "Manchester United": {
+            "Goals Conceded": "22", 
+            "Goals Scored": "80"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "28", 
+            "Goals Scored": "67"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "60", 
+            "Goals Scored": "38"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "61", 
+            "Goals Scored": "66"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "53", 
+            "Goals Scored": "45"
+        }, 
+        "West Ham United": {
+            "Goals Conceded": "50", 
+            "Goals Scored": "42"
+        }, 
+        "Aston Villa": {
+            "Goals Conceded": "51", 
+            "Goals Scored": "71"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "31", 
+            "Goals Scored": "74"
+        }, 
+        "Newcastle United": {
+            "Goals Conceded": "65", 
+            "Goals Scored": "45"
+        }, 
+        "Bolton Wanderers": {
+            "Goals Conceded": "54", 
+            "Goals Scored": "36"
+        }, 
+        "Wigan Athletic": {
+            "Goals Conceded": "51", 
+            "Goals Scored": "34"
+        }, 
+        "Middlesbrough": {
+            "Goals Conceded": "53", 
+            "Goals Scored": "43"
+        }, 
+        "Portsmouth": {
+            "Goals Conceded": "40", 
+            "Goals Scored": "48"
+        }, 
+        "Blackburn Rovers": {
+            "Goals Conceded": "48", 
+            "Goals Scored": "50"
+        }, 
+        "Everton": {
+            "Goals Conceded": "33", 
+            "Goals Scored": "55"
+        }, 
+        "Reading": {
+            "Goals Conceded": "66", 
+            "Goals Scored": "41"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "26", 
+            "Goals Scored": "65"
+        }, 
+        "Birmingham City": {
+            "Goals Conceded": "62", 
+            "Goals Scored": "46"
+        }
+    }, 
+    "2004": {
+        "Charlton Athletic": {
+            "Goals Conceded": "58", 
+            "Goals Scored": "42"
+        }, 
+        "Southampton": {
+            "Goals Conceded": "66", 
+            "Goals Scored": "45"
+        }, 
+        "Manchester United": {
+            "Goals Conceded": "26", 
+            "Goals Scored": "58"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "41", 
+            "Goals Scored": "52"
+        }, 
+        "Portsmouth": {
+            "Goals Conceded": "59", 
+            "Goals Scored": "43"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "41", 
+            "Goals Scored": "47"
+        }, 
+        "Aston Villa": {
+            "Goals Conceded": "52", 
+            "Goals Scored": "45"
+        }, 
+        "Birmingham City": {
+            "Goals Conceded": "46", 
+            "Goals Scored": "40"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "39", 
+            "Goals Scored": "47"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "36", 
+            "Goals Scored": "87"
+        }, 
+        "Newcastle United": {
+            "Goals Conceded": "57", 
+            "Goals Scored": "47"
+        }, 
+        "Bolton Wanderers": {
+            "Goals Conceded": "44", 
+            "Goals Scored": "49"
+        }, 
+        "Crystal Palace": {
+            "Goals Conceded": "62", 
+            "Goals Scored": "41"
+        }, 
+        "West Bromwich Albion": {
+            "Goals Conceded": "61", 
+            "Goals Scored": "36"
+        }, 
+        "Middlesbrough": {
+            "Goals Conceded": "46", 
+            "Goals Scored": "53"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "60", 
+            "Goals Scored": "52"
+        }, 
+        "Blackburn Rovers": {
+            "Goals Conceded": "43", 
+            "Goals Scored": "32"
+        }, 
+        "Norwich City": {
+            "Goals Conceded": "77", 
+            "Goals Scored": "42"
+        }, 
+        "Everton": {
+            "Goals Conceded": "46", 
+            "Goals Scored": "45"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "15", 
+            "Goals Scored": "72"
+        }
+    }, 
+    "2005": {
+        "Charlton Athletic": {
+            "Goals Conceded": "55", 
+            "Goals Scored": "41"
+        }, 
+        "Birmingham City": {
+            "Goals Conceded": "50", 
+            "Goals Scored": "28"
+        }, 
+        "Manchester United": {
+            "Goals Conceded": "34", 
+            "Goals Scored": "72"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "25", 
+            "Goals Scored": "57"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "58", 
+            "Goals Scored": "48"
+        }, 
+        "Portsmouth": {
+            "Goals Conceded": "62", 
+            "Goals Scored": "37"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "38", 
+            "Goals Scored": "53"
+        }, 
+        "Aston Villa": {
+            "Goals Conceded": "55", 
+            "Goals Scored": "42"
+        }, 
+        "West Ham United": {
+            "Goals Conceded": "55", 
+            "Goals Scored": "52"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "48", 
+            "Goals Scored": "43"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "31", 
+            "Goals Scored": "68"
+        }, 
+        "Bolton Wanderers": {
+            "Goals Conceded": "41", 
+            "Goals Scored": "49"
+        }, 
+        "Wigan Athletic": {
+            "Goals Conceded": "52", 
+            "Goals Scored": "45"
+        }, 
+        "West Bromwich Albion": {
+            "Goals Conceded": "58", 
+            "Goals Scored": "31"
+        }, 
+        "Middlesbrough": {
+            "Goals Conceded": "58", 
+            "Goals Scored": "48"
+        }, 
+        "Newcastle United": {
+            "Goals Conceded": "42", 
+            "Goals Scored": "47"
+        }, 
+        "Blackburn Rovers": {
+            "Goals Conceded": "42", 
+            "Goals Scored": "51"
+        }, 
+        "Everton": {
+            "Goals Conceded": "49", 
+            "Goals Scored": "34"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "22", 
+            "Goals Scored": "72"
+        }, 
+        "Sunderland": {
+            "Goals Conceded": "69", 
+            "Goals Scored": "26"
+        }
+    }, 
+    "2008": {
+        "Manchester United": {
+            "Goals Conceded": "24", 
+            "Goals Scored": "68"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "27", 
+            "Goals Scored": "77"
+        }, 
+        "Stoke City": {
+            "Goals Conceded": "55", 
+            "Goals Scored": "38"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "45", 
+            "Goals Scored": "45"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "50", 
+            "Goals Scored": "58"
+        }, 
+        "West Ham United": {
+            "Goals Conceded": "45", 
+            "Goals Scored": "42"
+        }, 
+        "Aston Villa": {
+            "Goals Conceded": "48", 
+            "Goals Scored": "54"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "37", 
+            "Goals Scored": "68"
+        }, 
+        "Newcastle United": {
+            "Goals Conceded": "59", 
+            "Goals Scored": "40"
+        }, 
+        "Bolton Wanderers": {
+            "Goals Conceded": "53", 
+            "Goals Scored": "41"
+        }, 
+        "Wigan Athletic": {
+            "Goals Conceded": "45", 
+            "Goals Scored": "34"
+        }, 
+        "West Bromwich Albion": {
+            "Goals Conceded": "67", 
+            "Goals Scored": "36"
+        }, 
+        "Sunderland": {
+            "Goals Conceded": "54", 
+            "Goals Scored": "34"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "34", 
+            "Goals Scored": "39"
+        }, 
+        "Blackburn Rovers": {
+            "Goals Conceded": "60", 
+            "Goals Scored": "40"
+        }, 
+        "Hull City": {
+            "Goals Conceded": "64", 
+            "Goals Scored": "39"
+        }, 
+        "Everton": {
+            "Goals Conceded": "37", 
+            "Goals Scored": "55"
+        }, 
+        "Portsmouth": {
+            "Goals Conceded": "57", 
+            "Goals Scored": "38"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "24", 
+            "Goals Scored": "68"
+        }, 
+        "Middlesbrough": {
+            "Goals Conceded": "57", 
+            "Goals Scored": "28"
+        }
+    }, 
+    "2009": {
+        "Portsmouth": {
+            "Goals Conceded": "66", 
+            "Goals Scored": "34"
+        }, 
+        "Manchester United": {
+            "Goals Conceded": "28", 
+            "Goals Scored": "86"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "35", 
+            "Goals Scored": "61"
+        }, 
+        "Stoke City": {
+            "Goals Conceded": "48", 
+            "Goals Scored": "34"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "41", 
+            "Goals Scored": "67"
+        }, 
+        "Aston Villa": {
+            "Goals Conceded": "39", 
+            "Goals Scored": "52"
+        }, 
+        "Birmingham City": {
+            "Goals Conceded": "47", 
+            "Goals Scored": "38"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "45", 
+            "Goals Scored": "73"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "41", 
+            "Goals Scored": "83"
+        }, 
+        "Bolton Wanderers": {
+            "Goals Conceded": "67", 
+            "Goals Scored": "42"
+        }, 
+        "Wigan Athletic": {
+            "Goals Conceded": "79", 
+            "Goals Scored": "37"
+        }, 
+        "Sunderland": {
+            "Goals Conceded": "56", 
+            "Goals Scored": "48"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "46", 
+            "Goals Scored": "39"
+        }, 
+        "Blackburn Rovers": {
+            "Goals Conceded": "55", 
+            "Goals Scored": "41"
+        }, 
+        "Hull City": {
+            "Goals Conceded": "75", 
+            "Goals Scored": "34"
+        }, 
+        "Everton": {
+            "Goals Conceded": "49", 
+            "Goals Scored": "60"
+        }, 
+        "Burnley": {
+            "Goals Conceded": "82", 
+            "Goals Scored": "42"
+        }, 
+        "Wolverhampton Wanderers": {
+            "Goals Conceded": "56", 
+            "Goals Scored": "32"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "32", 
+            "Goals Scored": "103"
+        }, 
+        "West Ham United": {
+            "Goals Conceded": "66", 
+            "Goals Scored": "47"
+        }
+    }, 
+    "2011": {
+        "Aston Villa": {
+            "Goals Conceded": "53", 
+            "Goals Scored": "37"
+        }, 
+        "Manchester United": {
+            "Goals Conceded": "33", 
+            "Goals Scored": "89"
+        }, 
+        "Newcastle United": {
+            "Goals Conceded": "51", 
+            "Goals Scored": "56"
+        }, 
+        "Wolverhampton Wanderers": {
+            "Goals Conceded": "82", 
+            "Goals Scored": "40"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "51", 
+            "Goals Scored": "48"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "41", 
+            "Goals Scored": "66"
+        }, 
+        "Norwich City": {
+            "Goals Conceded": "66", 
+            "Goals Scored": "52"
+        }, 
+        "Stoke City": {
+            "Goals Conceded": "53", 
+            "Goals Scored": "36"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "29", 
+            "Goals Scored": "93"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "49", 
+            "Goals Scored": "74"
+        }, 
+        "Swansea City": {
+            "Goals Conceded": "51", 
+            "Goals Scored": "44"
+        }, 
+        "Wigan Athletic": {
+            "Goals Conceded": "62", 
+            "Goals Scored": "42"
+        }, 
+        "West Bromwich Albion": {
+            "Goals Conceded": "52", 
+            "Goals Scored": "45"
+        }, 
+        "Sunderland": {
+            "Goals Conceded": "46", 
+            "Goals Scored": "45"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "40", 
+            "Goals Scored": "47"
+        }, 
+        "Blackburn Rovers": {
+            "Goals Conceded": "78", 
+            "Goals Scored": "48"
+        }, 
+        "Everton": {
+            "Goals Conceded": "40", 
+            "Goals Scored": "50"
+        }, 
+        "Queens Park Rangers": {
+            "Goals Conceded": "66", 
+            "Goals Scored": "43"
+        }, 
+        "Bolton Wanderers": {
+            "Goals Conceded": "77", 
+            "Goals Scored": "46"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "46", 
+            "Goals Scored": "65"
+        }
+    }, 
+    "2010": {
+        "Birmingham City": {
+            "Goals Conceded": "58", 
+            "Goals Scored": "37"
+        }, 
+        "Manchester United": {
+            "Goals Conceded": "37", 
+            "Goals Scored": "78"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "44", 
+            "Goals Scored": "59"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "46", 
+            "Goals Scored": "55"
+        }, 
+        "Aston Villa": {
+            "Goals Conceded": "59", 
+            "Goals Scored": "48"
+        }, 
+        "Stoke City": {
+            "Goals Conceded": "48", 
+            "Goals Scored": "46"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "33", 
+            "Goals Scored": "60"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "43", 
+            "Goals Scored": "72"
+        }, 
+        "Newcastle United": {
+            "Goals Conceded": "57", 
+            "Goals Scored": "56"
+        }, 
+        "Bolton Wanderers": {
+            "Goals Conceded": "56", 
+            "Goals Scored": "52"
+        }, 
+        "Wigan Athletic": {
+            "Goals Conceded": "61", 
+            "Goals Scored": "40"
+        }, 
+        "West Bromwich Albion": {
+            "Goals Conceded": "71", 
+            "Goals Scored": "56"
+        }, 
+        "Sunderland": {
+            "Goals Conceded": "56", 
+            "Goals Scored": "45"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "43", 
+            "Goals Scored": "49"
+        }, 
+        "Blackburn Rovers": {
+            "Goals Conceded": "59", 
+            "Goals Scored": "46"
+        }, 
+        "Everton": {
+            "Goals Conceded": "45", 
+            "Goals Scored": "51"
+        }, 
+        "Wolverhampton Wanderers": {
+            "Goals Conceded": "66", 
+            "Goals Scored": "46"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "33", 
+            "Goals Scored": "69"
+        }, 
+        "Blackpool": {
+            "Goals Conceded": "78", 
+            "Goals Scored": "55"
+        }, 
+        "West Ham United": {
+            "Goals Conceded": "70", 
+            "Goals Scored": "43"
+        }
+    }, 
+    "2012": {
+        "Aston Villa": {
+            "Goals Conceded": "63", 
+            "Goals Scored": "36"
+        }, 
+        "Southampton": {
+            "Goals Conceded": "54", 
+            "Goals Scored": "47"
+        }, 
+        "Manchester United": {
+            "Goals Conceded": "35", 
+            "Goals Scored": "78"
+        }, 
+        "Liverpool": {
+            "Goals Conceded": "42", 
+            "Goals Scored": "61"
+        }, 
+        "Stoke City": {
+            "Goals Conceded": "41", 
+            "Goals Scored": "30"
+        }, 
+        "Tottenham Hotspur": {
+            "Goals Conceded": "41", 
+            "Goals Scored": "58"
+        }, 
+        "Norwich City": {
+            "Goals Conceded": "53", 
+            "Goals Scored": "33"
+        }, 
+        "West Ham United": {
+            "Goals Conceded": "47", 
+            "Goals Scored": "40"
+        }, 
+        "Manchester City": {
+            "Goals Conceded": "30", 
+            "Goals Scored": "59"
+        }, 
+        "Arsenal": {
+            "Goals Conceded": "35", 
+            "Goals Scored": "65"
+        }, 
+        "Newcastle United": {
+            "Goals Conceded": "60", 
+            "Goals Scored": "43"
+        }, 
+        "Swansea City": {
+            "Goals Conceded": "42", 
+            "Goals Scored": "43"
+        }, 
+        "Wigan Athletic": {
+            "Goals Conceded": "60", 
+            "Goals Scored": "37"
+        }, 
+        "West Bromwich Albion": {
+            "Goals Conceded": "44", 
+            "Goals Scored": "43"
+        }, 
+        "Sunderland": {
+            "Goals Conceded": "45", 
+            "Goals Scored": "38"
+        }, 
+        "Fulham": {
+            "Goals Conceded": "52", 
+            "Goals Scored": "44"
+        }, 
+        "Everton": {
+            "Goals Conceded": "38", 
+            "Goals Scored": "51"
+        }, 
+        "Queens Park Rangers": {
+            "Goals Conceded": "56", 
+            "Goals Scored": "29"
+        }, 
+        "Reading": {
+            "Goals Conceded": "65", 
+            "Goals Scored": "37"
+        }, 
+        "Chelsea": {
+            "Goals Conceded": "35", 
+            "Goals Scored": "66"
+        }
+    }
+}

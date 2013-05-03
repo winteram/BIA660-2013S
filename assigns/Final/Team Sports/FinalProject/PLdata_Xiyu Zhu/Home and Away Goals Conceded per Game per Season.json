@@ -1,0 +1,904 @@
+{
+    "2002": {
+        "Charlton Athletic": {
+            "Home Goals Conceded per Game": 1.5789473684210527, 
+            "Away Goals Conceded per Game": 1.368421052631579
+        }, 
+        "Southampton": {
+            "Home Goals Conceded per Game": 0.8421052631578947, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Manchester United": {
+            "Home Goals Conceded per Game": 0.631578947368421, 
+            "Away Goals Conceded per Game": 1.1578947368421053
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.8421052631578947, 
+            "Away Goals Conceded per Game": 1.3157894736842106
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 0.9473684210526315, 
+            "Away Goals Conceded per Game": 1.6842105263157894
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 1.5263157894736843, 
+            "Away Goals Conceded per Game": 1.736842105263158
+        }, 
+        "Birmingham City": {
+            "Home Goals Conceded per Game": 1.2105263157894737, 
+            "Away Goals Conceded per Game": 1.368421052631579
+        }, 
+        "Leeds United": {
+            "Home Goals Conceded per Game": 1.368421052631579, 
+            "Away Goals Conceded per Game": 1.631578947368421
+        }, 
+        "West Ham United": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 1.8421052631578947
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 1.368421052631579, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.1578947368421053
+        }, 
+        "Bolton Wanderers": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "West Bromwich Albion": {
+            "Home Goals Conceded per Game": 1.7894736842105263, 
+            "Away Goals Conceded per Game": 1.631578947368421
+        }, 
+        "Middlesbrough": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 1.2105263157894737
+        }, 
+        "Newcastle United": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 1.631578947368421
+        }, 
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 0.7368421052631579, 
+            "Away Goals Conceded per Game": 1.736842105263158
+        }, 
+        "Blackburn Rovers": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.2105263157894737
+        }, 
+        "Sunderland": {
+            "Home Goals Conceded per Game": 1.631578947368421, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }
+    }, 
+    "2003": {
+        "Charlton Athletic": {
+            "Home Goals Conceded per Game": 1.5263157894736843, 
+            "Away Goals Conceded per Game": 1.1578947368421053
+        }, 
+        "Southampton": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Manchester United": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.0526315789473684
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.1578947368421053
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 1.3157894736842106
+        }, 
+        "Portsmouth": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.8421052631578947
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 1.4210526315789473, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Birmingham City": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 1.263157894736842
+        }, 
+        "Leeds United": {
+            "Home Goals Conceded per Game": 1.631578947368421, 
+            "Away Goals Conceded per Game": 2.526315789473684
+        }, 
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.3157894736842106
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 0.7368421052631579, 
+            "Away Goals Conceded per Game": 0.631578947368421
+        }, 
+        "Bolton Wanderers": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 1.8421052631578947
+        }, 
+        "Middlesbrough": {
+            "Home Goals Conceded per Game": 1.2105263157894737, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Newcastle United": {
+            "Home Goals Conceded per Game": 0.7368421052631579, 
+            "Away Goals Conceded per Game": 1.368421052631579
+        }, 
+        "Blackburn Rovers": {
+            "Home Goals Conceded per Game": 1.631578947368421, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.9473684210526316
+        }, 
+        "Wolverhampton Wanderers": {
+            "Home Goals Conceded per Game": 1.8421052631578947, 
+            "Away Goals Conceded per Game": 2.210526315789474
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 0.6842105263157895, 
+            "Away Goals Conceded per Game": 0.8947368421052632
+        }, 
+        "Leicester City": {
+            "Home Goals Conceded per Game": 1.4736842105263157, 
+            "Away Goals Conceded per Game": 1.9473684210526316
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }
+    }, 
+    "2006": {
+        "Charlton Athletic": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 2.1052631578947367
+        }, 
+        "Manchester United": {
+            "Home Goals Conceded per Game": 0.631578947368421, 
+            "Away Goals Conceded per Game": 0.7894736842105263
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.3684210526315789, 
+            "Away Goals Conceded per Game": 1.0526315789473684
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 0.9473684210526315, 
+            "Away Goals Conceded per Game": 2.210526315789474
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 1.1578947368421053, 
+            "Away Goals Conceded per Game": 1.6842105263157894
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 0.8421052631578947, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "West Ham United": {
+            "Home Goals Conceded per Game": 1.368421052631579, 
+            "Away Goals Conceded per Game": 1.736842105263158
+        }, 
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 0.7368421052631579, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 0.8421052631578947, 
+            "Away Goals Conceded per Game": 1.0
+        }, 
+        "Newcastle United": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Bolton Wanderers": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.6842105263157894
+        }, 
+        "Wigan Athletic": {
+            "Home Goals Conceded per Game": 1.5789473684210527, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Middlesbrough": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 1.3157894736842106
+        }, 
+        "Portsmouth": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Watford": {
+            "Home Goals Conceded per Game": 1.3157894736842106, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }, 
+        "Blackburn Rovers": {
+            "Home Goals Conceded per Game": 1.3157894736842106, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 1.0
+        }, 
+        "Reading": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 0.5789473684210527, 
+            "Away Goals Conceded per Game": 0.6842105263157895
+        }, 
+        "Sheffield United": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }
+    }, 
+    "2007": {
+        "Derby County": {
+            "Home Goals Conceded per Game": 2.263157894736842, 
+            "Away Goals Conceded per Game": 2.4210526315789473
+        }, 
+        "Sunderland": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 2.0
+        }, 
+        "Manchester United": {
+            "Home Goals Conceded per Game": 0.3684210526315789, 
+            "Away Goals Conceded per Game": 0.7894736842105263
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.6842105263157895, 
+            "Away Goals Conceded per Game": 0.7894736842105263
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 1.631578947368421, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 1.7894736842105263, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.736842105263158
+        }, 
+        "West Ham United": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 1.368421052631579
+        }, 
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 1.1578947368421053, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 0.5789473684210527, 
+            "Away Goals Conceded per Game": 1.0526315789473684
+        }, 
+        "Newcastle United": {
+            "Home Goals Conceded per Game": 1.368421052631579, 
+            "Away Goals Conceded per Game": 2.0526315789473686
+        }, 
+        "Bolton Wanderers": {
+            "Home Goals Conceded per Game": 0.9473684210526315, 
+            "Away Goals Conceded per Game": 1.894736842105263
+        }, 
+        "Wigan Athletic": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }, 
+        "Middlesbrough": {
+            "Home Goals Conceded per Game": 1.2105263157894737, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Portsmouth": {
+            "Home Goals Conceded per Game": 0.7368421052631579, 
+            "Away Goals Conceded per Game": 1.368421052631579
+        }, 
+        "Blackburn Rovers": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 0.8421052631578947
+        }, 
+        "Reading": {
+            "Home Goals Conceded per Game": 1.3157894736842106, 
+            "Away Goals Conceded per Game": 2.1578947368421053
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 0.6842105263157895, 
+            "Away Goals Conceded per Game": 0.6842105263157895
+        }, 
+        "Birmingham City": {
+            "Home Goals Conceded per Game": 1.2105263157894737, 
+            "Away Goals Conceded per Game": 2.0526315789473686
+        }
+    }, 
+    "2004": {
+        "Charlton Athletic": {
+            "Home Goals Conceded per Game": 1.5263157894736843, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Southampton": {
+            "Home Goals Conceded per Game": 1.5789473684210527, 
+            "Away Goals Conceded per Game": 1.894736842105263
+        }, 
+        "Manchester United": {
+            "Home Goals Conceded per Game": 0.631578947368421, 
+            "Away Goals Conceded per Game": 0.7368421052631579
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.368421052631579
+        }, 
+        "Portsmouth": {
+            "Home Goals Conceded per Game": 1.368421052631579, 
+            "Away Goals Conceded per Game": 1.736842105263158
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 1.1578947368421053, 
+            "Away Goals Conceded per Game": 1.0
+        }, 
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 1.8421052631578947
+        }, 
+        "Birmingham City": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.631578947368421
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 0.7368421052631579, 
+            "Away Goals Conceded per Game": 1.3157894736842106
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 0.8947368421052632
+        }, 
+        "Newcastle United": {
+            "Home Goals Conceded per Game": 1.3157894736842106, 
+            "Away Goals Conceded per Game": 1.6842105263157894
+        }, 
+        "Bolton Wanderers": {
+            "Home Goals Conceded per Game": 0.9473684210526315, 
+            "Away Goals Conceded per Game": 1.368421052631579
+        }, 
+        "Crystal Palace": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 2.263157894736842
+        }, 
+        "West Bromwich Albion": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 1.9473684210526316
+        }, 
+        "Middlesbrough": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 1.368421052631579, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }, 
+        "Blackburn Rovers": {
+            "Home Goals Conceded per Game": 1.1578947368421053, 
+            "Away Goals Conceded per Game": 1.105263157894737
+        }, 
+        "Norwich City": {
+            "Home Goals Conceded per Game": 1.6842105263157894, 
+            "Away Goals Conceded per Game": 2.3684210526315788
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.631578947368421
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 0.3157894736842105, 
+            "Away Goals Conceded per Game": 0.47368421052631576
+        }
+    }, 
+    "2005": {
+        "Charlton Athletic": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }, 
+        "Birmingham City": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Manchester United": {
+            "Home Goals Conceded per Game": 0.42105263157894735, 
+            "Away Goals Conceded per Game": 1.368421052631579
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.42105263157894735, 
+            "Away Goals Conceded per Game": 0.8947368421052632
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 1.9473684210526316
+        }, 
+        "Portsmouth": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 2.0
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 0.8421052631578947, 
+            "Away Goals Conceded per Game": 1.1578947368421053
+        }, 
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.8421052631578947
+        }, 
+        "West Ham United": {
+            "Home Goals Conceded per Game": 1.3157894736842106, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 0.6842105263157895, 
+            "Away Goals Conceded per Game": 0.9473684210526315
+        }, 
+        "Bolton Wanderers": {
+            "Home Goals Conceded per Game": 0.6842105263157895, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Wigan Athletic": {
+            "Home Goals Conceded per Game": 1.368421052631579, 
+            "Away Goals Conceded per Game": 1.368421052631579
+        }, 
+        "West Bromwich Albion": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }, 
+        "Middlesbrough": {
+            "Home Goals Conceded per Game": 1.5789473684210527, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Newcastle United": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Blackburn Rovers": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 1.3157894736842106
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 1.1578947368421053, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 0.47368421052631576, 
+            "Away Goals Conceded per Game": 0.6842105263157895
+        }, 
+        "Sunderland": {
+            "Home Goals Conceded per Game": 1.9473684210526316, 
+            "Away Goals Conceded per Game": 1.6842105263157894
+        }
+    }, 
+    "2008": {
+        "Manchester United": {
+            "Home Goals Conceded per Game": 0.6842105263157895, 
+            "Away Goals Conceded per Game": 0.5789473684210527
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.6842105263157895, 
+            "Away Goals Conceded per Game": 0.7368421052631579
+        }, 
+        "Stoke City": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 2.1052631578947367
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 0.5263157894736842, 
+            "Away Goals Conceded per Game": 1.8421052631578947
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 0.9473684210526315, 
+            "Away Goals Conceded per Game": 1.6842105263157894
+        }, 
+        "West Ham United": {
+            "Home Goals Conceded per Game": 1.1578947368421053, 
+            "Away Goals Conceded per Game": 1.2105263157894737
+        }, 
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 0.8421052631578947, 
+            "Away Goals Conceded per Game": 1.105263157894737
+        }, 
+        "Newcastle United": {
+            "Home Goals Conceded per Game": 1.5263157894736843, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Bolton Wanderers": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 1.6842105263157894
+        }, 
+        "Wigan Athletic": {
+            "Home Goals Conceded per Game": 0.9473684210526315, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "West Bromwich Albion": {
+            "Home Goals Conceded per Game": 1.736842105263158, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }, 
+        "Sunderland": {
+            "Home Goals Conceded per Game": 1.3157894736842106, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 0.8421052631578947, 
+            "Away Goals Conceded per Game": 0.9473684210526315
+        }, 
+        "Blackburn Rovers": {
+            "Home Goals Conceded per Game": 1.2105263157894737, 
+            "Away Goals Conceded per Game": 1.9473684210526316
+        }, 
+        "Hull City": {
+            "Home Goals Conceded per Game": 1.894736842105263, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 0.8947368421052632
+        }, 
+        "Portsmouth": {
+            "Home Goals Conceded per Game": 1.5263157894736843, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 0.631578947368421, 
+            "Away Goals Conceded per Game": 0.631578947368421
+        }, 
+        "Middlesbrough": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.9473684210526316
+        }
+    }, 
+    "2009": {
+        "Portsmouth": {
+            "Home Goals Conceded per Game": 1.6842105263157894, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }, 
+        "Manchester United": {
+            "Home Goals Conceded per Game": 0.631578947368421, 
+            "Away Goals Conceded per Game": 0.8421052631578947
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.0526315789473684
+        }, 
+        "Stoke City": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 0.631578947368421, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 0.8421052631578947, 
+            "Away Goals Conceded per Game": 1.2105263157894737
+        }, 
+        "Birmingham City": {
+            "Home Goals Conceded per Game": 0.6842105263157895, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.3157894736842106
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.368421052631579
+        }, 
+        "Bolton Wanderers": {
+            "Home Goals Conceded per Game": 1.631578947368421, 
+            "Away Goals Conceded per Game": 1.894736842105263
+        }, 
+        "Wigan Athletic": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 2.8947368421052633
+        }, 
+        "Sunderland": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.9473684210526316
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.631578947368421
+        }, 
+        "Blackburn Rovers": {
+            "Home Goals Conceded per Game": 0.9473684210526315, 
+            "Away Goals Conceded per Game": 1.9473684210526316
+        }, 
+        "Hull City": {
+            "Home Goals Conceded per Game": 1.5263157894736843, 
+            "Away Goals Conceded per Game": 2.4210526315789473
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 1.105263157894737, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Burnley": {
+            "Home Goals Conceded per Game": 1.5789473684210527, 
+            "Away Goals Conceded per Game": 2.736842105263158
+        }, 
+        "Wolverhampton Wanderers": {
+            "Home Goals Conceded per Game": 1.1578947368421053, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 0.7368421052631579, 
+            "Away Goals Conceded per Game": 0.9473684210526315
+        }, 
+        "West Ham United": {
+            "Home Goals Conceded per Game": 1.5263157894736843, 
+            "Away Goals Conceded per Game": 1.9473684210526316
+        }
+    }, 
+    "2011": {
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 1.3157894736842106, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Manchester United": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 0.7368421052631579
+        }, 
+        "Newcastle United": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 1.7894736842105263
+        }, 
+        "Wolverhampton Wanderers": {
+            "Home Goals Conceded per Game": 2.263157894736842, 
+            "Away Goals Conceded per Game": 2.0526315789473686
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 1.368421052631579, 
+            "Away Goals Conceded per Game": 1.3157894736842106
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 1.263157894736842
+        }, 
+        "Norwich City": {
+            "Home Goals Conceded per Game": 1.5789473684210527, 
+            "Away Goals Conceded per Game": 1.894736842105263
+        }, 
+        "Stoke City": {
+            "Home Goals Conceded per Game": 1.0526315789473684, 
+            "Away Goals Conceded per Game": 1.736842105263158
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 0.631578947368421, 
+            "Away Goals Conceded per Game": 0.8947368421052632
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 1.6842105263157894
+        }, 
+        "Swansea City": {
+            "Home Goals Conceded per Game": 0.9473684210526315, 
+            "Away Goals Conceded per Game": 1.736842105263158
+        }, 
+        "Wigan Athletic": {
+            "Home Goals Conceded per Game": 1.4210526315789473, 
+            "Away Goals Conceded per Game": 1.8421052631578947
+        }, 
+        "West Bromwich Albion": {
+            "Home Goals Conceded per Game": 1.1578947368421053, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Sunderland": {
+            "Home Goals Conceded per Game": 0.8947368421052632, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.8421052631578947, 
+            "Away Goals Conceded per Game": 1.263157894736842
+        }, 
+        "Blackburn Rovers": {
+            "Home Goals Conceded per Game": 1.736842105263158, 
+            "Away Goals Conceded per Game": 2.3684210526315788
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.3157894736842106
+        }, 
+        "Queens Park Rangers": {
+            "Home Goals Conceded per Game": 1.3157894736842106, 
+            "Away Goals Conceded per Game": 2.1578947368421053
+        }, 
+        "Bolton Wanderers": {
+            "Home Goals Conceded per Game": 2.0526315789473686, 
+            "Away Goals Conceded per Game": 2.0
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 1.1578947368421053
+        }
+    }, 
+    "2010": {
+        "Birmingham City": {
+            "Home Goals Conceded per Game": 1.1578947368421053, 
+            "Away Goals Conceded per Game": 1.894736842105263
+        }, 
+        "Manchester United": {
+            "Home Goals Conceded per Game": 0.631578947368421, 
+            "Away Goals Conceded per Game": 1.3157894736842106
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.7368421052631579, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 2.1052631578947367
+        }, 
+        "Stoke City": {
+            "Home Goals Conceded per Game": 0.9473684210526315, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 0.631578947368421, 
+            "Away Goals Conceded per Game": 1.105263157894737
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 0.7894736842105263, 
+            "Away Goals Conceded per Game": 1.4736842105263157
+        }, 
+        "Newcastle United": {
+            "Home Goals Conceded per Game": 1.4210526315789473, 
+            "Away Goals Conceded per Game": 1.5789473684210527
+        }, 
+        "Bolton Wanderers": {
+            "Home Goals Conceded per Game": 1.263157894736842, 
+            "Away Goals Conceded per Game": 1.6842105263157894
+        }, 
+        "Wigan Athletic": {
+            "Home Goals Conceded per Game": 1.7894736842105263, 
+            "Away Goals Conceded per Game": 1.4210526315789473
+        }, 
+        "West Bromwich Albion": {
+            "Home Goals Conceded per Game": 1.5789473684210527, 
+            "Away Goals Conceded per Game": 2.1578947368421053
+        }, 
+        "Sunderland": {
+            "Home Goals Conceded per Game": 1.4210526315789473, 
+            "Away Goals Conceded per Game": 1.5263157894736843
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 1.2105263157894737, 
+            "Away Goals Conceded per Game": 1.0526315789473684
+        }, 
+        "Blackburn Rovers": {
+            "Home Goals Conceded per Game": 0.8421052631578947, 
+            "Away Goals Conceded per Game": 2.263157894736842
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 1.2105263157894737, 
+            "Away Goals Conceded per Game": 1.1578947368421053
+        }, 
+        "Wolverhampton Wanderers": {
+            "Home Goals Conceded per Game": 1.5789473684210527, 
+            "Away Goals Conceded per Game": 1.894736842105263
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 0.6842105263157895, 
+            "Away Goals Conceded per Game": 1.0526315789473684
+        }, 
+        "Blackpool": {
+            "Home Goals Conceded per Game": 1.9473684210526316, 
+            "Away Goals Conceded per Game": 2.1578947368421053
+        }, 
+        "West Ham United": {
+            "Home Goals Conceded per Game": 1.631578947368421, 
+            "Away Goals Conceded per Game": 2.0526315789473686
+        }
+    }, 
+    "2012": {
+        "Aston Villa": {
+            "Home Goals Conceded per Game": 1.4705882352941178, 
+            "Away Goals Conceded per Game": 2.235294117647059
+        }, 
+        "Southampton": {
+            "Home Goals Conceded per Game": 1.1764705882352942, 
+            "Away Goals Conceded per Game": 2.0
+        }, 
+        "Manchester United": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.0588235294117647
+        }, 
+        "Liverpool": {
+            "Home Goals Conceded per Game": 0.9411764705882353, 
+            "Away Goals Conceded per Game": 1.5294117647058822
+        }, 
+        "Stoke City": {
+            "Home Goals Conceded per Game": 1.1764705882352942, 
+            "Away Goals Conceded per Game": 1.2352941176470589
+        }, 
+        "Tottenham Hotspur": {
+            "Home Goals Conceded per Game": 1.0588235294117647, 
+            "Away Goals Conceded per Game": 1.4375
+        }, 
+        "Norwich City": {
+            "Home Goals Conceded per Game": 1.0588235294117647, 
+            "Away Goals Conceded per Game": 2.0588235294117645
+        }, 
+        "West Ham United": {
+            "Home Goals Conceded per Game": 1.1764705882352942, 
+            "Away Goals Conceded per Game": 1.588235294117647
+        }, 
+        "Manchester City": {
+            "Home Goals Conceded per Game": 0.6875, 
+            "Away Goals Conceded per Game": 1.1176470588235294
+        }, 
+        "Arsenal": {
+            "Home Goals Conceded per Game": 1.2352941176470589, 
+            "Away Goals Conceded per Game": 0.8235294117647058
+        }, 
+        "Newcastle United": {
+            "Home Goals Conceded per Game": 1.411764705882353, 
+            "Away Goals Conceded per Game": 2.1176470588235294
+        }, 
+        "Swansea City": {
+            "Home Goals Conceded per Game": 1.3529411764705883, 
+            "Away Goals Conceded per Game": 1.1875
+        }, 
+        "Wigan Athletic": {
+            "Home Goals Conceded per Game": 2.0, 
+            "Away Goals Conceded per Game": 1.6470588235294117
+        }, 
+        "West Bromwich Albion": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.6875
+        }, 
+        "Sunderland": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.6470588235294117
+        }, 
+        "Fulham": {
+            "Home Goals Conceded per Game": 1.3529411764705883, 
+            "Away Goals Conceded per Game": 1.7058823529411764
+        }, 
+        "Everton": {
+            "Home Goals Conceded per Game": 1.0, 
+            "Away Goals Conceded per Game": 1.2352941176470589
+        }, 
+        "Queens Park Rangers": {
+            "Home Goals Conceded per Game": 1.4705882352941178, 
+            "Away Goals Conceded per Game": 1.8235294117647058
+        }, 
+        "Reading": {
+            "Home Goals Conceded per Game": 1.8235294117647058, 
+            "Away Goals Conceded per Game": 2.0
+        }, 
+        "Chelsea": {
+            "Home Goals Conceded per Game": 0.8125, 
+            "Away Goals Conceded per Game": 1.2941176470588236
+        }
+    }
+}

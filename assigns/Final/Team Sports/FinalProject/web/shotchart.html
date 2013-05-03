@@ -1,0 +1,222 @@
+<!-- 
+
+   BIA 660 Final Project
+  
+   Author: Han Yan
+   
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/shotchart_style.css" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="js/heatmap.js"></script>
+        <title>Shot Chart</title>
+    </head>
+
+    <body>
+    <div style="height:60px;">
+    </div>
+    <div id="head-container">
+      <div class="shadow-style" id="text-container">
+        <img id="nba-logo" style="float:left;" src="images/NBA-logo.png">
+          <h1 id="page-title"style="float:left;">Final Game Shot Chart (2001 - 2012)</h1>
+      </div>
+    </div>
+    <div id="map-container">
+        <table>
+            <tr>
+                <td>
+                    <div class="shadow-style" id="result-container">
+                      <table class="gridtable">
+                        <tr>
+                          <th>YEAR</th>
+                          <th>CHAMPION</th>
+                          <th>OPPONENT</th>
+                          <th>RESULT</th>
+                        </tr>
+                        <tr>
+                          <td>2011-12</td>
+                          <td>Miami Heat</td>
+                          <td>Oklahoma City</td>
+                          <td>4-1</td>
+                          </tr>
+
+                          <tr>
+                          <td>2010-11</td>
+                          <td>Dallas Mavericks</td>
+                          <td>Miami Heat</td>
+                          <td>4-2</td>
+                          </tr>
+                          <tr>
+                          <td>2009-10</td>
+                          <td>Los Angeles Lakers</td>
+                          <td >Boston Celtics</td>
+                          <td>4-3</td>
+                          </tr>
+                          <tr>
+                          <td>2008-09</td>
+                          <td>Los Angeles Lakers</td>
+                          <td >Orlando Magic</td>
+                          <td>4-1</td>
+                          </tr>
+
+                          <tr>
+                          <td>2007-08</td>
+                          <td>Boston Celtics</td>
+                          <td >Los Angeles Lakers</td>
+                          <td>4-2</td>
+                          </tr>
+
+                          <tr>
+                          <td>2006-07</td>
+                          <td>San Antonio Spurs</td>
+                          <td >Cleveland Cavaliers</td>
+                          <td>4-0</td>
+                          </tr>
+
+                          <tr>
+                          <td>2005-06</td>
+                          <td>Miami Heat</td>
+                          <td>Dallas Mavericks</td>
+                          <td>4-2</td>
+                          </tr>
+                          <tr>
+                          <td>2004-05</td>
+                          <td>San Antonio Spurs</td>
+                          <td >Detroit Pistons</td>
+                          <td>4-3</td>
+                          </tr>
+
+
+                          <tr>
+                          <td>2003-04</td>
+                          <td>Detroit Pistons</td>
+                          <td>Los Angeles Lakers</td>
+                          <td>4-1</td>
+                          </tr>
+
+                          <tr>
+                          <td>2002-03</td>
+                          <td>San Antonio Spurs</td>
+                          <td >New Jersey Nets</td>
+                          <td>4-2</td>
+                          </tr>
+                          <tr>
+                          <td>2001-02</td>
+                          <td>Los Angeles Lakers</td>
+                          <td>New Jersey Nets</td>
+                          <td>4-0</td>
+                          </tr>
+
+                          <tr>
+                          <td>2000-01</td>
+                          <td>Los Angeles Lakers</td>
+                          <td >Philadelphia 76ers</td>
+                          <td>4-1</td>
+                        </tr>
+                      </table>
+                      <!-- <div id="dataset" class="btn">Refresh</div> -->
+                    </div>
+                </td>
+                <td>
+                  <div class="shadow-style" id="court-container">
+                    <div id="heatmapArea">
+                    </div>
+                    <div class="styled-select">
+                      <select id="year-select">
+                      </select>
+                    </div>
+                    <div class="styled-select">
+                      <select id="team-select">
+                        <option value="PHI">PHI</option>
+                        <option value="LAL">LAL</option>
+                      </select>
+                    </div>
+                    <div id="dataset" class="btn">Refresh</div>
+                      <input type="range" id="color-select" value="20" min="3" max="20" orientation="vertical" />
+                  </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+      <a href="/index.html" class="go-top">Home Page</a>
+    </footer>
+    <script>
+      var yearData=[];
+      for (var i = 2001; i < 2013; i++) {
+        yearData.push(i);
+      }
+      for (index in yearData) {
+        $("#year-select").append(new Option(yearData[index], yearData[index]));
+      }
+      var teams = {'2001' : ['LAL', 'PHI'], 
+             '2002' : ['LAL', 'NJN'],
+             '2003' : ['SAS', 'NJN'],
+             '2004' : ['DET', 'LAL'],
+             '2005' : ['SAS', 'DET'],
+             '2006' : ['MIA', 'DAL'],
+             '2007' : ['SAS', 'CLE'],
+             '2008' : ['BOS', 'LAL'],
+             '2009' : ['LAL', 'ORL'],
+             '2010' : ['LAL', 'BOS'],
+             '2011' : ['DAL', 'MIA'],
+             '2012' : ['MIA', 'OKC']
+            };
+      $("#year-select").change(function() {
+        $("#color-select").hide()
+        var year = $(this).val();
+        for (index in teams[year]) {
+          var options = new Option(teams[year][index], teams[year][index]);
+          if (index == 0) {
+            $('#team-select').html(options);
+          } else {
+            $('#team-select').append(options);
+          }
+        }
+      });
+      $("#team-select").change(function() {
+        $("#color-select").hide()
+      });
+      $("#color-select").hide()
+      window.onload = function(){
+        var xx = h337.create({
+          "element":document.getElementById("heatmapArea"), 
+          "radius":25, 
+          "opacity": 50,
+          "visible":true,
+          legend: {
+              position: 'br',
+              title: 'Shot Distribution'
+          } 
+        });
+        var jsonData;
+        document.getElementById("dataset").onclick = function(){
+          var year = $('#year-select').val()
+          var team = $('#team-select').val()
+          var url = "http://ec2-54-234-59-234.compute-1.amazonaws.com:9999/basketball/shotmap?team=" + team + "&year=" + year;
+          //var url = "http://127.0.0.1:9999/basketball/shotmap?team=" + team + "&year=" + year;
+          $.getJSON(url, function(json) {
+            jsonData = json
+            xx.store.setDataSet(json);
+            $("#color-select").show()
+          });
+        };
+
+        $("#color-select").change(function() {
+          console.log('a')
+          var max = $(this).val();
+          jsonData['max'] = max
+          console.log(jsonData)
+          xx.store.setDataSet(jsonData);
+        });
+      };
+    </script>
+    </body>
+</html>

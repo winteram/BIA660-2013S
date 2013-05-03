@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NYC-311</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="/css/main.css"></link>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"/></script>
+  <script type="text/javascript" src="/js/google_viz.js"></script>
+  <script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script>
+</head>
+<body>
+	<img class="background_img" src="/css/nyc_img.jpg">
+	    <div class="demo-headline">
+            <h1 class="demo-logo">
+          <!--<div class="logo"></div>-->
+            NYC-311
+            <small>Complaints Analysis in New York City</small>
+            </h1>
+        </div>
+    </img>
+    <div class="content_back">
+      <div id="selection_bar">
+        <div class="selection_box">
+              <select id="bar1" value="X-Men" class="span3" tabindex="1" name="herolist">
+                <option value="Bronx Park + Fordham">Bronx Park + Fordham</option>
+                <option value="Central Harlem">Central Harlem</option>
+                <option value="Chelsea + Clinton">Chelsea + Clinton</option>
+                <option value="East Harlem">East Harlem</option>
+                <option value="GramercyPark + Murray Hill" selected="selected">GramercyPark + Murray Hill</option>
+                <option value="Greenwich Village + Soho">Greenwich Village + Soho</option>
+                <option value="Hunts Point + Longwood">Hunts Point + Longwood</option>
+                <option value="Inwood + Washington Heights">Inwood + Washington Heights</option>
+                <option value="Kingsbridge + Riverdale">Kingsbridge + Riverdale</option>
+                <option value="Lower East Side">Lower East Side</option>
+                <option value="Lower Manhattan">Lower Manhattan</option>
+                <option value="Mid-Island">Mid-Island</option>
+                <option value="Morrisania + High Bridge">Morrisania + High Bridge</option>
+                <option value="Northeast Bronx">Northeast Bronx</option>
+                <option value="Port Richmond">Port Richmond</option>
+                <option value="South Shore">South Shore</option>
+                <option value="Southeast Bronx">Southeast Bronx</option>
+                <option value="Stapleton + St. George">Stapleton + St. George</option>
+                <option value="Upper East Side">Upper East Side</option>
+                <option value="Upper West Side">Upper West Side</option>
+
+              </select>
+        </div>
+        <div class="selection_box">
+              <select id="bar2" value="X-Men" class="span3" tabindex="1" name="herolist">
+                <option value="Bronx Park + Fordham">Bronx Park + Fordham</option>
+                <option value="Central Harlem">Central Harlem</option>
+                <option value="Chelsea + Clinton">Chelsea + Clinton</option>
+                <option value="East Harlem">East Harlem</option>
+                <option value="GramercyPark + Murray Hill" selected="selected">GramercyPark + Murray Hill</option>
+                <option value="Greenwich Village + Soho">Greenwich Village + Soho</option>
+                <option value="Hunts Point + Longwood">Hunts Point + Longwood</option>
+                <option value="Inwood + Washington Heights">Inwood + Washington Heights</option>
+                <option value="Kingsbridge + Riverdale">Kingsbridge + Riverdale</option>
+                <option value="Lower East Side">Lower East Side</option>
+                <option value="Lower Manhattan">Lower Manhattan</option>
+                <option value="Mid-Island">Mid-Island</option>
+                <option value="Morrisania + High Bridge">Morrisania + High Bridge</option>
+                <option value="Northeast Bronx">Northeast Bronx</option>
+                <option value="Port Richmond">Port Richmond</option>
+                <option value="South Shore">South Shore</option>
+                <option value="Southeast Bronx">Southeast Bronx</option>
+                <option value="Stapleton + St. George">Stapleton + St. George</option>
+                <option value="Upper East Side">Upper East Side</option>
+                <option value="Upper West Side">Upper West Side</option>
+
+              </select>
+        </div>
+        <button id="test-button">LOAD</button>
+        
+        <input id="date_selection" value="2013-04" type="month" max="2013-04" min="2012-01" name="date_selected">
+              <!-- <input type="submit" value="Load"> -->
+        
+      </div>
+<!--       <div id='wordcloud1'></div>
+      <div id='wordcloud2'></div> -->
+      <div id='tableau_map'>
+        <script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauPlaceholder" style="width:654px; height:629px;"><noscript><a href="#"><img alt="Dashboard 2 " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;NY&#47;NYC311&#47;Dashboard2&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" width="1200" height="629" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="NYC311&#47;Dashboard2" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;NY&#47;NYC311&#47;Dashboard2&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div><div style="width:654px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"></div></div>
+      </div>
+      <div id='line_div'></div>
+      <div id='chart_div1'></div>
+      <div id='table_div1'></div>
+      <div id='chart_div2'></div>
+      <div id='table_div2'></div>
+      <div id='tableau_div1'>
+          <script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauPlaceholder" style="width:1204px; height:629px;"><noscript><a href="#"><img alt="New York City 311 Tracking in October 2012 " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;NY&#47;NYC_311_OCT&#47;Dashboard3&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" width="1204" height="629" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="NYC_311_OCT&#47;Dashboard3" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;NY&#47;NYC_311_OCT&#47;Dashboard3&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div><div style="width:1204px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"></div></div>
+      </div>
+      <div id='tableau_div2'>
+        <script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauPlaceholder" style="width:1204px; height:629px;"><noscript><a href="#"><img alt="NYC 311 in Jan 2013 " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;NY&#47;NYC311inJan2013&#47;Dashboard2&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" width="1204" height="629" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="NYC311inJan2013&#47;Dashboard2" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;NY&#47;NYC311inJan2013&#47;Dashboard2&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div><div style="width:1204px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"></div></div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,904 @@
+{
+    "2002": {
+        "Charlton Athletic": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Southampton": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Manchester United": {
+            "Away Goals Scored per Game": 1.6842105263157894, 
+            "Home Goals Scored per Game": 2.210526315789474
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 1.631578947368421, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 0.7894736842105263, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 1.105263157894737, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }, 
+        "Birmingham City": {
+            "Away Goals Scored per Game": 0.8421052631578947, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Leeds United": {
+            "Away Goals Scored per Game": 1.736842105263158, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "West Ham United": {
+            "Away Goals Scored per Game": 1.105263157894737, 
+            "Home Goals Scored per Game": 1.105263157894737
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.4736842105263157
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 2.0, 
+            "Home Goals Scored per Game": 2.473684210526316
+        }, 
+        "Bolton Wanderers": {
+            "Away Goals Scored per Game": 0.7368421052631579, 
+            "Home Goals Scored per Game": 1.4210526315789473
+        }, 
+        "West Bromwich Albion": {
+            "Away Goals Scored per Game": 0.631578947368421, 
+            "Home Goals Scored per Game": 0.8947368421052632
+        }, 
+        "Middlesbrough": {
+            "Away Goals Scored per Game": 0.631578947368421, 
+            "Home Goals Scored per Game": 1.894736842105263
+        }, 
+        "Newcastle United": {
+            "Away Goals Scored per Game": 1.4210526315789473, 
+            "Home Goals Scored per Game": 1.894736842105263
+        }, 
+        "Aston Villa": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Blackburn Rovers": {
+            "Away Goals Scored per Game": 1.4736842105263157, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.4736842105263157
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.4210526315789473, 
+            "Home Goals Scored per Game": 2.1578947368421053
+        }, 
+        "Sunderland": {
+            "Away Goals Scored per Game": 0.5263157894736842, 
+            "Home Goals Scored per Game": 0.5789473684210527
+        }
+    }, 
+    "2003": {
+        "Charlton Athletic": {
+            "Away Goals Scored per Game": 1.1578947368421053, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Southampton": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Manchester United": {
+            "Away Goals Scored per Game": 1.4210526315789473, 
+            "Home Goals Scored per Game": 1.9473684210526316
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 1.368421052631579, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 1.2105263157894737, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Portsmouth": {
+            "Away Goals Scored per Game": 0.631578947368421, 
+            "Home Goals Scored per Game": 1.8421052631578947
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 0.7368421052631579, 
+            "Home Goals Scored per Game": 1.736842105263158
+        }, 
+        "Birmingham City": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Leeds United": {
+            "Away Goals Scored per Game": 0.7894736842105263, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Aston Villa": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 1.736842105263158, 
+            "Home Goals Scored per Game": 2.1052631578947367
+        }, 
+        "Bolton Wanderers": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Middlesbrough": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Newcastle United": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.736842105263158
+        }, 
+        "Blackburn Rovers": {
+            "Away Goals Scored per Game": 1.368421052631579, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 1.4210526315789473
+        }, 
+        "Wolverhampton Wanderers": {
+            "Away Goals Scored per Game": 0.7894736842105263, 
+            "Home Goals Scored per Game": 1.2105263157894737
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.736842105263158, 
+            "Home Goals Scored per Game": 1.7894736842105263
+        }, 
+        "Leicester City": {
+            "Away Goals Scored per Game": 1.5263157894736843, 
+            "Home Goals Scored per Game": 1.0
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }
+    }, 
+    "2006": {
+        "Charlton Athletic": {
+            "Away Goals Scored per Game": 0.7894736842105263, 
+            "Home Goals Scored per Game": 1.0
+        }, 
+        "Manchester United": {
+            "Away Goals Scored per Game": 1.9473684210526316, 
+            "Home Goals Scored per Game": 2.4210526315789473
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 2.0526315789473686
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 0.9473684210526315
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 1.2105263157894737, 
+            "Home Goals Scored per Game": 1.7894736842105263
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 0.5263157894736842
+        }, 
+        "West Ham United": {
+            "Away Goals Scored per Game": 0.5789473684210527, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Aston Villa": {
+            "Away Goals Scored per Game": 1.2105263157894737, 
+            "Home Goals Scored per Game": 1.0526315789473684
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 2.263157894736842
+        }, 
+        "Newcastle United": {
+            "Away Goals Scored per Game": 0.7894736842105263, 
+            "Home Goals Scored per Game": 1.2105263157894737
+        }, 
+        "Bolton Wanderers": {
+            "Away Goals Scored per Game": 1.105263157894737, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Wigan Athletic": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 0.9473684210526315
+        }, 
+        "Middlesbrough": {
+            "Away Goals Scored per Game": 0.6842105263157895, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Portsmouth": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 1.4736842105263157
+        }, 
+        "Watford": {
+            "Away Goals Scored per Game": 0.5263157894736842, 
+            "Home Goals Scored per Game": 1.0
+        }, 
+        "Blackburn Rovers": {
+            "Away Goals Scored per Game": 1.105263157894737, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.736842105263158
+        }, 
+        "Reading": {
+            "Away Goals Scored per Game": 1.2105263157894737, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.4210526315789473, 
+            "Home Goals Scored per Game": 1.9473684210526316
+        }, 
+        "Sheffield United": {
+            "Away Goals Scored per Game": 0.42105263157894735, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }
+    }, 
+    "2007": {
+        "Derby County": {
+            "Away Goals Scored per Game": 0.42105263157894735, 
+            "Home Goals Scored per Game": 0.631578947368421
+        }, 
+        "Sunderland": {
+            "Away Goals Scored per Game": 0.6842105263157895, 
+            "Home Goals Scored per Game": 1.2105263157894737
+        }, 
+        "Manchester United": {
+            "Away Goals Scored per Game": 1.736842105263158, 
+            "Home Goals Scored per Game": 2.473684210526316
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 2.263157894736842
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 0.8421052631578947, 
+            "Home Goals Scored per Game": 1.1578947368421053
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 2.4210526315789473
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 1.4736842105263157
+        }, 
+        "West Ham United": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Aston Villa": {
+            "Away Goals Scored per Game": 1.9473684210526316, 
+            "Home Goals Scored per Game": 1.7894736842105263
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 1.9473684210526316, 
+            "Home Goals Scored per Game": 1.9473684210526316
+        }, 
+        "Newcastle United": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Bolton Wanderers": {
+            "Away Goals Scored per Game": 0.6842105263157895, 
+            "Home Goals Scored per Game": 1.2105263157894737
+        }, 
+        "Wigan Athletic": {
+            "Away Goals Scored per Game": 0.6842105263157895, 
+            "Home Goals Scored per Game": 1.105263157894737
+        }, 
+        "Middlesbrough": {
+            "Away Goals Scored per Game": 0.8421052631578947, 
+            "Home Goals Scored per Game": 1.4210526315789473
+        }, 
+        "Portsmouth": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Blackburn Rovers": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 1.105263157894737, 
+            "Home Goals Scored per Game": 1.7894736842105263
+        }, 
+        "Reading": {
+            "Away Goals Scored per Game": 1.1578947368421053, 
+            "Home Goals Scored per Game": 1.0
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.5263157894736843, 
+            "Home Goals Scored per Game": 1.894736842105263
+        }, 
+        "Birmingham City": {
+            "Away Goals Scored per Game": 0.8421052631578947, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }
+    }, 
+    "2004": {
+        "Charlton Athletic": {
+            "Away Goals Scored per Game": 0.6842105263157895, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Southampton": {
+            "Away Goals Scored per Game": 0.7894736842105263, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }, 
+        "Manchester United": {
+            "Away Goals Scored per Game": 1.4210526315789473, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 1.105263157894737, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Portsmouth": {
+            "Away Goals Scored per Game": 0.6842105263157895, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 0.5789473684210527, 
+            "Home Goals Scored per Game": 1.894736842105263
+        }, 
+        "Aston Villa": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Birmingham City": {
+            "Away Goals Scored per Game": 0.8421052631578947, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 1.2105263157894737, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 1.736842105263158, 
+            "Home Goals Scored per Game": 2.8421052631578947
+        }, 
+        "Newcastle United": {
+            "Away Goals Scored per Game": 1.1578947368421053, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Bolton Wanderers": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Crystal Palace": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.105263157894737
+        }, 
+        "West Bromwich Albion": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 0.8947368421052632
+        }, 
+        "Middlesbrough": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 1.2105263157894737, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Blackburn Rovers": {
+            "Away Goals Scored per Game": 0.5789473684210527, 
+            "Home Goals Scored per Game": 1.105263157894737
+        }, 
+        "Norwich City": {
+            "Away Goals Scored per Game": 0.6842105263157895, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 1.105263157894737, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.9473684210526316, 
+            "Home Goals Scored per Game": 1.8421052631578947
+        }
+    }, 
+    "2005": {
+        "Charlton Athletic": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.1578947368421053
+        }, 
+        "Birmingham City": {
+            "Away Goals Scored per Game": 0.47368421052631576, 
+            "Home Goals Scored per Game": 1.0
+        }, 
+        "Manchester United": {
+            "Away Goals Scored per Game": 1.8421052631578947, 
+            "Home Goals Scored per Game": 1.9473684210526316
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 1.3157894736842106, 
+            "Home Goals Scored per Game": 1.6842105263157894
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Portsmouth": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 0.8947368421052632
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 1.1578947368421053, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Aston Villa": {
+            "Away Goals Scored per Game": 1.1578947368421053, 
+            "Home Goals Scored per Game": 1.0526315789473684
+        }, 
+        "West Ham United": {
+            "Away Goals Scored per Game": 1.1578947368421053, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 2.526315789473684
+        }, 
+        "Bolton Wanderers": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Wigan Athletic": {
+            "Away Goals Scored per Game": 1.105263157894737, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "West Bromwich Albion": {
+            "Away Goals Scored per Game": 0.5263157894736842, 
+            "Home Goals Scored per Game": 1.105263157894737
+        }, 
+        "Middlesbrough": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.4736842105263157
+        }, 
+        "Newcastle United": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.4736842105263157
+        }, 
+        "Blackburn Rovers": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 0.631578947368421, 
+            "Home Goals Scored per Game": 1.1578947368421053
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.3157894736842106, 
+            "Home Goals Scored per Game": 2.473684210526316
+        }, 
+        "Sunderland": {
+            "Away Goals Scored per Game": 0.7368421052631579, 
+            "Home Goals Scored per Game": 0.631578947368421
+        }
+    }, 
+    "2008": {
+        "Manchester United": {
+            "Away Goals Scored per Game": 1.3157894736842106, 
+            "Home Goals Scored per Game": 2.263157894736842
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 1.894736842105263, 
+            "Home Goals Scored per Game": 2.1578947368421053
+        }, 
+        "Stoke City": {
+            "Away Goals Scored per Game": 0.8421052631578947, 
+            "Home Goals Scored per Game": 1.1578947368421053
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.105263157894737
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 2.1052631578947367
+        }, 
+        "West Ham United": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.2105263157894737
+        }, 
+        "Aston Villa": {
+            "Away Goals Scored per Game": 1.4210526315789473, 
+            "Home Goals Scored per Game": 1.4210526315789473
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 1.9473684210526316, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Newcastle United": {
+            "Away Goals Scored per Game": 0.8421052631578947, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Bolton Wanderers": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.105263157894737
+        }, 
+        "Wigan Athletic": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 0.8947368421052632
+        }, 
+        "West Bromwich Albion": {
+            "Away Goals Scored per Game": 0.5263157894736842, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Sunderland": {
+            "Away Goals Scored per Game": 0.6842105263157895, 
+            "Home Goals Scored per Game": 1.105263157894737
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 0.5789473684210527, 
+            "Home Goals Scored per Game": 1.4736842105263157
+        }, 
+        "Blackburn Rovers": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 1.1578947368421053
+        }, 
+        "Hull City": {
+            "Away Goals Scored per Game": 1.105263157894737, 
+            "Home Goals Scored per Game": 0.9473684210526315
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Portsmouth": {
+            "Away Goals Scored per Game": 0.631578947368421, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.8421052631578947, 
+            "Home Goals Scored per Game": 1.736842105263158
+        }, 
+        "Middlesbrough": {
+            "Away Goals Scored per Game": 0.5789473684210527, 
+            "Home Goals Scored per Game": 0.8947368421052632
+        }
+    }, 
+    "2009": {
+        "Portsmouth": {
+            "Away Goals Scored per Game": 0.5263157894736842, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Manchester United": {
+            "Away Goals Scored per Game": 1.7894736842105263, 
+            "Home Goals Scored per Game": 2.736842105263158
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 2.263157894736842
+        }, 
+        "Stoke City": {
+            "Away Goals Scored per Game": 0.5263157894736842, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 1.4210526315789473, 
+            "Home Goals Scored per Game": 2.1052631578947367
+        }, 
+        "Aston Villa": {
+            "Away Goals Scored per Game": 1.2105263157894737, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Birmingham City": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.0
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 1.6842105263157894, 
+            "Home Goals Scored per Game": 2.1578947368421053
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 1.8421052631578947, 
+            "Home Goals Scored per Game": 2.526315789473684
+        }, 
+        "Bolton Wanderers": {
+            "Away Goals Scored per Game": 0.8421052631578947, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Wigan Athletic": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 1.0
+        }, 
+        "Sunderland": {
+            "Away Goals Scored per Game": 0.8421052631578947, 
+            "Home Goals Scored per Game": 1.6842105263157894
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 0.631578947368421, 
+            "Home Goals Scored per Game": 1.4210526315789473
+        }, 
+        "Blackburn Rovers": {
+            "Away Goals Scored per Game": 0.6842105263157895, 
+            "Home Goals Scored per Game": 1.4736842105263157
+        }, 
+        "Hull City": {
+            "Away Goals Scored per Game": 0.631578947368421, 
+            "Home Goals Scored per Game": 1.1578947368421053
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 1.3157894736842106, 
+            "Home Goals Scored per Game": 1.8421052631578947
+        }, 
+        "Burnley": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Wolverhampton Wanderers": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 0.6842105263157895
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.8421052631578947, 
+            "Home Goals Scored per Game": 3.5789473684210527
+        }, 
+        "West Ham United": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }
+    }, 
+    "2011": {
+        "Aston Villa": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 1.0526315789473684
+        }, 
+        "Manchester United": {
+            "Away Goals Scored per Game": 1.9473684210526316, 
+            "Home Goals Scored per Game": 2.736842105263158
+        }, 
+        "Newcastle United": {
+            "Away Goals Scored per Game": 1.4210526315789473, 
+            "Home Goals Scored per Game": 1.5263157894736843
+        }, 
+        "Wolverhampton Wanderers": {
+            "Away Goals Scored per Game": 1.105263157894737, 
+            "Home Goals Scored per Game": 1.0
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 0.631578947368421, 
+            "Home Goals Scored per Game": 1.894736842105263
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 1.4210526315789473, 
+            "Home Goals Scored per Game": 2.0526315789473686
+        }, 
+        "Norwich City": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.4736842105263157
+        }, 
+        "Stoke City": {
+            "Away Goals Scored per Game": 0.5789473684210527, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 2.0, 
+            "Home Goals Scored per Game": 2.8947368421052633
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 1.8421052631578947, 
+            "Home Goals Scored per Game": 2.0526315789473686
+        }, 
+        "Swansea City": {
+            "Away Goals Scored per Game": 0.8947368421052632, 
+            "Home Goals Scored per Game": 1.4210526315789473
+        }, 
+        "Wigan Athletic": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.1578947368421053
+        }, 
+        "West Bromwich Albion": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.105263157894737
+        }, 
+        "Sunderland": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 1.2105263157894737, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Blackburn Rovers": {
+            "Away Goals Scored per Game": 1.1578947368421053, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 1.1578947368421053, 
+            "Home Goals Scored per Game": 1.4736842105263157
+        }, 
+        "Queens Park Rangers": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }, 
+        "Bolton Wanderers": {
+            "Away Goals Scored per Game": 1.2105263157894737, 
+            "Home Goals Scored per Game": 1.2105263157894737
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 2.1578947368421053
+        }
+    }, 
+    "2010": {
+        "Birmingham City": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 1.0
+        }, 
+        "Manchester United": {
+            "Away Goals Scored per Game": 1.5263157894736843, 
+            "Home Goals Scored per Game": 2.5789473684210527
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 1.1578947368421053, 
+            "Home Goals Scored per Game": 1.9473684210526316
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 1.3157894736842106, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }, 
+        "Aston Villa": {
+            "Away Goals Scored per Game": 1.1578947368421053, 
+            "Home Goals Scored per Game": 1.368421052631579
+        }, 
+        "Stoke City": {
+            "Away Goals Scored per Game": 0.7894736842105263, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 1.368421052631579, 
+            "Home Goals Scored per Game": 1.7894736842105263
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 2.0526315789473686, 
+            "Home Goals Scored per Game": 1.736842105263158
+        }, 
+        "Newcastle United": {
+            "Away Goals Scored per Game": 0.7894736842105263, 
+            "Home Goals Scored per Game": 2.1578947368421053
+        }, 
+        "Bolton Wanderers": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 1.7894736842105263
+        }, 
+        "Wigan Athletic": {
+            "Away Goals Scored per Game": 0.9473684210526315, 
+            "Home Goals Scored per Game": 1.1578947368421053
+        }, 
+        "West Bromwich Albion": {
+            "Away Goals Scored per Game": 1.368421052631579, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }, 
+        "Sunderland": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.3157894736842106
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }, 
+        "Blackburn Rovers": {
+            "Away Goals Scored per Game": 1.263157894736842, 
+            "Home Goals Scored per Game": 1.1578947368421053
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 1.0526315789473684, 
+            "Home Goals Scored per Game": 1.631578947368421
+        }, 
+        "Wolverhampton Wanderers": {
+            "Away Goals Scored per Game": 0.8421052631578947, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.5789473684210527, 
+            "Home Goals Scored per Game": 2.0526315789473686
+        }, 
+        "Blackpool": {
+            "Away Goals Scored per Game": 1.3157894736842106, 
+            "Home Goals Scored per Game": 1.5789473684210527
+        }, 
+        "West Ham United": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.263157894736842
+        }
+    }, 
+    "2012": {
+        "Aston Villa": {
+            "Away Goals Scored per Game": 1.1764705882352942, 
+            "Home Goals Scored per Game": 0.9411764705882353
+        }, 
+        "Southampton": {
+            "Away Goals Scored per Game": 1.2941176470588236, 
+            "Home Goals Scored per Game": 1.4705882352941178
+        }, 
+        "Manchester United": {
+            "Away Goals Scored per Game": 2.0588235294117645, 
+            "Home Goals Scored per Game": 2.5294117647058822
+        }, 
+        "Liverpool": {
+            "Away Goals Scored per Game": 1.7058823529411764, 
+            "Home Goals Scored per Game": 1.8823529411764706
+        }, 
+        "Stoke City": {
+            "Away Goals Scored per Game": 0.6470588235294118, 
+            "Home Goals Scored per Game": 1.1176470588235294
+        }, 
+        "Tottenham Hotspur": {
+            "Away Goals Scored per Game": 1.9375, 
+            "Home Goals Scored per Game": 1.588235294117647
+        }, 
+        "Norwich City": {
+            "Away Goals Scored per Game": 0.7647058823529411, 
+            "Home Goals Scored per Game": 1.1764705882352942
+        }, 
+        "West Ham United": {
+            "Away Goals Scored per Game": 0.5882352941176471, 
+            "Home Goals Scored per Game": 1.7647058823529411
+        }, 
+        "Manchester City": {
+            "Away Goals Scored per Game": 1.3529411764705883, 
+            "Home Goals Scored per Game": 2.25
+        }, 
+        "Arsenal": {
+            "Away Goals Scored per Game": 1.3529411764705883, 
+            "Home Goals Scored per Game": 2.4705882352941178
+        }, 
+        "Newcastle United": {
+            "Away Goals Scored per Game": 1.1176470588235294, 
+            "Home Goals Scored per Game": 1.411764705882353
+        }, 
+        "Swansea City": {
+            "Away Goals Scored per Game": 0.9375, 
+            "Home Goals Scored per Game": 1.6470588235294117
+        }, 
+        "Wigan Athletic": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 1.25
+        }, 
+        "West Bromwich Albion": {
+            "Away Goals Scored per Game": 1.125, 
+            "Home Goals Scored per Game": 1.4705882352941178
+        }, 
+        "Sunderland": {
+            "Away Goals Scored per Game": 1.1764705882352942, 
+            "Home Goals Scored per Game": 1.0588235294117647
+        }, 
+        "Fulham": {
+            "Away Goals Scored per Game": 1.1176470588235294, 
+            "Home Goals Scored per Game": 1.4705882352941178
+        }, 
+        "Everton": {
+            "Away Goals Scored per Game": 1.2352941176470589, 
+            "Home Goals Scored per Game": 1.7647058823529411
+        }, 
+        "Queens Park Rangers": {
+            "Away Goals Scored per Game": 1.0, 
+            "Home Goals Scored per Game": 0.7058823529411765
+        }, 
+        "Reading": {
+            "Away Goals Scored per Game": 0.8235294117647058, 
+            "Home Goals Scored per Game": 1.3529411764705883
+        }, 
+        "Chelsea": {
+            "Away Goals Scored per Game": 1.8235294117647058, 
+            "Home Goals Scored per Game": 2.1875
+        }
+    }
+}

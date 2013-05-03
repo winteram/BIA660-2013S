@@ -1,0 +1,537 @@
+<!-- 
+
+   BIA 660 Final Project
+  
+   Author: Han Yan
+   
+ -->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Sports Statistics</title>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/modules/exporting.js"></script>
+	<script src="js/highChartTheme.js"></script>
+	<script src="js/drawNBA.js"></script>
+	<script src="js/soccerDraw.js"></script>
+	<script src="js/jquery.visible.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			var heightofwin = $(document).height();
+
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 200) {
+					$('.go-top').fadeIn(200);
+				} else {
+					$('.go-top').fadeOut(200);
+				}
+			});
+
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 600) {
+					$('.go-menu').fadeIn(200);
+				} else {
+					$('.go-menu').fadeOut(200);
+				}
+			});
+			
+			$('.go-top').click(function(event) {
+				event.preventDefault();
+				$('html, body').animate({scrollTop: 0}, 1000);
+			});
+
+			$('#pl-button').click(function(event) {
+				var targetOffset= $("#pl-page").offset().top;
+	    		$('html, body').animate({scrollTop: targetOffset}, 1000);
+	    		e.preventDefault(); 
+			});
+
+			$('#liga-button').click(function(event) {
+				var targetOffset= $("#liga-page").offset().top;
+	    		$('html, body').animate({scrollTop: targetOffset}, 1000);
+	    		e.preventDefault(); 
+			});
+
+			$('#nba-button').click(function(event) {
+				var targetOffset= $("#nba-page").offset().top;
+	    		$('html, body').animate({scrollTop: targetOffset}, 1000);
+	    		e.preventDefault(); 
+			});
+
+			$('#about-button').click(function(event) {
+				var targetOffset= $("#about-page").offset().top;
+	    		$('html, body').animate({scrollTop: targetOffset}, 1000);
+	    		e.preventDefault(); 
+			});
+
+			$(window).scroll(function() {
+				if (isScrolledIntoView('#visualization') || isScrolledIntoView('#final_quarter') || 
+					isScrolledIntoView('#shotChartRED')) {
+					$('#nba-title').fadeIn(200);
+				} else {
+					$('#nba-title').fadeOut(1);
+				}
+			});
+
+
+			$(window).scroll(function() {
+				if (isScrolledIntoView('#EHATG') || isScrolledIntoView('#EHGSTP') || isScrolledIntoView('#EWHTT') ||
+					isScrolledIntoView('#EGSGC') || isScrolledIntoView('#HAC') || isScrolledIntoView('#HAS') ||
+					isScrolledIntoView('#EGD')) {
+					$('#pl-title').fadeIn(200);
+				} else {
+					$('#pl-title').fadeOut(1);
+				}
+			});
+
+			$(window).scroll(function() {
+				if (isScrolledIntoView('#SHATG') || isScrolledIntoView('#SHAS') || isScrolledIntoView('#SGD') ||
+					isScrolledIntoView('#SGCS') || isScrolledIntoView('#SHAC')) {
+					$('#liga-title').fadeIn(200);
+				} else {
+					$('#liga-title').fadeOut(1);
+				}
+			});
+
+			$(window).scroll(function() {
+				if (isScrolledIntoView('#people-container')) {
+					$('#about-title').fadeIn(200);
+				} else {
+					$('#about-title').fadeOut(1);
+				}
+			});
+
+			
+			$('#go-home').click(function(event) {
+				event.preventDefault();
+				$('html, body').animate({scrollTop: 0}, 1000);
+			});
+
+			$('#go-pl').click(function(event) {
+				var targetOffset= $("#pl-page").offset().top;
+	    		$('html, body').animate({scrollTop: targetOffset}, 1000);
+	    		e.preventDefault(); 
+			});
+
+			$('#go-liga').click(function(event) {
+				var targetOffset= $("#liga-page").offset().top;
+	    		$('html, body').animate({scrollTop: targetOffset}, 1000);
+	    		e.preventDefault(); 
+			});
+
+			$('#go-nba').click(function(event) {
+				var targetOffset= $("#nba-page").offset().top;
+	    		$('html, body').animate({scrollTop: targetOffset}, 1000);
+	    		e.preventDefault(); 
+			});
+
+			$('#go-about').click(function(event) {
+				var targetOffset= $("#about-page").offset().top;
+	    		$('html, body').animate({scrollTop: targetOffset}, 1000);
+	    		e.preventDefault(); 
+			});
+
+			$('#shotChartRED').click(function(event) {
+				window.location.href = "/shotchart.html";
+			});
+			
+		});
+
+		highchartsOptions = Highcharts.setOptions(Highcharts.theme);
+	</script>
+</head>
+</body>
+	<div class="container_14 clearfix">
+<!-- 		<div class="box"> -->
+		<div id="main-page" class="box">
+			<div id="menu-container" class="container_10" style="background-color:#000000;">
+
+				<div id="menu-title" class="grid_9">
+					<h1 id="text_title">Sports Statistics</h1>
+				</div>
+
+				<div id="menu-intro" class="grid_3">
+					<div id="intro-text">
+						<h1 id="text_welcome">Welcome!</h1>
+						<p>Are you crazy in sports?</p>
+						<p>Are you concerned about your team?</p>
+						<p>Then, just join us!</p>
+						<p>We provide you a more comprehensive understanding about sports, about your teams.</p>
+						<p>Premier League, La Liga and NBA</p>
+						<p>Enjoy!</p>
+					</div>
+				</div>
+
+				<div id="pl-button" class="grid_3 menu-buttons opacity">
+					<img id="pre-lea" src="images/pre-lea.png">
+				</div>
+
+				<div id="liga-button" class="grid_3 menu-buttons opacity">
+					<img id="liga_BBVA" src="images/Liga_BBVA.png">
+				</div>
+
+				<div id="nba-button" class="grid_3 menu-buttons opacity">
+					<img id="nba_menu" src="images/nba_menu.png">
+				</div>
+
+				<div id="about-button" class="grid_3 menu-buttons opacity">
+					<img id="about_us" src="images/about-us.png">
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div id="pl-page" class="box">
+			<div id="EHATG" class="grid_5 chart_2 chart_style"></div>
+			<div id="EGSTT" class="grid_5 chart_2 chart_style"></div>
+<!-- 			<div class="grid_3 chart_6 chart_style">
+			</div>
+			<div class="grid_3 chart_6 chart_style">
+			</div>
+			<div class="grid_3 chart_6 chart_style">
+			</div>
+			<div class="grid_3 chart_6 chart_style">
+			</div>
+			<div class="grid_3 chart_6 chart_style">
+			</div>
+			<div class="grid_3 chart_6 chart_style">
+			</div> -->
+		</div>
+		<div id="freebox" class="box">
+			<div id="EHGSTP" class="grid_5 chart_2 chart_style"></div>
+			<div id="EPtsTT" class="grid_5 chart_2 chart_style"></div>
+		</div>
+		<div id="freebox" class="box">
+			<div id="EWHTT" class="grid_5 chart_2 chart_style"></div>
+			<div id="EWTT" class="grid_5 chart_2 chart_style"></div>
+		</div>
+		<div id="freebox" class="box">
+			<div>
+			    <select id="yearEGSGC"  class="div_button_2 styled-select" onchange='drawVBarEnGoalsSC($("#yearEGSGC").val())'>
+			        <option value="2002">2002</option>
+			        <option value="2003">2003</option>
+			        <option value="2004">2004</option>
+			        <option value="2005">2005</option>
+			        <option value="2006">2006</option>
+			        <option value="2007">2007</option>
+			        <option value="2008">2008</option>
+			        <option value="2009">2009</option>
+			        <option value="2010">2010</option>
+			        <option value="2011">2011</option>
+			        <option value="2012">2012</option>
+			    </select>
+			</div>
+			<div id="EGSGC" class="grid_10 chart_1_long chart_style"></div>
+		</div>
+		<div id="freebox" class="box">
+			<div>
+			    <select id="yearHAC" class="div_button_2 styled-select" onchange='drawBarHAC($("#yearHAC").val())'>
+			        <option value="2002">2002</option>
+			        <option value="2003">2003</option>
+			        <option value="2004">2004</option>
+			        <option value="2005">2005</option>
+			        <option value="2006">2006</option>
+			        <option value="2007">2007</option>
+			        <option value="2008">2008</option>
+			        <option value="2009">2009</option>
+			        <option value="2010">2010</option>
+			        <option value="2011">2011</option>
+			        <option value="2012">2012</option>
+			    </select>
+			</div>
+			<div id="HAC" class="grid_10 chart_1_long chart_style"></div>
+		</div>
+		<div id="freebox" class="box">
+			<div>
+			    <select id="yearHAGS"  class="div_button_2 styled-select" onchange='drawBarHAS($("#yearHAGS").val())'>
+			        <option value="2002">2002</option>
+			        <option value="2003">2003</option>
+			        <option value="2004">2004</option>
+			        <option value="2005">2005</option>
+			        <option value="2006">2006</option>
+			        <option value="2007">2007</option>
+			        <option value="2008">2008</option>
+			        <option value="2009">2009</option>
+			        <option value="2010">2010</option>
+			        <option value="2011">2011</option>
+			        <option value="2012">2012</option>
+			    </select>
+			</div>
+			<div id="HAS" class="grid_10 chart_1_long chart_style"></div>
+
+		</div>
+		<div id="freebox" class="box">
+			<div>
+			    <select id="yearEGD"  class="div_button_2 styled-select" onchange='drawVBarEnGoalsDiff($("#yearEGD").val())'>
+			        <option value="2002">2002</option>
+			        <option value="2003">2003</option>
+			        <option value="2004">2004</option>
+			        <option value="2005">2005</option>
+			        <option value="2006">2006</option>
+			        <option value="2007">2007</option>
+			        <option value="2008">2008</option>
+			        <option value="2009">2009</option>
+			        <option value="2010">2010</option>
+			        <option value="2011">2011</option>
+			        <option value="2012">2012</option>
+			    </select>
+			</div>
+			<div id="EGD" class="grid_10 chart_1_long chart_style"></div>
+		</div>
+
+
+
+		<div id="liga-page" class="box">
+<!-- 				<div class="grid_5 chart_4 chart_style">
+				</div>
+				<div class="grid_5 chart_4 chart_style">
+				</div>
+				<div class="grid_5 chart_4 chart_style">
+				</div>
+				<div class="grid_5 chart_4 chart_style">
+				</div> -->
+			<div id="SHATG" class="grid_7 chart_1 chart_style"></div>
+		</div>
+
+		<div id="liga-container_1" class="box">
+			<div>
+			    <select id="seasonSHAC" class="div_button_2 styled-select" onchange='drawBarRateAgainst($("#seasonSHAC").val())'>
+			        <option value="2002-03">2002-03</option>
+			        <option value="2003-04">2003-04</option>
+			        <option value="2004-05">2004-05</option>
+			        <option value="2005-06">2005-06</option>
+			        <option value="2006-07">2006-07</option>
+			        <option value="2007-08">2007-08</option>
+			        <option value="2008-09">2008-09</option>
+			        <option value="2009-10">2009-10</option>
+			        <option value="2010-11">2010-11</option>
+			        <option value="2011-12">2011-12</option>
+			        <option value="2012-13">2012-13</option>
+			    </select>
+			</div>
+			<div id="SHAC" class="grid_10 chart_1_long chart_style"></div>
+		</div>
+
+		<div id="liga-container_2" class="box">
+			<div>
+			    <select id="seasonSHAGS"  class="div_button_2 styled-select" onchange='drawBarRateScored($("#seasonSHAGS").val())'>
+			        <option value="2002-03">2002-03</option>
+			        <option value="2003-04">2003-04</option>
+			        <option value="2004-05">2004-05</option>
+			        <option value="2005-06">2005-06</option>
+			        <option value="2006-07">2006-07</option>
+			        <option value="2007-08">2007-08</option>
+			        <option value="2008-09">2008-09</option>
+			        <option value="2009-10">2009-10</option>
+			        <option value="2010-11">2010-11</option>
+			        <option value="2011-12">2011-12</option>
+			        <option value="2012-13">2012-13</option>
+			    </select>
+			</div>
+			<div id="SHAS" class="grid_10 chart_1_long chart_style"></div>
+		</div>
+
+		<div id="liga-container_3" class="box">
+			<div>
+			    <select id="seasonSGD"  class="div_button_2 styled-select" onchange='drawVBarSpGoalsDiff($("#seasonSGD").val())'>
+			        <option value="2003-04">2003-04</option>
+			        <option value="2004-05">2004-05</option>
+			        <option value="2005-06">2005-06</option>
+			        <option value="2006-07">2006-07</option>
+			        <option value="2007-08">2007-08</option>
+			        <option value="2008-09">2008-09</option>
+			        <option value="2009-10">2009-10</option>
+			        <option value="2010-11">2010-11</option>
+			    </select>
+			</div>
+			<div id="SGD" class="grid_10 chart_1_long chart_style"></div>
+		</div>
+
+		<div id="liga-container_4" class="box">
+			<div>
+			    <select id="seasonSGCS"  class="div_button_2 styled-select" onchange='drawVBarSpanSA($("#seasonSGCS").val())'>
+			        <option value="2003-04">2003-04</option>
+			        <option value="2004-05">2004-05</option>
+			        <option value="2005-06">2005-06</option>
+			        <option value="2006-07">2006-07</option>
+			        <option value="2007-08">2007-08</option>
+			        <option value="2008-09">2008-09</option>
+			        <option value="2009-10">2009-10</option>
+			        <option value="2010-11">2010-11</option>
+			        <option value="2011-12">2011-12</option>
+			        <option value="2012-13">2012-13</option>
+			    </select>
+			</div>
+			<div id="SGCS" class="grid_10 chart_1_long chart_style"></div>
+		</div>
+
+
+
+
+		<div id="nba-page" class="box">
+			<div class="grid_5 chart_2 chart_style">
+				<select id="basic-attr-select" class="div_button_1 styled-select"></select>
+				<div id="visualization" style="width:100%;height:100%;z-index:1;"></div>
+			</div>
+			<div class="grid_5 chart_2 chart_style">
+				<select id="adv-attr-select" class="div_button_1 styled-select"></select>
+				<div id="adv_visualization" style="width:100%;height:100%;z-index:1;"></div>
+			</div>
+		</div>
+		<div id="" class="box">
+			<div class="grid_5 chart_2 chart_style">
+				<select id="final-quarter-select" class="div_button_1 styled-select">
+					<option value="1">Quarter 1</option>
+			        <option value="2">Quarter 2</option>
+			        <option value="3">Quarter 3</option>
+			        <option value="4">Quarter 4</option>
+				</select>
+				<div id="final_quarter" style="width:100%;height:100%;z-index:1;"></div>
+			</div>
+			<div class="grid_5 chart_2 chart_style">
+				<select id="final-attr-select" class="div_button_1 styled-select"></select>
+				<div id="final_each_year_status" style="width:100%;height:100%;z-index:1;"></div>
+			</div>
+		</div>
+		<div id="freebox" class="box">
+			<div id="shotChartRED" class="grid_7 chart_1 chart_style" style="cursor:pointer;">
+				<img src="images/shotchartred.png" style="width:100%;height:100%;">
+			</div>
+		</div>
+		<div id="about-page" class="box">
+			<div id="people-container" class="grid_9">
+					<img class="photos" src="images/Han_Yan.jpg">
+					<img class="photos" src="images/ZHU.jpg">
+					<img class="photos" src="images/Sen_Yang.jpg">
+					<img class="photos" src="images/LUO.jpg">
+			</div>
+		</div>
+	</div><!--Main container-->
+	<footer>
+		<a id="go-home" class="go-menu">
+			<span class="menu-span" style="display: inline-block">Home</span>
+		</a>
+
+		<a id="go-pl" class="go-menu">
+			<span class="menu-span" style="display: inline-block">Premier</span>
+		</a>
+
+		<a id="go-liga" class="go-menu">
+			<span class="menu-span" style="display: inline-block">Liga</span>
+		</a>
+
+		<a id="go-nba" class="go-menu">
+			<span class="menu-span" style="display: inline-block">NBA</span>
+		</a>
+		<a id="go-about" class="go-menu">
+			<span class="menu-span" style="display: inline-block">About</span>
+		</a>
+		<a id="pl-title" class="Top-title">Premier League</a>
+		<a id="liga-title" class="Top-title">LIGA</a>
+		<a id="nba-title" class="Top-title">NBA</a>
+		<a id="about-title" class="Top-title">About</a>
+		<a href="#" class="go-top">Go Top</a>
+	</footer>
+	<script>
+		vpw = $(window).width();
+		vph = $(window).height();
+		// $('.box').width(vpw);
+		$('.box').height(vph);
+
+		var team_url = "http://ec2-54-234-59-234.compute-1.amazonaws.com:9999//basketball/regularstatus?team=all&attribute=PF&year=2001&order=1";
+		$.getJSON(team_url, function(json) {
+			$.each(json, function(key, val){
+				$("#year-select").append(new Option(val, val));
+			});
+		});
+
+		var b_attr = ['G', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'TOV', 'PF', 'PTS', 'PTS/G'];
+
+		var adv_attr = ['Age', 'O_eFG%', 'O_TOV%', 'O_ORB%', 'O_FT/FGA'];
+
+		var final_attr = ['FG', 'FGA', 'FG%', '3P', '3PA', '3P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL','BLK', 'TOV', 'PF', 'PTS']
+
+		for (index in b_attr) {
+			$("#basic-attr-select").append(new Option(b_attr[index], b_attr[index]));
+		}
+		for (index in adv_attr) {
+			$("#adv-attr-select").append(new Option(adv_attr[index], adv_attr[index]));
+		}
+
+		for (index in final_attr) {
+			$("#final-attr-select").append(new Option(final_attr[index], final_attr[index]));
+		}
+
+		drawNBABasicStats('G', 'visualization');
+		drawNBAAdvancedStats('Age', 'adv_visualization');
+		drawNBAFinalQuarter('1', 'final_quarter');
+		drawNBAFinalEachStats('FG', 'final_each_year_status');
+
+		$('#basic-attr-select').change(function() {
+			  drawNBABasicStats(this.value, 'visualization');
+		});
+		$('#adv-attr-select').change(function() {
+			  drawNBAAdvancedStats(this.value, 'adv_visualization');
+		});
+		$('#final-attr-select').change(function() {
+			  drawNBAFinalEachStats(this.value, 'final_each_year_status');
+		});
+
+		$('#final-quarter-select').change(function() {
+			  drawNBAFinalQuarter(this.value, 'final_quarter');
+		});
+
+		//    England Premier League
+	    drawLineEngTotalGoals();  //G1
+	    drawBarHAC(2002);         //G2
+	    drawBarHAS(2002);          //G3
+	                                //G4
+	    drawVBarEnGoalsDiff(2002);  //G5
+	    drawVBarEnGoalsSC(2002);    //G6
+	    drawLineEngGSTT(); // G7
+	    drawLineEHGSTP();//G8
+	    drawBarEPtsTT();//G9
+	    drawLineEWHTT();   //G10
+	    drawBarEWTT();     //G11
+	    // Spanish Premier League
+	    drawLineSpanTotalGoals();  //G1
+	    drawBarRateAgainst('2002-03'); //G2
+	    drawBarRateScored('2002-03');   //G3
+	    drawVBarSpGoalsDiff('2003-04'); //G5
+	    drawVBarSpanSA('2003-04');      //G6
+
+		function isScrolledIntoView(elem)
+		{
+		    var docViewTop = $(window).scrollTop();
+		    var docViewBottom = docViewTop + $(window).height();
+
+		    var elemTop = $(elem).offset().top;
+		    var elemBottom = elemTop + $(elem).height();
+
+		    return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom)
+		      && (elemBottom <= docViewBottom) &&  (elemTop >= docViewTop) );
+		}
+
+	</script>
+<body>
+</html>
+
+
+
+
+
+
+
+

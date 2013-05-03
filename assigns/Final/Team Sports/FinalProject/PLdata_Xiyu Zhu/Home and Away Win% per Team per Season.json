@@ -1,0 +1,904 @@
+{
+    "2002": {
+        "Charlton Athletic": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Southampton": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Manchester United": {
+            "Away Win%": 0.47368421052631576, 
+            "Home Win%": 0.8421052631578947
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.47368421052631576, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Fulham": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Birmingham City": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Leeds United": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "West Ham United": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.42105263157894735, 
+            "Home Win%": 0.7894736842105263
+        }, 
+        "Bolton Wanderers": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "West Bromwich Albion": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.15789473684210525
+        }, 
+        "Middlesbrough": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Newcastle United": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.7894736842105263
+        }, 
+        "Aston Villa": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Blackburn Rovers": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Everton": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Sunderland": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.15789473684210525
+        }
+    }, 
+    "2003": {
+        "Charlton Athletic": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Southampton": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Manchester United": {
+            "Away Win%": 0.5789473684210527, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Fulham": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Portsmouth": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Birmingham City": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Leeds United": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Aston Villa": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.5789473684210527, 
+            "Home Win%": 0.7894736842105263
+        }, 
+        "Bolton Wanderers": {
+            "Away Win%": 0.42105263157894735, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Middlesbrough": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Newcastle United": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Blackburn Rovers": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Everton": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Wolverhampton Wanderers": {
+            "Away Win%": 0.0, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.631578947368421, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Leicester City": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.15789473684210525
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.2631578947368421
+        }
+    }, 
+    "2006": {
+        "Charlton Athletic": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Manchester United": {
+            "Away Win%": 0.6842105263157895, 
+            "Home Win%": 0.7894736842105263
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.7368421052631579
+        }, 
+        "Fulham": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "West Ham United": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Aston Villa": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Newcastle United": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Bolton Wanderers": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Wigan Athletic": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Middlesbrough": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Portsmouth": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Watford": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.15789473684210525
+        }, 
+        "Blackburn Rovers": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Everton": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Reading": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.631578947368421, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Sheffield United": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.3684210526315789
+        }
+    }, 
+    "2007": {
+        "Derby County": {
+            "Away Win%": 0.0, 
+            "Home Win%": 0.05263157894736842
+        }, 
+        "Sunderland": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Manchester United": {
+            "Away Win%": 0.5263157894736842, 
+            "Home Win%": 0.8947368421052632
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.47368421052631576, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Fulham": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "West Ham United": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Aston Villa": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.5263157894736842, 
+            "Home Win%": 0.7368421052631579
+        }, 
+        "Newcastle United": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Bolton Wanderers": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Wigan Athletic": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Middlesbrough": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Portsmouth": {
+            "Away Win%": 0.47368421052631576, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Blackburn Rovers": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Everton": {
+            "Away Win%": 0.42105263157894735, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Reading": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.6842105263157895, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Birmingham City": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.3157894736842105
+        }
+    }, 
+    "2004": {
+        "Charlton Athletic": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Southampton": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Manchester United": {
+            "Away Win%": 0.5263157894736842, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Portsmouth": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Aston Villa": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Birmingham City": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.631578947368421, 
+            "Home Win%": 0.6842105263157895
+        }, 
+        "Newcastle United": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Bolton Wanderers": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Crystal Palace": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "West Bromwich Albion": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Middlesbrough": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Fulham": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Blackburn Rovers": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Norwich City": {
+            "Away Win%": 0.0, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Everton": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.7894736842105263, 
+            "Home Win%": 0.7368421052631579
+        }
+    }, 
+    "2005": {
+        "Charlton Athletic": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Birmingham City": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Manchester United": {
+            "Away Win%": 0.631578947368421, 
+            "Home Win%": 0.6842105263157895
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.5263157894736842, 
+            "Home Win%": 0.7894736842105263
+        }, 
+        "Fulham": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.6842105263157895
+        }, 
+        "Portsmouth": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Aston Villa": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "West Ham United": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.7368421052631579
+        }, 
+        "Bolton Wanderers": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Wigan Athletic": {
+            "Away Win%": 0.42105263157894735, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "West Bromwich Albion": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Middlesbrough": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Newcastle United": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Blackburn Rovers": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.6842105263157895
+        }, 
+        "Everton": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.5789473684210527, 
+            "Home Win%": 0.9473684210526315
+        }, 
+        "Sunderland": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.05263157894736842
+        }
+    }, 
+    "2008": {
+        "Manchester United": {
+            "Away Win%": 0.631578947368421, 
+            "Home Win%": 0.8421052631578947
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.6842105263157895, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Stoke City": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.6842105263157895
+        }, 
+        "West Ham United": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Aston Villa": {
+            "Away Win%": 0.5263157894736842, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.47368421052631576, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Newcastle United": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Bolton Wanderers": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Wigan Athletic": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "West Bromwich Albion": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Sunderland": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Fulham": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Blackburn Rovers": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Hull City": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.15789473684210525
+        }, 
+        "Everton": {
+            "Away Win%": 0.47368421052631576, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Portsmouth": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.7368421052631579, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Middlesbrough": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.2631578947368421
+        }
+    }, 
+    "2009": {
+        "Portsmouth": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Manchester United": {
+            "Away Win%": 0.5789473684210527, 
+            "Home Win%": 0.8421052631578947
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.6842105263157895
+        }, 
+        "Stoke City": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.7368421052631579
+        }, 
+        "Aston Villa": {
+            "Away Win%": 0.47368421052631576, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Birmingham City": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.42105263157894735, 
+            "Home Win%": 0.7894736842105263
+        }, 
+        "Bolton Wanderers": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Wigan Athletic": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Sunderland": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Fulham": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Blackburn Rovers": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Hull City": {
+            "Away Win%": 0.0, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Everton": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Burnley": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Wolverhampton Wanderers": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.5263157894736842, 
+            "Home Win%": 0.8947368421052632
+        }, 
+        "West Ham United": {
+            "Away Win%": 0.05263157894736842, 
+            "Home Win%": 0.3684210526315789
+        }
+    }, 
+    "2011": {
+        "Aston Villa": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.21052631578947367
+        }, 
+        "Manchester United": {
+            "Away Win%": 0.6842105263157895, 
+            "Home Win%": 0.7894736842105263
+        }, 
+        "Newcastle United": {
+            "Away Win%": 0.42105263157894735, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Wolverhampton Wanderers": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.15789473684210525
+        }, 
+        "Fulham": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.6842105263157895
+        }, 
+        "Norwich City": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Stoke City": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.5263157894736842, 
+            "Home Win%": 0.9473684210526315
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.47368421052631576, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Swansea City": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Wigan Athletic": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "West Bromwich Albion": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Sunderland": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.42105263157894735, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Blackburn Rovers": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Everton": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Queens Park Rangers": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Bolton Wanderers": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.21052631578947367
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.3157894736842105, 
+            "Home Win%": 0.631578947368421
+        }
+    }, 
+    "2010": {
+        "Birmingham City": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Manchester United": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.9473684210526315
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.631578947368421
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Aston Villa": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Stoke City": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.42105263157894735, 
+            "Home Win%": 0.6842105263157895
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.42105263157894735, 
+            "Home Win%": 0.5789473684210527
+        }, 
+        "Newcastle United": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.3157894736842105
+        }, 
+        "Bolton Wanderers": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.5263157894736842
+        }, 
+        "Wigan Athletic": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "West Bromwich Albion": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Sunderland": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Fulham": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Blackburn Rovers": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.3684210526315789
+        }, 
+        "Everton": {
+            "Away Win%": 0.21052631578947367, 
+            "Home Win%": 0.47368421052631576
+        }, 
+        "Wolverhampton Wanderers": {
+            "Away Win%": 0.15789473684210525, 
+            "Home Win%": 0.42105263157894735
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.3684210526315789, 
+            "Home Win%": 0.7368421052631579
+        }, 
+        "Blackpool": {
+            "Away Win%": 0.2631578947368421, 
+            "Home Win%": 0.2631578947368421
+        }, 
+        "West Ham United": {
+            "Away Win%": 0.10526315789473684, 
+            "Home Win%": 0.2631578947368421
+        }
+    }, 
+    "2012": {
+        "Aston Villa": {
+            "Away Win%": 0.23529411764705882, 
+            "Home Win%": 0.23529411764705882
+        }, 
+        "Southampton": {
+            "Away Win%": 0.17647058823529413, 
+            "Home Win%": 0.35294117647058826
+        }, 
+        "Manchester United": {
+            "Away Win%": 0.7058823529411765, 
+            "Home Win%": 0.8823529411764706
+        }, 
+        "Liverpool": {
+            "Away Win%": 0.29411764705882354, 
+            "Home Win%": 0.47058823529411764
+        }, 
+        "Stoke City": {
+            "Away Win%": 0.11764705882352941, 
+            "Home Win%": 0.35294117647058826
+        }, 
+        "Tottenham Hotspur": {
+            "Away Win%": 0.5625, 
+            "Home Win%": 0.5294117647058824
+        }, 
+        "Norwich City": {
+            "Away Win%": 0.058823529411764705, 
+            "Home Win%": 0.4117647058823529
+        }, 
+        "West Ham United": {
+            "Away Win%": 0.17647058823529413, 
+            "Home Win%": 0.47058823529411764
+        }, 
+        "Manchester City": {
+            "Away Win%": 0.47058823529411764, 
+            "Home Win%": 0.75
+        }, 
+        "Arsenal": {
+            "Away Win%": 0.47058823529411764, 
+            "Home Win%": 0.5882352941176471
+        }, 
+        "Newcastle United": {
+            "Away Win%": 0.058823529411764705, 
+            "Home Win%": 0.5294117647058824
+        }, 
+        "Swansea City": {
+            "Away Win%": 0.25, 
+            "Home Win%": 0.35294117647058826
+        }, 
+        "Wigan Athletic": {
+            "Away Win%": 0.23529411764705882, 
+            "Home Win%": 0.25
+        }, 
+        "West Bromwich Albion": {
+            "Away Win%": 0.25, 
+            "Home Win%": 0.5294117647058824
+        }, 
+        "Sunderland": {
+            "Away Win%": 0.23529411764705882, 
+            "Home Win%": 0.29411764705882354
+        }, 
+        "Fulham": {
+            "Away Win%": 0.17647058823529413, 
+            "Home Win%": 0.4117647058823529
+        }, 
+        "Everton": {
+            "Away Win%": 0.23529411764705882, 
+            "Home Win%": 0.5882352941176471
+        }, 
+        "Queens Park Rangers": {
+            "Away Win%": 0.11764705882352941, 
+            "Home Win%": 0.11764705882352941
+        }, 
+        "Reading": {
+            "Away Win%": 0.058823529411764705, 
+            "Home Win%": 0.23529411764705882
+        }, 
+        "Chelsea": {
+            "Away Win%": 0.47058823529411764, 
+            "Home Win%": 0.625
+        }
+    }
+}

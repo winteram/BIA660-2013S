@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Economy statistic</title>
+	<link rel="stylesheet" href="/css/style.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Handlee|Exo:400,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div id="loading"></div>
+<div class="container"></div>
+
+<section id="intro">
+		<h1>Master Economic Data</h1>
+		<p>Team II</p>
+		<ul>
+			<li class="medium"><b>Team member</b></li>
+			<li class="small">Lina Xiang, Lei Zhang, Gong Zhang, Nengjun Zhao</li>
+		</ul>
+</section>
+
+<section id="Analysis">
+	<h2>GDP Analysis</h2>
+	<aside class="message">Statistic results</aside>
+	<select id="org_name">
+		<option value = "DC">Developed Country</option>
+		<option value = "DingC">Developing Country</option>
+		<option value = "UC">Underdeveloped Country</option>
+	</select>
+	<button id="submit_button">Submit</button>
+	<button id="hide_button">Hide</button>
+	<div id="show" style="min-width: 1000px; height: 400px; margin: 0 auto"></div>
+</section>
+
+<section id="jobs">
+	<h2>Jobs Analysis</h2>
+	<aside class="message">Statistic results</aside>
+	<select id="kind">
+		<option value = "JTU51000000HIL   ">Information</option>
+		<option value = "JTU51009900HIL   ">Financial Activities</option>
+		<option value = "JTU52000000HIL   ">Financial and Insurance</option>
+		<option value = "JTU23000000HIL   ">Construction</option>
+		<option value = "JTU30000000HIL   ">Manufacturing</option>
+		<option value = "JTU54009900HIL   ">Professional and business services</option>
+	</select>	
+	<select id="years">
+		<option value = "2010">2010</option>
+		<option value = "2011 ">2011</option>
+		<option value = "2012">2012</option>
+	</select>	
+
+	<button id="jobs_submit_button">Submit</button>
+	<button id="jobs_hide_button">Hide</button>
+	<div id="jobs_show" style="min-width: 1000px; height: 500px; margin: 0 auto"></div>
+</section> 
+
+<section id="occ">
+	<h2>Occupation Salary</h2>
+	<aside class="message">Statistic results</aside>
+	<select id="occ_kind">
+		{% for element in occ_list %}
+		<option value= {{element.code}}>{{element.occ_title}}</option>
+		{% endfor %}
+	</select>
+	<button id="occ_submit_button">Submit</button>
+	<button id="occ_hide_button">Hide</button>
+	<div id="occ_show" style="min-width: 1200px; height: 600px; margin: 0 auto"></div>
+</section>
+
+<ul id="toggle">
+	<li class="previous"><a href="#Analysis" style="display: none; "></a></li>
+	<li class="next"><a href="#about" style="display: block; "></a></li>
+</ul>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="/js/engine.js"></script>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='utf-8'></script></div>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script type="text/javascript" src="/js/gdp.js"></script>
+<script type="text/javascript" src="/js/jobs.js"></script>
+<script type="text/javascript" src="/js/occ.js"></script>
+</body>
+</html>

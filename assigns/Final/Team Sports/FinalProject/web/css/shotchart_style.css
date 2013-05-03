@@ -1,0 +1,189 @@
+/*
+ *	BIA 660 Final Project
+ *	
+ *	Author: Han Yan
+ */
+
+
+body, html {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 1.125em;
+	margin:0;
+	padding:0;
+	background-color:#F0F0F0;
+}
+
+#head-container {
+	width:1000px;
+	height:120px;
+	margin:0 auto;
+}
+
+#nba-logo {
+	background-color: #3498DB;
+	position: relative;
+	top:5px;
+	left:10px;
+}
+
+#text-container {
+	background-color: #3498DB;
+	width:1012px;
+	height: 110px;
+	margin-top:20px;
+	margin-left:5px; 
+}
+
+#page-title {
+	font-family: Arial;
+	position:relative;
+	margin-left: 26px;
+	margin-top: 50px;
+	font-size: 2.1em;
+	color:white;
+}
+
+#map-container {
+	width:1000px; 
+	margin:0 auto;
+}
+
+#court-container {
+	float:left;
+	margin:5px; 
+	height:509px; 
+}
+
+#heatmapArea {
+	position:relative;
+	float:left;
+	width:500px;
+	height:472px;
+	background-image:url(../images/nbahalfcourt.jpg);
+}
+
+#court-map {
+	position:relative;
+	float:left;
+	width:500px; 
+	height:472px;
+	background-image:url(../images/nbahalfcourt.jpg);
+}
+
+#result-container {
+	text-align: center;
+	float:left;
+	background-color:#FFFFFF;
+	width:500px; 
+	height:509px; 
+	margin:5px; 
+}
+
+.shadow-style {
+	border:#CCCCCC 1px solid; background:#FFFFFF;
+    box-shadow:0px 0px 10px #CCCCCC;
+    -moz-box-shadow:0px 0px 10px #CCCCCC;
+    -webkit-box-shadow:0px 0px 10px #CCCCCC;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=0, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=90, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=180, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=270, strength=6)";
+    *filter:progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=0, strength=6)
+            progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=90, strength=6)
+            progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=180, strength=6)
+            progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=270, strength=6);
+}
+
+table {
+	width:100%;
+	height:100%;
+}
+
+TD {
+	font-family: 'Roboto'; 
+	font-size: 11pt;
+}
+
+.btn {
+	float: left;
+	width: 80px;
+	text-align: center;
+	margin-top:1px;
+	padding:7px 5px 4px 5px;
+/*	-moz-border-radius:15px;
+	-o-border-radius:15px;
+	-webkit-border-radius:15px;*/
+	/*border-radius:15px;*/
+	border:2px #FFFFFF;
+	cursor:pointer;
+	color:#333333;
+	border: 1px solid #ccc;
+	background-color:#FFFFFF;
+}
+
+.styled-select select {
+   background: transparent;
+   width: 100px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+}
+
+.styled-select {
+   width: 55px;
+   height: 34px;
+   float:left;
+   margin-top:1px;
+   margin-right: 10px;
+   overflow: hidden;
+   background: url(../images/dk_arrows.png) no-repeat right #FFFFFF;
+   border: 1px solid #ccc;
+}
+
+#color-select {
+	position: relative;
+	top:12px;
+}
+
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #3498DB;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	padding: 1em;
+}
+
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+}

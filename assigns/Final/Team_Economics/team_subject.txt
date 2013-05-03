@@ -1,0 +1,2 @@
+Team 2:
+We plan to work on the US economic data available on amazon public datasets. Currently we need to figure our how to use the data, and what the data structure is. We still need some time to know analyses we can do based on the dataset yet. 
