@@ -58,7 +58,7 @@ $(document).ready(function(){
             $.post('/loadBarchart',{'selectedname1':selected1,'selectedname2':selected2,'viz_name':"linechart"},function(data){
 
               
-
+              console.log("Load Line");
               $("#line_div").fadeIn();
               drawLine(data);
              

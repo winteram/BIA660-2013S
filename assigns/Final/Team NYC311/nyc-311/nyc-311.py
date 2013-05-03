@@ -68,14 +68,15 @@ class ComplaintData(webapp2.RequestHandler):
 			Matrix3.append(selectedname2)
 			cursor.execute("select complaintdate,neighborhood,SUM(CT) from complaints where neighborhood='"+selectedname1+"' group by complaintdate,neighborhood")
 			for row in cursor.fetchall():
-				Matrix2.append([str(row[0]),row[2]])
+				Matrix2.append([str(row[0]),int(row[2])])
 			cursor.execute("select complaintdate,neighborhood,SUM(CT) from complaints where neighborhood='"+selectedname2+"' group by complaintdate,neighborhood")
 			for row in cursor.fetchall():
-				Matrix3.append(row[2])
+				Matrix3.append(int(row[2]))
 			i=0
 			for row in Matrix2:
 				row.append(Matrix3[i])
 				i=i+1
+			print Matrix2
 			conn.close()
 			return self.response.write(json.dumps(Matrix2))
 		
